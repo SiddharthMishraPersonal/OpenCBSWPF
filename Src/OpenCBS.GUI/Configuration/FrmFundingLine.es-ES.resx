@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listViewFundingLineEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 216</value>
+  </data>
+  <data name="groupBoxEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 239</value>
+  </data>
+  <data name="buttonDeleteFundingLineEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 62</value>
+  </data>
+  <data name="buttonDeleteFundingLineEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 31</value>
+  </data>
+  <data name="buttonAddFundingLineEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 19</value>
+  </data>
+  <data name="buttonAddFundingLineEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 29</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 239</value>
+  </data>
+  <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>957, 239</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>738</value>
+  </data>
+  <data name="comboBoxCurrencies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 72</value>
+  </data>
+  <data name="comboBoxCurrencies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 23</value>
+  </data>
+  <data name="lblCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 75</value>
+  </data>
+  <data name="labelCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 43</value>
+  </data>
+  <data name="labelCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="labelCode.Text" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="dateTimePickerFundingLineEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 134</value>
+  </data>
+  <data name="dateTimePickerFundingLineEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="labelAnticipatedRemainingAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 235</value>
+  </data>
+  <data name="labelRealRemainingAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 203</value>
+  </data>
+  <data name="labelInitialAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 171</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 11</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="dateTimePickerFundingLineBeginDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 102</value>
+  </data>
+  <data name="dateTimePickerFundingLineBeginDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="tbAnticipatedAmt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 232</value>
+  </data>
+  <data name="tbAnticipatedAmt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 107</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Fecha de inicio</value>
+  </data>
+  <data name="tbRealAmt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 200</value>
+  </data>
+  <data name="tbRealAmt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="textBoxFundingLineName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 40</value>
+  </data>
+  <data name="textBoxFundingLineName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="tbInitialAmt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 168</value>
+  </data>
+  <data name="tbInitialAmt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 139</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Fecha de finalización</value>
+  </data>
+  <data name="textBoxFundingLineCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 8</value>
+  </data>
+  <data name="textBoxFundingLineCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="zedGraphControlCashPrevision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 243</value>
+  </data>
+  <data name="splitContainerGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 286</value>
+  </data>
+  <data name="splitContainerGraph.SplitterDistance" type="System.Int32, mscorlib">
+    <value>243</value>
+  </data>
+  <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>951, 286</value>
+  </data>
+  <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
+    <value>415</value>
+  </data>
+  <data name="columnHeaderName.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="columnHeaderBeginDate.Text" xml:space="preserve">
+    <value>Fecha de inicio</value>
+  </data>
+  <data name="columnHeaderEndDate.Text" xml:space="preserve">
+    <value>Fecha de finalización</value>
+  </data>
+  <data name="columnHeaderAmount.Text" xml:space="preserve">
+    <value>Monto inicial</value>
+  </data>
+  <data name="columnHeaderResiduelAmount.Text" xml:space="preserve">
+    <value>Monto real restante (sin préstamos aprobados pero no desembolsados​​)</value>
+  </data>
+  <data name="columnHeaderResiduelAmount.Width" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="columnFinancial.Width" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="colCurrency.Text" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="listViewFundingLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="listViewFundingLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 638</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>820, 3</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 638</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageFundingLines.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageFundingLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>969, 644</value>
+  </data>
+  <data name="tabPageFundingLines.Text" xml:space="preserve">
+    <value>Líneas de financiamiento</value>
+  </data>
+  <data name="groupBoxFundingLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>957, 308</value>
+  </data>
+  <data name="groupBoxFundingLines.Text" xml:space="preserve">
+    <value>Líneas de financiamiento</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>957, 67</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>963, 638</value>
+  </data>
+  <data name="tabPageFundingLineDetails.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageFundingLineDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>969, 644</value>
+  </data>
+  <data name="tabPageFundingLineDetails.Text" xml:space="preserve">
+    <value>Detalles acerca de la línea de financiemiento</value>
+  </data>
+  <data name="tabControlFundingLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>977, 684</value>
+  </data>
+  <data name="columnHeaderCorporateName.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="columnHeaderCorporateAmount.Text" xml:space="preserve">
+    <value>Monto</value>
+  </data>
+  <data name="columnHeaderCorporateResidualAMount.Text" xml:space="preserve">
+    <value>Monto residual</value>
+  </data>
+  <data name="columnHeaderFinancial.Text" xml:space="preserve">
+    <value>Compromiso financiero</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>977, 720</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Lineas de financiación</value>
+  </data>
+</root>

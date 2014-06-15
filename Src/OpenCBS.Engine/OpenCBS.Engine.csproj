@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1595695-B53F-4D94-85E6-45A6F515C650}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenCBS.Engine</RootNamespace>
+    <AssemblyName>OpenCBS.Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjustmentPolicy\BaseAdjustmentPolicy.cs" />
+    <Compile Include="AdjustmentPolicy\FirstInstallmentAdjustmentPolicy.cs" />
+    <Compile Include="AdjustmentPolicy\LastInstallmentAdjustmentPolicy.cs" />
+    <Compile Include="RescheduleAssembler.cs" />
+    <Compile Include="DefaultScheduleConfigurationFactory.cs" />
+    <Compile Include="DatePolicy\BackwardDateShiftPolicy.cs" />
+    <Compile Include="DatePolicy\ForwardDateShiftPolicy.cs" />
+    <Compile Include="DatePolicy\HolidayPolicy.cs" />
+    <Compile Include="DatePolicy\NoDateShiftPolicy.cs" />
+    <Compile Include="DatePolicy\NonWorkingDayPolicy.cs" />
+    <Compile Include="DatePolicy\WeekendPolicy.cs" />
+    <Compile Include="InstallmentCalculationPolicy\AnnuityInstallmentCalculationPolicy.cs" />
+    <Compile Include="InstallmentCalculationPolicy\BaseInstallmentCalculationPolicy.cs" />
+    <Compile Include="InstallmentCalculationPolicy\FixedPrincipalInstallmentCalculationPolicy.cs" />
+    <Compile Include="InstallmentCalculationPolicy\FlatInstallmentCalculationPolicy.cs" />
+    <Compile Include="Interfaces\IAdjustmentPolicy.cs" />
+    <Compile Include="Interfaces\IBaseScheduleConfiguration.cs" />
+    <Compile Include="Interfaces\IDateShiftPolicy.cs" />
+    <Compile Include="Interfaces\IInstallmentCalculationPolicy.cs" />
+    <Compile Include="Interfaces\INonWorkingDayPolicy.cs" />
+    <Compile Include="Interfaces\IPolicy.cs" />
+    <Compile Include="Interfaces\IPolicyAttribute.cs" />
+    <Compile Include="Interfaces\IRoundingPolicy.cs" />
+    <Compile Include="Interfaces\IScheduleConfigurationFactory.cs" />
+    <Compile Include="Interfaces\ITrancheBuilder.cs" />
+    <Compile Include="Interfaces\ITrancheConfiguration.cs" />
+    <Compile Include="OctopusScheduleConfigurationFactory.cs" />
+    <Compile Include="PeriodPolicy\CustomPeriodPolicy.cs" />
+    <Compile Include="PeriodPolicy\DailyPeriodPolicy.cs" />
+    <Compile Include="Interfaces\IPeriodPolicy.cs" />
+    <Compile Include="Interfaces\IInstallment.cs" />
+    <Compile Include="Interfaces\IScheduleBuilder.cs" />
+    <Compile Include="Interfaces\IScheduleConfiguration.cs" />
+    <Compile Include="Interfaces\IYearPolicy.cs" />
+    <Compile Include="PeriodPolicy\Monthly30DayPeriodPolicy.cs" />
+    <Compile Include="PeriodPolicy\MonthlyPeriodPolicy.cs" />
+    <Compile Include="PolicyAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoundingPolicy\IntegerRoundingPolicy.cs" />
+    <Compile Include="RoundingPolicy\TwoDecimalRoundingPolicy.cs" />
+    <Compile Include="ScheduleBuilder.cs" />
+    <Compile Include="ScheduleConfiguration.cs" />
+    <Compile Include="TrancheAssembler.cs" />
+    <Compile Include="TrancheBuilder.cs" />
+    <Compile Include="TrancheConfiguration.cs" />
+    <Compile Include="YearPolicy\ActualNumberOfDayYearPolicy.cs" />
+    <Compile Include="YearPolicy\ThreeHundredSixtyDayYearPolicy.cs" />
+    <Compile Include="YearPolicy\ThreeHundredSixtyFiveDayYearPolicy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenCBS.CoreDomain\OpenCBS.CoreDomain.csproj">
+      <Project>{d539c388-3848-4a3e-ab87-42b8e329755a}</Project>
+      <Name>OpenCBS.CoreDomain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenCBS.Enums\OpenCBS.Enums.csproj">
+      <Project>{8afc1e87-3856-4f05-8280-5360d33c200b}</Project>
+      <Name>OpenCBS.Enums</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenCBS.Shared\OpenCBS.Shared.csproj">
+      <Project>{b3288e21-e5a9-4620-bef3-afb0b207655c}</Project>
+      <Name>OpenCBS.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

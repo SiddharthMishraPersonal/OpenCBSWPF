@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Produtividade</value>
+  </data>
+  <data name="parNameColumn.Text" xml:space="preserve">
+    <value>Carteira</value>
+  </data>
+  <data name="parAmountColumn.Text" xml:space="preserve">
+    <value>Montante</value>
+  </data>
+  <data name="parQuantityColumn.Text" xml:space="preserve">
+    <value>Quantia</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Risco de crédito</value>
+  </data>
+  <data name="_refreshButton.Text" xml:space="preserve">
+    <value>Refrescar</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_loanProductFilterLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 16</value>
+  </data>
+  <data name="_loanProductFilterLabel.Text" xml:space="preserve">
+    <value>Produtos de empréstimos</value>
+  </data>
+  <data name="_userFilterLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="_userFilterLabel.Text" xml:space="preserve">
+    <value>Utilizador</value>
+  </data>
+  <data name="_branchFilterLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="_branchFilterLabel.Text" xml:space="preserve">
+    <value>Sucursais</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>523, 16</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Voce deseja acessar os servicos completos de funcionalidade e suporte para Open CBS.</value>
+  </data>
+  <data name="_servicesLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 16</value>
+  </data>
+  <data name="_servicesLinkLabel.Text" xml:space="preserve">
+    <value>Os nossos serviços.</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Voce quer mais informaçoes sobre a estrutura e como usar o sistema.</value>
+  </data>
+  <data name="_userGuideLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 32</value>
+  </data>
+  <data name="_userGuideLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="_userGuideLinkLabel.Text" xml:space="preserve">
+    <value>Guia do usuário.</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Voce tem uma pergunta específica sobre o sistema.</value>
+  </data>
+  <data name="_contactLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 48</value>
+  </data>
+  <data name="_contactLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="_contactLinkLabel.Text" xml:space="preserve">
+    <value>Contacte-nos.</value>
+  </data>
+  <data name="operateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 14</value>
+  </data>
+  <data name="operateLabel.Text" xml:space="preserve">
+    <value>Operações Gerais</value>
+  </data>
+  <data name="searchClientLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 16</value>
+  </data>
+  <data name="searchClientLabel.Text" xml:space="preserve">
+    <value>Procure Cliente</value>
+  </data>
+  <data name="searchContractLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="searchContractLabel.Text" xml:space="preserve">
+    <value>Procure Contracto</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.Text" xml:space="preserve">
+    <value>Cliente novo</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.Text" xml:space="preserve">
+    <value>Grupo solidário novo</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 16</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.Text" xml:space="preserve">
+    <value>Grupo independente novo</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.Text" xml:space="preserve">
+    <value>A corporativa</value>
+  </data>
+  <data name="configureLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 14</value>
+  </data>
+  <data name="configureLabel.Text" xml:space="preserve">
+    <value>Configurar</value>
+  </data>
+  <data name="configureLoanProductsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 16</value>
+  </data>
+  <data name="configureLoanProductsLabel.Text" xml:space="preserve">
+    <value>Produtos de empréstimos</value>
+  </data>
+  <data name="configureSavingsProductsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 16</value>
+  </data>
+  <data name="configureSavingsProductsLabel.Text" xml:space="preserve">
+    <value>Produtos de poupança</value>
+  </data>
+  <data name="configureCollateralProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 16</value>
+  </data>
+  <data name="configureCollateralProducts.Text" xml:space="preserve">
+    <value>Produtos de garantia</value>
+  </data>
+  <data name="configureSettingsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 16</value>
+  </data>
+  <data name="configureSettingsLabel.Text" xml:space="preserve">
+    <value>Configurações gerais</value>
+  </data>
+  <data name="configurePermissionsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 16</value>
+  </data>
+  <data name="configurePermissionsLabel.Text" xml:space="preserve">
+    <value>As permissões de usuário</value>
+  </data>
+  <data name="controlLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 14</value>
+  </data>
+  <data name="controlLabel.Text" xml:space="preserve">
+    <value>Auditoria e Controle</value>
+  </data>
+  <data name="auditTrailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 16</value>
+  </data>
+  <data name="auditTrailLabel.Text" xml:space="preserve">
+    <value>Trilha de auditoria...</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Página Inícial</value>
+  </data>
+</root>

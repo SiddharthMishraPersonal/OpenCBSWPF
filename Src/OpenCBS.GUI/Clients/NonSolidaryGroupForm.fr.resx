@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 119</value>
+  </data>
+  <data name="lblBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 30</value>
+  </data>
+  <data name="lblBranch.Text" xml:space="preserve">
+    <value>Branche</value>
+  </data>
+  <data name="lblWeekDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="lblWeekDay.Text" xml:space="preserve">
+    <value>Jour de réunion</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 28</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 3</value>
+  </data>
+  <data name="lblDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 28</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="dtDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 31</value>
+  </data>
+  <data name="lblLoanOfficer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 30</value>
+  </data>
+  <data name="lblLoanOfficer.Text" xml:space="preserve">
+    <value>Agent de groupe</value>
+  </data>
+  <data name="cbLoanOfficers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 59</value>
+  </data>
+  <data name="cmbWeekDay.Items" xml:space="preserve">
+    <value>Dimanche</value>
+  </data>
+  <data name="cmbWeekDay.Items1" xml:space="preserve">
+    <value>Lundi</value>
+  </data>
+  <data name="cmbWeekDay.Items2" xml:space="preserve">
+    <value>Mardi</value>
+  </data>
+  <data name="cmbWeekDay.Items3" xml:space="preserve">
+    <value>Mercredi</value>
+  </data>
+  <data name="cmbWeekDay.Items4" xml:space="preserve">
+    <value>Jeudi</value>
+  </data>
+  <data name="cmbWeekDay.Items5" xml:space="preserve">
+    <value>Vendredi</value>
+  </data>
+  <data name="cmbWeekDay.Items6" xml:space="preserve">
+    <value>Samedi</value>
+  </data>
+  <data name="cmbWeekDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 89</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbMeetingDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbMeetingDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 89</value>
+  </data>
+  <data name="cbMeetingDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 24</value>
+  </data>
+  <data name="cbMeetingDay.Text" xml:space="preserve">
+    <value>Définir comme jour de réunion</value>
+  </data>
+  <data name="panelNSGDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 146</value>
+  </data>
+  <data name="linkLabelChangePhoto2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="linkLabelChangePhoto2.Text" xml:space="preserve">
+    <value>Changer la photo...</value>
+  </data>
+  <data name="linkLabelChangePhoto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linkLabelChangePhoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="linkLabelChangePhoto.Text" xml:space="preserve">
+    <value>Changer la photo...</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbDetails.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="btnPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 8</value>
+  </data>
+  <data name="btnPrint.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 8</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="btnCancel2.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="gbAddress.Text" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="tpAddress.Text" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="colName.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="colPassport.Text" xml:space="preserve">
+    <value>N° ID</value>
+  </data>
+  <data name="colStatus.Text" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="colJoinDate.Text" xml:space="preserve">
+    <value>Date d'entrée</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colJoinDate.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="colLeftDate.Text" xml:space="preserve">
+    <value>Date de départ</value>
+  </data>
+  <data name="colLeftDate.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>Supprimer du groupe</value>
+  </data>
+  <data name="btnSetAsLeader.Text" xml:space="preserve">
+    <value>Leader du groupe</value>
+  </data>
+  <data name="cbxShowRemovedMembers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 36</value>
+  </data>
+  <data name="cbxShowRemovedMembers.Text" xml:space="preserve">
+    <value>Afficher les 
+anciens membres</value>
+  </data>
+  <data name="tpMembers.Text" xml:space="preserve">
+    <value>Membres</value>
+  </data>
+  <data name="clientName.Text" xml:space="preserve">
+    <value>Nom du client</value>
+  </data>
+  <data name="loanProduct.Text" xml:space="preserve">
+    <value>Produit</value>
+  </data>
+  <data name="status.Text" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="amount.Text" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="olb.Text" xml:space="preserve">
+    <value>KRD</value>
+  </data>
+  <data name="currency.Text" xml:space="preserve">
+    <value>Devise</value>
+  </data>
+  <data name="interestRate.Text" xml:space="preserve">
+    <value>Taux d'intérêt</value>
+  </data>
+  <data name="installmentType.Text" xml:space="preserve">
+    <value>Type d'échéance</value>
+  </data>
+  <data name="numbOfInstallments.Text" xml:space="preserve">
+    <value>Nombre d'échéances</value>
+  </data>
+  <data name="disbursedDate.Text" xml:space="preserve">
+    <value>Date de décaissement</value>
+  </data>
+  <data name="lastEventDate.Text" xml:space="preserve">
+    <value>Type d'échéance</value>
+  </data>
+  <data name="nextEventDate.Text" xml:space="preserve">
+    <value>Date de la prochaine échéance</value>
+  </data>
+  <data name="nextAmountToRepay.Text" xml:space="preserve">
+    <value>Montant de la prochaine échéance</value>
+  </data>
+  <data name="closeDate.Text" xml:space="preserve">
+    <value>Date fin</value>
+  </data>
+  <data name="btnAddLoan.Text" xml:space="preserve">
+    <value>Ajouter des prêts</value>
+  </data>
+  <data name="btnValidateLoans.Text" xml:space="preserve">
+    <value>Valider des prêts</value>
+  </data>
+  <data name="btnDisburse.Text" xml:space="preserve">
+    <value>Décaisser des prêts</value>
+  </data>
+  <data name="btnRepay.Text" xml:space="preserve">
+    <value>Rembourser des prêts</value>
+  </data>
+  <data name="cbxDisplayAllLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 36</value>
+  </data>
+  <data name="cbxDisplayAllLoans.Text" xml:space="preserve">
+    <value>Afficher tous 
+les prêts</value>
+  </data>
+  <data name="tabPageLoan.Text" xml:space="preserve">
+    <value>Prêts</value>
+  </data>
+  <data name="columnHeaderClientName.Text" xml:space="preserve">
+    <value>Nom du client</value>
+  </data>
+  <data name="columnHeaderProduct.Text" xml:space="preserve">
+    <value>Produit</value>
+  </data>
+  <data name="columnHeaderCurrency.Text" xml:space="preserve">
+    <value>Devise</value>
+  </data>
+  <data name="columnHeaderCreationDate.Text" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="columnHeaderCreationDate.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="columnHeaderLastEventDate.Text" xml:space="preserve">
+    <value>dernier évènement</value>
+  </data>
+  <data name="columnHeaderLastEventDate.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="columnHeaderStatus.Text" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="columnHeaderCloseDate.Text" xml:space="preserve">
+    <value>Fermeture</value>
+  </data>
+  <data name="btnAddSavings.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="buttonViewSaving.Text" xml:space="preserve">
+    <value>Voir</value>
+  </data>
+  <data name="buttonFastDeposit.Text" xml:space="preserve">
+    <value>Dépôt rapide</value>
+  </data>
+  <data name="tabPageSavings.Text" xml:space="preserve">
+    <value>Epargne</value>
+  </data>
+  <data name="olvAttendeeNameColumn.Text" xml:space="preserve">
+    <value>Nom du participant</value>
+  </data>
+  <data name="olvAttendeeAttendedColumn.Text" xml:space="preserve">
+    <value>Participation</value>
+  </data>
+  <data name="olvAttendeeCommentColumn.Text" xml:space="preserve">
+    <value>Commentaires</value>
+  </data>
+  <data name="resource.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelMeetingDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 16</value>
+  </data>
+  <data name="labelMeetingDate.Text" xml:space="preserve">
+    <value>Date de la réunion:</value>
+  </data>
+  <data name="buttonUpdateAttendence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="buttonUpdateAttendence.Text" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="tabPageMeetings.Text" xml:space="preserve">
+    <value>Réunions</value>
+  </data>
+  <data name="tabPageCustomizableFields.Text" xml:space="preserve">
+    <value>Champs personnalisables</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Groupe non solidaire</value>
+  </data>
+</root>

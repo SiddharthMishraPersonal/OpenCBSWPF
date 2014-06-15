@@ -1,0 +1,2254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="disbursementsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="disbursementsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="disbursementsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 168</value>
+  </data>
+  <data name="disbursementsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;disbursementsPanel.Name" xml:space="preserve">
+    <value>disbursementsPanel</value>
+  </data>
+  <data name="&gt;&gt;disbursementsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disbursementsPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;disbursementsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="olbTrendPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="olbTrendPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 3</value>
+  </data>
+  <data name="olbTrendPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 168</value>
+  </data>
+  <data name="olbTrendPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;olbTrendPanel.Name" xml:space="preserve">
+    <value>olbTrendPanel</value>
+  </data>
+  <data name="&gt;&gt;olbTrendPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olbTrendPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;olbTrendPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>595, 174</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="disbursementsPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="olbTrendPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 437</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1003, 180</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,60,Percent,40" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 397</value>
+  </data>
+  <data name="label2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 0, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1003, 40</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>PRODUCTIVITY</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="riskTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="parNameColumn.Text" xml:space="preserve">
+    <value>Portfolio</value>
+  </data>
+  <data name="parNameColumn.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="parAmountColumn.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="parAmountColumn.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="parAmountColumn.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="parQuantityColumn.Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="parQuantityColumn.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="parListView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="parListView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="parListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 5</value>
+  </data>
+  <data name="parListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="parListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 170</value>
+  </data>
+  <data name="parListView.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;parListView.Name" xml:space="preserve">
+    <value>parListView</value>
+  </data>
+  <data name="&gt;&gt;parListView.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.ObjectListView, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;parListView.Parent" xml:space="preserve">
+    <value>riskTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;parListView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="portfolioPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="portfolioPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="portfolioPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 168</value>
+  </data>
+  <data name="portfolioPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;portfolioPanel.Name" xml:space="preserve">
+    <value>portfolioPanel</value>
+  </data>
+  <data name="&gt;&gt;portfolioPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portfolioPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;portfolioPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="parPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="parPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 3</value>
+  </data>
+  <data name="parPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 168</value>
+  </data>
+  <data name="parPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;parPanel.Name" xml:space="preserve">
+    <value>parPanel</value>
+  </data>
+  <data name="&gt;&gt;parPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;parPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>595, 174</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>riskTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="portfolioPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="parPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="riskTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="riskTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 217</value>
+  </data>
+  <data name="riskTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="riskTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1003, 180</value>
+  </data>
+  <data name="riskTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;riskTableLayoutPanel.Name" xml:space="preserve">
+    <value>riskTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;riskTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;riskTableLayoutPanel.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;riskTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="riskTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="parListView" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,60,Percent,40" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 177</value>
+  </data>
+  <data name="label1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 0, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1003, 40</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>RISK</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_refreshButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 19</value>
+  </data>
+  <data name="_refreshButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="_refreshButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="_refreshButton.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;_refreshButton.Name" xml:space="preserve">
+    <value>_refreshButton</value>
+  </data>
+  <data name="&gt;&gt;_refreshButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_refreshButton.Parent" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_refreshButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_loanProductFilterComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 19</value>
+  </data>
+  <data name="_loanProductFilterComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 24</value>
+  </data>
+  <data name="_loanProductFilterComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterComboBox.Name" xml:space="preserve">
+    <value>_loanProductFilterComboBox</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterComboBox.Parent" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_loanProductFilterLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_loanProductFilterLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_loanProductFilterLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 2</value>
+  </data>
+  <data name="_loanProductFilterLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="_loanProductFilterLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_loanProductFilterLabel.Text" xml:space="preserve">
+    <value>Loan product</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterLabel.Name" xml:space="preserve">
+    <value>_loanProductFilterLabel</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterLabel.Parent" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_loanProductFilterLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_userFilterComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 19</value>
+  </data>
+  <data name="_userFilterComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 24</value>
+  </data>
+  <data name="_userFilterComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_userFilterComboBox.Name" xml:space="preserve">
+    <value>_userFilterComboBox</value>
+  </data>
+  <data name="&gt;&gt;_userFilterComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_userFilterComboBox.Parent" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_userFilterComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_userFilterLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_userFilterLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_userFilterLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 2</value>
+  </data>
+  <data name="_userFilterLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="_userFilterLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_userFilterLabel.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="&gt;&gt;_userFilterLabel.Name" xml:space="preserve">
+    <value>_userFilterLabel</value>
+  </data>
+  <data name="&gt;&gt;_userFilterLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_userFilterLabel.Parent" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_userFilterLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_branchFilterComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="_branchFilterComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 24</value>
+  </data>
+  <data name="_branchFilterComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterComboBox.Name" xml:space="preserve">
+    <value>_branchFilterComboBox</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterComboBox.Parent" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterComboBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_branchFilterLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_branchFilterLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="_branchFilterLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 16</value>
+  </data>
+  <data name="_branchFilterLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_branchFilterLabel.Text" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterLabel.Name" xml:space="preserve">
+    <value>_branchFilterLabel</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterLabel.Parent" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_branchFilterLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_filterPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="_filterPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 127</value>
+  </data>
+  <data name="_filterPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1003, 50</value>
+  </data>
+  <data name="_filterPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;_filterPanel.Name" xml:space="preserve">
+    <value>_filterPanel</value>
+  </data>
+  <data name="&gt;&gt;_filterPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_filterPanel.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;_filterPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="topBarPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="topBarPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="smallLogoPictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="smallLogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 8</value>
+  </data>
+  <data name="smallLogoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 106</value>
+  </data>
+  <data name="smallLogoPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;smallLogoPictureBox.Name" xml:space="preserve">
+    <value>smallLogoPictureBox</value>
+  </data>
+  <data name="&gt;&gt;smallLogoPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smallLogoPictureBox.Parent" xml:space="preserve">
+    <value>topBarPanel</value>
+  </data>
+  <data name="&gt;&gt;smallLogoPictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>You want to access full functionality and support services of OpenCBS.</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>_infoFlowLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_servicesLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_servicesLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 36</value>
+  </data>
+  <data name="_servicesLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="_servicesLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_servicesLinkLabel.Text" xml:space="preserve">
+    <value>Consult our services offer.</value>
+  </data>
+  <data name="&gt;&gt;_servicesLinkLabel.Name" xml:space="preserve">
+    <value>_servicesLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;_servicesLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_servicesLinkLabel.Parent" xml:space="preserve">
+    <value>_infoFlowLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;_servicesLinkLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 52</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 16</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>You want more info about the structure and how to use the system.</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>_infoFlowLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_userGuideLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_userGuideLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 52</value>
+  </data>
+  <data name="_userGuideLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="_userGuideLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_userGuideLinkLabel.Text" xml:space="preserve">
+    <value>Access user guide.</value>
+  </data>
+  <data name="&gt;&gt;_userGuideLinkLabel.Name" xml:space="preserve">
+    <value>_userGuideLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;_userGuideLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_userGuideLinkLabel.Parent" xml:space="preserve">
+    <value>_infoFlowLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;_userGuideLinkLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 68</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 16</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>You have a specific query or question about the system.</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>_infoFlowLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_contactLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_contactLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 68</value>
+  </data>
+  <data name="_contactLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 16</value>
+  </data>
+  <data name="_contactLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_contactLinkLabel.Text" xml:space="preserve">
+    <value>Contact us for info.</value>
+  </data>
+  <data name="&gt;&gt;_contactLinkLabel.Name" xml:space="preserve">
+    <value>_contactLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;_contactLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_contactLinkLabel.Parent" xml:space="preserve">
+    <value>_infoFlowLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;_contactLinkLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_infoFlowLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_infoFlowLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 8</value>
+  </data>
+  <data name="_infoFlowLayoutPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="_infoFlowLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 106</value>
+  </data>
+  <data name="_infoFlowLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;_infoFlowLayoutPanel.Name" xml:space="preserve">
+    <value>_infoFlowLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;_infoFlowLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_infoFlowLayoutPanel.Parent" xml:space="preserve">
+    <value>topBarPanel</value>
+  </data>
+  <data name="&gt;&gt;_infoFlowLayoutPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="topBarPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="topBarPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="topBarPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="topBarPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>50, 5, 0, 10</value>
+  </data>
+  <data name="topBarPanel.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="topBarPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1003, 127</value>
+  </data>
+  <data name="topBarPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;topBarPanel.Name" xml:space="preserve">
+    <value>topBarPanel</value>
+  </data>
+  <data name="&gt;&gt;topBarPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topBarPanel.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;topBarPanel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="topBarPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="smallLogoPictureBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="_infoFlowLayoutPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="infoPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="infoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 0</value>
+  </data>
+  <data name="infoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1003, 519</value>
+  </data>
+  <data name="infoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Name" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Parent" xml:space="preserve">
+    <value>generalInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="operateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="operateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="operateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="operateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="operateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 15, 3, 5</value>
+  </data>
+  <data name="operateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 14</value>
+  </data>
+  <data name="operateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="operateLabel.Text" xml:space="preserve">
+    <value>OPERATE</value>
+  </data>
+  <data name="&gt;&gt;operateLabel.Name" xml:space="preserve">
+    <value>operateLabel</value>
+  </data>
+  <data name="&gt;&gt;operateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;operateLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;operateLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchClientLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchClientLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="searchClientLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="searchClientLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="searchClientLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="searchClientLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="searchClientLabel.Text" xml:space="preserve">
+    <value>Search client</value>
+  </data>
+  <data name="&gt;&gt;searchClientLabel.Name" xml:space="preserve">
+    <value>searchClientLabel</value>
+  </data>
+  <data name="&gt;&gt;searchClientLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchClientLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchClientLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchContractLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchContractLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="searchContractLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 53</value>
+  </data>
+  <data name="searchContractLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="searchContractLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="searchContractLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="searchContractLabel.Text" xml:space="preserve">
+    <value>Search contract</value>
+  </data>
+  <data name="&gt;&gt;searchContractLabel.Name" xml:space="preserve">
+    <value>searchContractLabel</value>
+  </data>
+  <data name="&gt;&gt;searchContractLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchContractLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchContractLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 72</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="newIndividualClientLinkLabel.Text" xml:space="preserve">
+    <value>New person</value>
+  </data>
+  <data name="&gt;&gt;newIndividualClientLinkLabel.Name" xml:space="preserve">
+    <value>newIndividualClientLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;newIndividualClientLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newIndividualClientLinkLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;newIndividualClientLinkLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 91</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 16</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="newSolidarityGroupLinkLabel.Text" xml:space="preserve">
+    <value>New solidarity group</value>
+  </data>
+  <data name="&gt;&gt;newSolidarityGroupLinkLabel.Name" xml:space="preserve">
+    <value>newSolidarityGroupLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;newSolidarityGroupLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newSolidarityGroupLinkLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;newSolidarityGroupLinkLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 110</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="newNonSolidairtyGroupLinkLabel.Text" xml:space="preserve">
+    <value>New non-solidarity group</value>
+  </data>
+  <data name="&gt;&gt;newNonSolidairtyGroupLinkLabel.Name" xml:space="preserve">
+    <value>newNonSolidairtyGroupLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;newNonSolidairtyGroupLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newNonSolidairtyGroupLinkLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;newNonSolidairtyGroupLinkLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 129</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="newCorporateClientLinkLabel.Text" xml:space="preserve">
+    <value>New company</value>
+  </data>
+  <data name="&gt;&gt;newCorporateClientLinkLabel.Name" xml:space="preserve">
+    <value>newCorporateClientLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;newCorporateClientLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newCorporateClientLinkLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;newCorporateClientLinkLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="configureLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configureLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="configureLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="configureLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 163</value>
+  </data>
+  <data name="configureLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 15, 3, 5</value>
+  </data>
+  <data name="configureLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 14</value>
+  </data>
+  <data name="configureLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="configureLabel.Text" xml:space="preserve">
+    <value>CONFIGURE</value>
+  </data>
+  <data name="&gt;&gt;configureLabel.Name" xml:space="preserve">
+    <value>configureLabel</value>
+  </data>
+  <data name="&gt;&gt;configureLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configureLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;configureLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="configureLoanProductsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configureLoanProductsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="configureLoanProductsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 182</value>
+  </data>
+  <data name="configureLoanProductsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="configureLoanProductsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="configureLoanProductsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="configureLoanProductsLabel.Text" xml:space="preserve">
+    <value>Loan products</value>
+  </data>
+  <data name="&gt;&gt;configureLoanProductsLabel.Name" xml:space="preserve">
+    <value>configureLoanProductsLabel</value>
+  </data>
+  <data name="&gt;&gt;configureLoanProductsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configureLoanProductsLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;configureLoanProductsLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="configureSavingsProductsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configureSavingsProductsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="configureSavingsProductsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 201</value>
+  </data>
+  <data name="configureSavingsProductsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="configureSavingsProductsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 16</value>
+  </data>
+  <data name="configureSavingsProductsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="configureSavingsProductsLabel.Text" xml:space="preserve">
+    <value>Savings products</value>
+  </data>
+  <data name="&gt;&gt;configureSavingsProductsLabel.Name" xml:space="preserve">
+    <value>configureSavingsProductsLabel</value>
+  </data>
+  <data name="&gt;&gt;configureSavingsProductsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configureSavingsProductsLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;configureSavingsProductsLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="configureCollateralProducts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configureCollateralProducts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="configureCollateralProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 220</value>
+  </data>
+  <data name="configureCollateralProducts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="configureCollateralProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 16</value>
+  </data>
+  <data name="configureCollateralProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="configureCollateralProducts.Text" xml:space="preserve">
+    <value>Collateral products</value>
+  </data>
+  <data name="&gt;&gt;configureCollateralProducts.Name" xml:space="preserve">
+    <value>configureCollateralProducts</value>
+  </data>
+  <data name="&gt;&gt;configureCollateralProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configureCollateralProducts.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;configureCollateralProducts.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="configureSettingsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configureSettingsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="configureSettingsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 239</value>
+  </data>
+  <data name="configureSettingsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="configureSettingsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="configureSettingsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="configureSettingsLabel.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;configureSettingsLabel.Name" xml:space="preserve">
+    <value>configureSettingsLabel</value>
+  </data>
+  <data name="&gt;&gt;configureSettingsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configureSettingsLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;configureSettingsLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="configurePermissionsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configurePermissionsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="configurePermissionsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 258</value>
+  </data>
+  <data name="configurePermissionsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="configurePermissionsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="configurePermissionsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="configurePermissionsLabel.Text" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="&gt;&gt;configurePermissionsLabel.Name" xml:space="preserve">
+    <value>configurePermissionsLabel</value>
+  </data>
+  <data name="&gt;&gt;configurePermissionsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configurePermissionsLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;configurePermissionsLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="controlLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="controlLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="controlLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="controlLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 292</value>
+  </data>
+  <data name="controlLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 15, 3, 5</value>
+  </data>
+  <data name="controlLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="controlLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="controlLabel.Text" xml:space="preserve">
+    <value>AUDIT &amp;&amp; CONTROL</value>
+  </data>
+  <data name="&gt;&gt;controlLabel.Name" xml:space="preserve">
+    <value>controlLabel</value>
+  </data>
+  <data name="&gt;&gt;controlLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;controlLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;controlLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="auditTrailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="auditTrailLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="auditTrailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 311</value>
+  </data>
+  <data name="auditTrailLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="auditTrailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="auditTrailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="auditTrailLabel.Text" xml:space="preserve">
+    <value>Audit trail</value>
+  </data>
+  <data name="&gt;&gt;auditTrailLabel.Name" xml:space="preserve">
+    <value>auditTrailLabel</value>
+  </data>
+  <data name="&gt;&gt;auditTrailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;auditTrailLabel.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;auditTrailLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="activeLoansLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 330</value>
+  </data>
+  <data name="activeLoansLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 23</value>
+  </data>
+  <data name="activeLoansLink.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;activeLoansLink.Name" xml:space="preserve">
+    <value>activeLoansLink</value>
+  </data>
+  <data name="&gt;&gt;activeLoansLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;activeLoansLink.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;activeLoansLink.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="parAnalysisLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 353</value>
+  </data>
+  <data name="parAnalysisLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 23</value>
+  </data>
+  <data name="parAnalysisLink.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;parAnalysisLink.Name" xml:space="preserve">
+    <value>parAnalysisLink</value>
+  </data>
+  <data name="&gt;&gt;parAnalysisLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parAnalysisLink.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;parAnalysisLink.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="delinquentLoansLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 376</value>
+  </data>
+  <data name="delinquentLoansLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 23</value>
+  </data>
+  <data name="delinquentLoansLink.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;delinquentLoansLink.Name" xml:space="preserve">
+    <value>delinquentLoansLink</value>
+  </data>
+  <data name="&gt;&gt;delinquentLoansLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delinquentLoansLink.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;delinquentLoansLink.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="disbursementsLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 399</value>
+  </data>
+  <data name="disbursementsLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 23</value>
+  </data>
+  <data name="disbursementsLink.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;disbursementsLink.Name" xml:space="preserve">
+    <value>disbursementsLink</value>
+  </data>
+  <data name="&gt;&gt;disbursementsLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disbursementsLink.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;disbursementsLink.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flowLayoutPanel1.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 519</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>quickLinksPanel</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="quickLinksPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="quickLinksPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="quickLinksPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 519</value>
+  </data>
+  <data name="quickLinksPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;quickLinksPanel.Name" xml:space="preserve">
+    <value>quickLinksPanel</value>
+  </data>
+  <data name="&gt;&gt;quickLinksPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quickLinksPanel.Parent" xml:space="preserve">
+    <value>generalInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;quickLinksPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="generalInfoPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="generalInfoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="generalInfoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1223, 519</value>
+  </data>
+  <data name="generalInfoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;generalInfoPanel.Name" xml:space="preserve">
+    <value>generalInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;generalInfoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;generalInfoPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;generalInfoPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>42</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1223, 519</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAAAAAAAEAIADaBwAAZgAAABAQAAABACAAaAQAAEAIAAAgIAAAAQAgAKgQAACoDAAAMDAAAAEA
+        IACoJQAAUB0AAEBAAAABACAAKEIAAPhCAAAAAAAAAQAgABUGAAAghQAAiVBORw0KGgoAAAANSUhEUgAA
+        AIAAAACACAMAAAD04JH5AAAB/lBMVEUel84el84el84el84el84el84el84el84el84el84el84el84e
+        l84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84y
+        oNKKyeW84PDZ7ffL5/Ss2e1muN4gmM4pnNCSzef3+/3////V6/ZBp9YsntFDqNZ0v+Hp9frw+PxFqdYi
+        mc98wuLt9/vc7/dWsdrU6/Ykms9etNza7veDxuQ+ptW43u+IyOW/4vHz+fwxoNKa0On6/f70+v02otMw
+        n9Kh1Ov7/f6n1uyw2u4jmc/x+Pz9/v9MrNj+//9UsNpluN7f8PjO6PQfl84hmM9Jq9fH5fNyvuB7wuI0
+        odOp1+zq9foqndHu9/svn9Imm9CLyeai1Ottu9/l8/n8/v5Iq9dPrtnB4vLJ5vM4o9Sw2+5luN1tvN/i
+        8vklmtDn9PpuvN+MyuZRr9mVzuj4/P1wveCZ0Ok/ptX5/P6f0+qDxeREqdb2+/1CqNbs9vtHqter2O1q
+        ut/N6PS/4fFTr9ozodOYz+mSzOfF5PIrndHD4/LR6vVxveC03O92wOE3otOe0urG5PPo9Ppput4nm9CR
+        zOex2+47pNS43vBctNs1otN4weLY7fdXstp9w+N/xONAptVhtt3r9vsom9B5weLX7fbO6fQr0xbdAAAA
+        H3RSTlMAHYzW9ZAeXPZmZGcc+CWT19v6+dSIjvdb/mFg+4ogJlSy2AAAAAFiS0dEKyS55AgAAAAJcEhZ
+        cwAAAEgAAABIAEbJaz4AAATDSURBVHja7Zv3VxNBEMdPQOy918UKEghGsCIqCKgRBNQEBTEWilEsERQ7
+        9t67Yu/+l4Yk7s3ebZkNT+753n5/ZWfmE2b25ntKLMuyhmRkZpFBV1bm0GwroWHDB796UsNH9Ncf6VX5
+        fo2yrNGeff5+jRlrZXhZn5Bx1nhvASZYE70FmGR5W58QA2AADIABMAAGwAAYAANgAAzAfwKQM2/+goWL
+        Fud6BJC3JN+XUEGhbnp/0cABcpcGfH+1rFirfMnyFStLBgqwarUPaMEajfqla+MRZQMDWLfex2oDunxR
+        eSKgYuMAAPyVVY76vupNuPKbtwRTEVvTBoh30OdWDaZ8bdk2GlBXnyZAooNuNWxX19+xE0aEwukApDrI
+        UUGjovyu3Y6IJn0Au4McNUvL72mpcwbsjWgCwA5ytG+/ON2Bg9WciEo9ALaDHLWKkoXb2rkBwUINAFcH
+        3eo4xM8VDYkiDqMBOB3k6AhvrjuPNogjjuEA+B3k6LgrD11YfJ2IIQBEHeToZJ6j+V0BRUS3GuBUCFU7
+        qdPI5lNVRBQArq0jV08OsvlUZ+QATVWIHLZCUWzzqc7KAc6d1yjf3kZvAXQrcl1QtOA0unz1wQM0mnUr
+        Ul1UAOSdxOWpa9lDY7Xm5pLqFhxHpdm9i0Zy3IosUHkNw0fUWXbuoHF8tyJU72UlADnUoUiyrayWHha4
+        FZGuiF0MeBK2SnMEt2ymJ8Vuhau6FokxBQD790mSlBfRc1K3whGYGzkAaRbmWFtKDynciktgbpQAjQX8
+        HIFm+/VG6VZYwblRA5Ao76Gev8RefQi3AgXnhpDI1UsxBQC55srRcLST/hTnVmyBuSHh6zfiny5485Yc
+        4HaFIwfYOjGsW0kJzA1Y2A13wjIAcpHJAbaObvNXLAevxczCvisFaLxnn4RbR7P5VZV+O6djYXdEZQDk
+        /oPUObh1dJu/fp2d0L2wH+bKAEj40cP4ofzHtvVGW9WUVq8C6XgL+4kUIC5/8VMbUsOqJhRYCj4gf2Ff
+        8SsAoBB+k21+BHwQ0cJ+hgbA+U1+8yULO1iMA8D6TW7zpQv7OQqg9IVWeab5qoX9EgHQpTIojODGQCzs
+        9ldKgMs9GuXhxsAt7NdKgDca9UPw4YZ7Zve8VQDE8L8AuDFIFPvM7lMAXMWWhxtD69q+kwNEcVngxtC8
+        tql/RRYBvEclgX4T/5qYVKBYPoQI48/6zcVa5em1FQJ8UKVw+s2wxtYA11YIUPJRmoL1mwnVo00DvLbi
+        J+EnWQroN6m24soz11a2Cx4LUzB+09ZGzCsLc23lAJ29guZ/Fv03zBdleebaqgBIN7L52LnhvibKAGIn
+        kM3HzY1vJe81UeqIjiGbb0s8N+ybAhKAHMakgBLNDfumgAcoDCJSMOrm14dmUQeAVCJSMOLNDWsW9QAi
+        e9UpWLnmhjWLugCkSZ3CIXZuWLOYBkB8xahSOPQVziFjFtMCIPU1qhROddlLKRRVnv4Xf8Dw7XuyPLt1
+        BhGA/PjZ9+t3TVMMc/Y/+RMOA2AADIABMAAGwAAYAANgAAzAvwQY4239SdZkbwHGW1O8BZhqZXvwtXNb
+        04ZY1vQZHgLM7P/y+Uzvvvw+K/n1++yMzNmDXz1r8py58eJ/AMA32oYZNf8ZAAAAJXRFWHRkYXRlOmNy
+        ZWF0ZQAyMDE0LTA1LTA2VDEyOjE2OjU0KzA4OjAwAxvRswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0w
+        NS0wNlQxMjoxNjo1NCswODowMHJGaQ8AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8
+        AAAAAElFTkSuQmCCKAAAABAAAAAgAAAAAQAgAAAAAAAABAAAEQsAABELAAAAAAAAAAAAAM6XHkrOlx7n
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce6c6XHk/Olx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7n
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmiT/z5ok/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Uozj/7dms/9SjOP/Olx7/zpce/86XHv/PmiT/9+3Z//r16f/hv3T/
+        zpgg/86XHv/Olx7/zpce/86XHv/Olx7/79y0///////9+/f/582S/9CcKf/Olx7/5ciI////////////
+        //////br1P/asVb/zpce/86XHv/Olx7/zpce//z58//////////////////69en/4b90/9y0Xf/37tr/
+        /////////////////vz5/9OhNP/Olx7/zpgg/964Zv/asFX/8eK////////////////////////269T/
+        27Na/+LCfP/79+3//////+jOlf/Olx7/zpce/+PEf////////Pjx/+TGg//dt2P/9+7a////////////
+        ///////////v3rj/2KxM/966af/PmiT/zpce/9GdKv/8+fL/////////////////+PDf/965Z//iwnz/
+        +/ft//////////////////z58//PmSP/zpce/86XHv/Olx7/2a5P//Tozv/////////////////p0Jr/
+        zpce/9GeLP/p0Jr//v36///////y5MX/zpce/86XHv/Olx7/zpce/86XHv/Olx//37tt//nz5f/58+X/
+        0Z0q/86XHv/Olx7/zpce/9WmPv/v3bb/1qlF/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmSL/
+        0Jol/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce5s6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce586XHknOlx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce5s6XHk8AAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        KAAAACAAAABAAAAAAQAgAAAAAAAAEAAAEQsAABELAAAAAAAAAAAAAM6XHgbOlx6Rzpce8c6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce8c6XHpHOlx4Gzpcekc6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHpDOlx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce5c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/9SjOP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/z5ok/+fMkv/SnzD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+LBev////7///79/+zXqf/ToTT/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/lyIj///////z48f/kxoP/z5kj/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Tojb//fr0//////////////////369P/myYv/0Jsm/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/06I2//369P/////////////////48N//3rhl/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/+7asP/////////////////////////////////58+X/37tt/86XH//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/u2q//////////////////////////////////
+        8+XH/9erSf/Olx7/zpce/86XHv/asFT////+////////////////////////////////////////////
+        9OjO/9muT//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5ok//7+/P//////////////////////
+        //////////////////79/+zXqf/ToTT/zpce/9qvU//37tr/////////////////////////////////
+        ///////////////////+/9+7bP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/9uvU////////////
+        //////////////////////////////////////369P/myYv/0Jsm/8+ZIv/iwnz/+/ft////////////
+        ///////////////////////////69Of/0Jwp/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Rni7/
+        69Sh//79+//////////////////////////////////////////////////58+X/37tt/86XH//Rniz/
+        6dCa//79+v///////////////////////////9+8bf/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/r1aP/
+        8eG//9+7bf/Olx//1qhD//Hiv///////////////////////////////////////////////////////
+        9OjO/9muT//Olx7/1aY+/+/euP/////////////////z5sn/zpcf/86XHv/Olx7/zpce/86XHv/Olx7/
+        69Si//////////////////Tozv/Zrk//zpce/9y0Xv/37tr/////////////////////////////////
+        ///////////////////+/+7bsP/Uozj/zpce/9qxVv/x4L3/8N64/9SjOP/Olx7/zpce/86XHv/Olx7/
+        zpce/9erSP/+/vz//////////////////////////v/u27D/1KM4/8+ZIv/iwnz/+/ft////////////
+        //////////////////////////////////////379//nzZL/0Jso/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx//8+bJ///////////////////////////////////////9+/f/582S/9CcKf/Rniz/
+        6tOg//79+//////////////////////////////////////////////////06M7/zpgg/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9erSP/+/fr/////////////////////////////////////////////////
+        +vXp/9+7bP/Olx7/1qhD//Hiv//////////////////////////////////////////////////Tojb/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9WmPv/v3rj/////////////////////////////////
+        ////////////////4sJ7/86XHv/Olx7/zpce/9y0Xv/37tr/////////////////////////////////
+        9OjN/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/asVb/9uvU////////////
+        //////////////////////br1f/PmCH/zpce/86XHv/Olx7/zpce/8+ZIv/iwnz/+/ft////////////
+        ///////+/f/YrEz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/OmCD/
+        4b90//r16f////////////////////7/2rBU/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Rniz/
+        6dCa//79+v//////7Nan/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/0Jwp/+fNkv/9+/f//////+rToP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/1aY+/+7ar//SoDH/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9KfMP/Vp0D/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7wzpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce7c6XHpDOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx6QzpceBs6XHpHOlx7v
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7vzpcekc6XHgYAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABELAAARCwAAAAAAAAAAAADOlx4azpceuc6XHvvOlx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx77zpceuc6XHhrOlx63
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHrbOlx72zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHvXOlx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        z5ki/9qxVv/asFT/z5gh/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/fvG3/
+        0Jwp/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/SnzD/9+3Z////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9qyV///////+vXp/+G/dP/OmCD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/u2rD////////////////////////////x4r//1qhD/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/z5ki//ft2P/////////////////269T/2rFW/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9qwVP////7/////////////////////////////////
+        /v37/+vUof/SnzD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/48R//////////////////////////////////+/euP/Vpj7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5gh//br1f//////////////////////
+        ///////////////////////////8+PH/5MaD/8+ZI//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/SoDH//Pjx////////////////////////////
+        ///////////+/fr/6dCa/9GeLP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/4sJ7////////////
+        //////////////////////////////////////////////////////jw3//euGX/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/r1aX/////////////////
+        //////////////////////////////////////v37f/iwnz/z5ki/86XHv/Olx7/zpce/86XHv/Sny//
+        +/fu////////////////////////////////////////////////////////////////////////////
+        8+XH/9erSf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+aJP/+/fr/
+        ////////////////////////////////////////////////////////////////9+7a/9y0Xv/Olx7/
+        zpce/86XHv/XqUb/9+7a////////////////////////////////////////////////////////////
+        ///////////////////////+/f/ozpT/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9CbJv/+/fv/////////////////////////////////////////////////////////////////
+        ///////////x4r//1qhD/86XHv/Olx7/z5ki/+LCfP/79+3/////////////////////////////////
+        ///////////////////////////////////////////fvG3/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/r1aT/////////////////////////////////////////////////
+        /////////////////////////////////v37/+vUof/SnzD/zpce/86XHv/Rniz/6dCa//79+v//////
+        //////////////////////////////////////////////////////Pmyf/Olx//zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmCH/5MWD//z48f//////////////////////
+        ///////////////////////////////////////////////////////////8+PH/5MaD/8+ZI//Olx7/
+        zpce/9WmPv/v3rj//////////////////////////////////////////////////v78/9erSP/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx//1adA/9KgMf/Olx7/zpce/9KgMf/s16n/
+        //79////////////////////////////////////////////////////////////////////////////
+        //////jw3//euGX/zpce/86XHv/Olx7/2rFW//br1P//////////////////////////////////////
+        69Si/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9OiN//27df///////7+/P/u2rD/
+        1KM4/86XHv/Olx7/16tJ//Plx///////////////////////////////////////////////////////
+        ////////////////////////////////8+XH/9erSf/Olx7/zpce/86YIP/hv3T/+vTo////////////
+        ///////////79+7/0p8v/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce//Liwf//////
+        /////////////////fv3/+fNkv/QnCn/zpce/86XHv/euGX/+PDf////////////////////////////
+        ///////////////////////////////////////////////////////+/f/s16n/0p8w/86XHv/Olx7/
+        0Jsm/+bJi//9+vT///////v37v/bsln/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        3bhl///////////////////////////////////////69en/4b90/86YIP/Olx7/z5kj/+TGg//8+PH/
+        ////////////////////////////////////////////////////////////////////////////////
+        /Pjx/+TGg//PmSP/zpce/86XHv/Qmyj/1qlE/9CbJv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/QmiX/+fLi//////////////////////////////////////////////////br1P/asVb/
+        zpce/86XHv/SnzD/69Sh//79+///////////////////////////////////////////////////////
+        ///////////////////////////48N//3rhl/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/myoz/////////////////////////////////////////////////
+        ////////////////7964/9WmPv/Olx7/zpce/9aoQ//x4r//////////////////////////////////
+        /////////////////////////////////////////////////////+nRnP/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9SjOP/9+/b/////////////////////////////////
+        //////////////////////////////////////79+v/p0Jr/0Z4s/86XHv/Olx7/3LRe//fu2v//////
+        /////////////////////////////////////////////////////////////////////////v/TojX/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/924Zf/9+vT/////////////////
+        ////////////////////////////////////////////////////////////////+/ft/966af/Olx7/
+        zpce/8+ZIv/iwnz/+/ft////////////////////////////////////////////////////////////
+        ///////////Wp0H/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/ToTT/
+        7Nep///+/f//////////////////////////////////////////////////////////////////////
+        /////9qyV//Olx7/zpce/86XHv/Olx7/0Z4s/+nQmv/+/fr/////////////////////////////////
+        //////////////////////bs1v/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9erSf/z5cf/////////////////////////////////////////////////
+        ////////////////79y0/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Vpj7/7964////////////
+        /////////////////////////////////////9qyV//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/3rhl//jw3///////////////////////
+        ///////////////////////////9+/b/1KM4/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9qxVv/269T/////////////////////////////////79y0/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+ZI//kxoP/
+        /Pjx///////////////////////////////////////myoz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/OmCD/4b90//r16f/////////////////9+/b/1KM4/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/0p8w/+vUof/+/fv///////////////////////ny4v/QmiX/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/nzZL//fv3///////myoz/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/WqEP/8eK//////////////Pjx/9mvUf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/+rTn//QmiX/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9apRf/ctV//
+        0Z0r/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx72zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHvXOlx6z
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHrfOlx4Zzpcets6XHvvOlx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx77zpceuM6XHhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAQAAAAIAAAAABACAA
+        AAAAAABAAAARCwAAEQsAAAAAAAAAAAAAzpceAM6XHlzOlx7Xzpce/c6XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/c6XHtfOlx5azpceAM6XHlzOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHlrOlx7W
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7Vzpce/M6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce+86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/06I1/+C9b//fvG3/0qAx/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/YrEz/z5kj/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/4sF5//79+/////////////379//nzZL/0Jwp/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/ToTP/
+        /Pnz//jw3//euGX/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/2q9T//7+/P//////////////////////
+        //////r16f/hv3T/zpgg/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/7dir//////////////////Plx//Xq0n/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5gh//br1f//////
+        //////////////////////////////////////br1P/asVb/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/2a5P/////v////////////////////////79/+zXqf/ToTT/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+LCe////////////////////////////////////////////////////////////+/euP/Vpj7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpgg//Xq0f//////////////////////
+        /////////////////fr0/+bJi//Qmyb/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9KfL//79+7/////////////////////////////////////////////////
+        /////////////////v36/+nQmv/Rniz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/+HAdv//////
+        ////////////////////////////////////////////////+fPl/9+7bf/Olx//zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/r1KL/////////////////////////////////
+        ////////////////////////////////////////////////+/ft/+LCfP/PmSP/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9GeLP/79uz/////////////////////////////////////////////////////////////////
+        9OjO/9muT//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Xq0j//v78////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        +PDf/964Zf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/p0Zr/////////////////////////////////////////////////
+        //////////////////////////////7/7tuw/9SjOP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx//
+        8+bJ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////8+XH/9erSf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmSL//fr0////////////////////////////
+        ///////////////////////////////////////////////////////////9+/f/582S/9CcKf/Olx7/
+        zpce/86XHv/Olx7/0qAx//br1P//////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////v3/7Nep/9CbJ//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/0qAy////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////69en/4b90/86YIP/Olx7/zpce/86XHv/OmCD/4b90//r16f//////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////Pmyf/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86YIP/69en/////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////269T/2rFW/86XHv/Olx7/zpce/86XHv/QnCn/
+        582S//379///////////////////////////////////////////////////////////////////////
+        //////////////////////7+/P/Xq0j/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/4L1x/////v//////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////v3rj/
+        1aY+/86XHv/Olx7/zpce/86XHv/Uozj/7tuw/////v//////////////////////////////////////
+        ///////////////////////////////////////////r1KL/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/dt2P/+fPl////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////79+v/p0Jr/0Z4s/86XHv/Olx7/zpce/86XHv/Zrk//9OjO////////////
+        ///////////////////////////////////////////////////////////79+7/0p8v/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9CbJv/myYv//fr0////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////v37f/iwnz/z5ki/86XHv/Olx7/
+        zpce/86XH//fu23/+fPl////////////////////////////////////////////////////////////
+        4sJ7/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/SoDH/
+        5MWC/+rSnf/hwHb/0Jwp/86XHv/Olx7/zpce/9OhNP/s16n///79////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////fu2v/bsln/zpce/86XHv/Olx7/zpce/9CbJv/myYv//fr0////////////////////////////
+        ////////////////9uvV/8+YIf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Yq0r/+/ft//////////////////r16f/hv3T/zpgg/86XHv/Olx7/zpce/9erSf/z5cf/
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////+/euP/Vpj7/zpce/86XHv/Olx7/zpce/9OhNP/s16n/
+        //79///////////////////////////////+/9qwVP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/PmiT/+PDe//////////////////////////////////br1P/asVb/
+        zpce/86XHv/Olx7/zpce/964Zf/48N//////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////v36/+nQmv/Rniz/
+        zpce/86XHv/Olx7/zpce/9erSf/z5cf////////////////////+/+XJiv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/5ciI////////////////////////////
+        /////////////////////+/euP/Vpj7/zpce/86XHv/Olx7/z5kj/+TGg//8+PH/////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////+/ft/+LCfP/PmSL/zpce/86XHv/Olx7/zpce/9uzWv/p0Jr/6M6V/9itTf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/06I2//369P//////
+        /////////////////////////////////////////////////v36/+nQmv/Rniz/zpce/86XHv/Olx7/
+        0p8w/+vUof/+/fv/////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+7asP//////////////////////////////////////////////////////////////////////
+        +/ft/+LCfP/PmSL/zpce/86XHv/Olx7/1qhD//Hiv///////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        8eK//9aoQv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9qwVP////7/////////////////////////////////////////////////
+        ////////////////////////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/3LRe//fu2v//////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////+/Pn/3rhm/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+YIf/269X/////////////////////////////////
+        ////////////////////////////////////////////////////////////////8eK//9aoQ//Olx7/
+        zpce/86XHv/PmSL/4sJ8//v37f//////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////z47//Qmyb/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/iwnv/////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////+/fv/69Sh/9KfMP/Olx7/zpce/86XHv/Rniz/6dCa//79+v//////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        2rBU/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        4L5y//v37f//////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////8+PH/3bdk/86XHv/Olx7/zpce/86XHv/Vpj7/
+        7964////////////////////////////////////////////////////////////////////////////
+        /////////////////////9isTP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Rniz/6dCa//79+v//////////////////////////////////////
+        /////////////////////////////////////////////////////////////////vz5/9WmP//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/asVb/9uvU////////////////////////////////////////////
+        //////////////////////////////////////jv3f/OmCD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Vpj7/7964////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////+jOlf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86YIP/hv3X/+/ft////////////
+        ///////////////////////////////////////////////////////////ctmD/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/asVb/9uvU////////////////////////////////////////////////////////////
+        //////////////////////r05//QnCn/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9GeLP/p0Jr//v36///////////////////////////////////////////////////////x4L3/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86YIP/hv3T/+vXp////////////////////////////
+        ///////////////////////////////////////////fvG3/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9WmPv/v3rj/////////////////////////////////
+        ///////////+/Pn/1aY//86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/nzZL/
+        /fv3///////////////////////////////////////////////////////z5sn/zpcf/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9qxVv/269T/
+        ////////////////////////////////6M6V/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9SjOP/u27D////+///////////////////////////////////////+/fv/
+        16pH/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpgg/+G/dP/69en/////////////////+vTn/9CcKf/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9muT//06M7/////////////////
+        ////////////////6dGc/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/0Jwp/+fNkv/9+/f//////9+8bf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpcf/9+7bf/58+X/////////////////8eC9/9CaJf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/+bLjv/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5ki/9y0Xv/hwHb/2a5P/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce+86XHtnOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHtbOlx5d
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx5bzpceAM6XHlrOlx7Xzpce/c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/c6XHtbOlx5ZzpceAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAB
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAABrVBMVEUel84el84el84el84el84el84e
+        l84el84el84el84el84el84el84el84el84el84el84el84el84el85HqtePy+ep1+yWzuhWsdofl85D
+        qNa/4vH////L5/Q0odNluN0wn9Kh1Ov7/f7X7fYmm9CLyeb0+v34/P07pNQjmc+DxuTx+PyRzOdtu9/l
+        8/m13e9luN7f8PhPrtnO6PRXstpJq9fH5fO43vA4o9Sw2+7+///Y7fcimc/9/v9ctNuOy+b3+/1/xOPc
+        7/ckms8xoNKIyOWn1uw2otNMrNiw2u4pnNCSzedUsNogmM50v+Hp9fpyvuDV6/YhmM/U6/b6/f5Qrtk+
+        ptW43u8untEsntGa0Ol2wOF8wuLt9/tput7e8PhetNza7vdgttyg0+q94PE/ptX5/P5zvuCVzujn9PrC
+        4/JtvN9NrdhuvN9AptXJ5vNIq9eBxeS84PDs9vslmtBas9t1v+Fkt90rndGq2O3D4/Inm9CZ0Ol7wuLu
+        9/svn9Ka0emy3O6KyeXi8vlnud7G5PNFqdae0urR6vWQzOer2O1oud7w+PwtntEom9B2CTjvAAAAE3RS
+        TlMAO7Ptsjds/GU4ru7p/uyvsDk2wtU5PQAAAAFiS0dEHJwEQQcAAAAJcEhZcwAAAEgAAABIAEbJaz4A
+        AANbSURBVGje7ZrpUxNBEMVHEBFFREeRwBg5wx055IoBo4AKmICCIPflibfgiXgr3n+zCbs7u5t09yxl
+        zRfd9ymp9Ovf5s1OemorjLFdWdlci7J357Ck9uTqaZ9S7t7k9WvsnyTksSyd/Tnfx/brBeQzvf35Ad0A
+        7gN8gA/wAT7ABygBR44WHSsOaAOUlIqUjgc9tAme2DGgrLxCGKqsUrWvqg7V1O4MUFffIKQa6faBpnCy
+        6OSOAM0twiH06rbV2mZUnfIOaO8QbnXi7bu6I2bR6ahHQLCoR6SrFwv/TMwuOusJkFwvkalzfXj4Ug39
+        akCaxdYAEb7UeSUgwyIVuoCHL9VzkQYAFluDbtvQcAwoagsQANgiFbnkMMUTI3DVKApALVKXr0hP8RhW
+        FI4iANwiNX7VdExMElXFMOBaSNl/csKon5oep8pmkG8woGg/Zl5ZdHaOLpxHAH0LlGskETeKF5dUOfYj
+        AL6Mm2LDQ0aNOR8oreC36XXEEunuMgrs+UAsVB0OuHETtLS1Gh+75gOW5C1ousqNdhuwhJtMi3s+0Emi
+        O/lOuiVUbc7KklVle5kkDuB33ZaeoqD38K0keeBe4v4DBBB46LR0tHsPXybJFytT71e7QAB/ZF9pSzP3
+        HL5M0r6Pw/0ggD82P2+oN2+3jOGcKZmkK8onMIAn1lJXtFJmvIOGc7qsJNOjXIYBfP3ps+cvjJfwcHZL
+        JpkR5UIfDLBXHBvODskkoSgHaAA+nKUqys0k4SjlEIcAQy8jyv6vSjgd5SAO2FCPNxk+HqU1xAHAa+/h
+        U1GaQzwTEFVsXTt88pwjxCYCqKX7l1rhK845Qrx5CwMmKNPSolmlPucI8Q4GxNdQx9ysPPe8V7Yfn55C
+        FvkD7TDUq+pvnXMAwPpH0mGqk2w/Jk9g0Eb7RDqse6EGby/POQiAf6Yclhqx9u7pDAK+VBAOSxvwHk6f
+        zvCP3RbhkJqH+svpTAOm1nAHkaRjOisAfAZ3oEk6prMaEP+6Hf43+imCM0nHdPYC4K0R4jAFJGlPZ48A
+        /p0IX+qH9XNqT2fPgA1Pz4kS2+PsZ30dWvG3T7x+bZZvjf4mCv7xZ3Y+wAf4AB/gA/4fQIHe/vnsoF5A
+        ITuk968nh/X/eYaxvEJN61BQmMPYH4F4O84J9IxVAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE0LTA1LTA2
+        VDEyOjE2OjU0KzA4OjAwAxvRswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0wNS0wNlQxMjoxNjo1NCsw
+        ODowMHJGaQ8AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;parNameColumn.Name" xml:space="preserve">
+    <value>parNameColumn</value>
+  </data>
+  <data name="&gt;&gt;parNameColumn.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;parAmountColumn.Name" xml:space="preserve">
+    <value>parAmountColumn</value>
+  </data>
+  <data name="&gt;&gt;parAmountColumn.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;parQuantityColumn.Name" xml:space="preserve">
+    <value>parQuantityColumn</value>
+  </data>
+  <data name="&gt;&gt;parQuantityColumn.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DashboardForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>OpenCBS.GUI.UserControl.SweetBaseForm, OpenCBS.GUI, Version=14.7.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

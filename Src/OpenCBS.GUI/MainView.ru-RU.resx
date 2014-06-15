@@ -1,0 +1,1250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListAlert.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB0
+        CwAAAk1TRnQBSQFMAgEBBQEAAfgBAQH4AQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wcAAfAClwEIPAAEmDoA
+        AfEGmAHzNgAB/wiYAZcB9DUAAf8EmAHwAfMEmDYAAf8BCAHwAwAB9AKYAZc6AAH0AQgEmDcAAf8HmAHz
+        NwAHmAHzNwAB/wOYAQgB8wH/OQAB9AGYAQgBmAH/AQAB/wG8AQgB/zcACZg3AAEbApgBCASYAQg4AAH0
+        AZgCCAGYAQgB9joAAZgCCAGYPAAB8wKYAfA4AAH0AZgB8zwAAf8BmANyAfQB/wwAAfQBBwFzAm4BcwEH
+        AfQlAAH/AXgBCAFyAZcBcgGYAbwKAAHwAXMBdAOZAXkBUQFuAbwkAAEIAZgBlwGYAQgBlwFyAZcBcgHz
+        AfQGAAHwAXMBmQG8AbUCtAG1AQcBeQFLAfAiAAH/AXgBlwGYAQgBmAEIAZcBcgEIApgBCAH/AwAB9AFz
+        AZkBuwG1AfEC/wHxArUBmQFuAfQGAAaGFQABCAF4AZgBCAGXApgBCAKXAggBlwFyAbwB9AEAAQcBdAG8
+        AbUG/wG0AQcBdAHvBgABhgQNAYYMAAGnCAABeAGYAQgDmAF4AZgBCAGXAXIDCAFQAf8BAAEcARoBtQEZ
+        AvQBBwHzAf8BGQEJAbQBmQFzBgABpwENAUgBDQFlAaEMAAENAacHAAHxAXgBmAEIAZgBeAGYAfIBmAEI
+        AZcBcgEIAZcBCAIAAXQBGwG1A/QC7AG8Af8BGQG0ARoBcwcAAYYCDQGGDAABpwENAWYIAAH/ApgBCAGY
+        AfYBmAHyAZgBCAGXAnIB/wIAAXQB8wG1AfQC/wHsAe8B7AEHARkBtAEaAXMHAAGnAg0BpwwAAWUCDQGn
+        CQACmAEIARsB9gGYAXgBmAEIAXgBcgMAARwBGwEJARkB/wH0AZIB9AH/Ae8BGQG1AZkBcwgAAWUBhgwA
+        AacBDQFIAQ0BZQoAApgBCAWYAQgBeAFyAgABBwEaAfIBCQH/AfQB8gP/AbsB8AF0AQcIAAKnDAAFDQGn
+        CgACmAEIApgBlwEIAZgBcgH/AgAB9AF5ARsBvAEJAfMC9AHzAgkBGgFzAfQVAAGnBWYBhgsAApgBCAGY
+        AQgBmAGXAf8EAAEaAZkB8wHyAQkCtQEJAfEBGgF0AfEpAAKYAQgBmAGXAf8GAAHwAXkBGgEbAvQBGwGZ
+        AXQB8SsAA5gB/wgAAfQBGgKZAXkBmQEHAfQtAAGYAf81AAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEB
+        AQABAQYAAQEWAAP/AQAB/AE/BgAB/AE/BgAB8AEPBgABwAEHBgABwAEHBgAB4wGHBgAB/gEHBgAB8AEH
+        BgAB8AEPBgAB4AE/BgAB4AGHBgAB8AEHBgAB8AEHBgAB+AEPBgAB/AE/BgAB/AE/BgABxwf/AYAB/wHw
+        AQ8E/wGAAX8B4AEHBP8BgAEPAcABAwT/AQABAwGAAQEB+AEfAv8CAAGAAQEB+AEfAf4B/wIAAYABAQH4
+        AR8B/gF/AQABAQGAAQEB/AE/AfwBfwGAAQEBgAEBAfwBPwH8AT8B4AEDAYABAQH+AX8B+AE/AfABAQGA
+        AQEB/gF/AfgBHwH4AQEBgAEBAv8B8AEfAfwBAwHAAQME/wH+AQcB4AEHBf8BDwHwAQ8F/wGfBv8L
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="nIUpdateAvailable.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAB+fn8AkYyKAJKOjgCVk5MAlpaWAKWmpQCwr68AsrOyALS2tQC2trYAuru7ALu8vAC/vbwAvb29AMG/
+        vgDBwcAAwcLCAMXDwwDHxsUAxcbHAMbIxwDMyMcAyMnIAMrKygDKyssAy8vLAMzMywDNzcwAz87OANLQ
+        0ADP0tEA0NPSANLT0gDU1NIA1NXUANjV1QDW1tUA19fVANjX1QDX2NcA2tnYANnZ2QDb2dkA29zcANzc
+        3ADd3t0A397eAN3f3gDf394A4d/fAN3g3wDf4N8A3uDgAN/h4ADh4eAA3+HhAOHh4QDg4uEA4uLhAOPi
+        4QDi4uIA4+LiAOTj4wDi5OMA5OTkAOLl5ADm5eQA5ubmAOTn5gDl5+YA5OjnAOXo5wDm6OcA6OjnAObp
+        6ADp6egA6unpAObq6QDn6uoA6urpAOvq6QDp6uoA6urqAOvr6ADn6+oA6uvpAOnr6gDq7OsA6uzsAOzs
+        7ADq7esA7O3sAO3t7ADs7uwA7u7uAOzv7QDu7+0A7e/uAO3v7wDu7+8A7+/vAO/w7gDx8fAA7/HxAO/y
+        8QDx8vEA8PPyAPHz8gDy9PQA9PT0APP19QD09fUA9Pb2APX29gD19/YA9ff3APb4+AD4+PgA9vn4APf5
+        +AD4+/oA+fv6APr8/AD6/fwA+/38APz9/AD7/v0A/P79APv+/gD8/v4A+//9APz//QD9//0A+//+APz/
+        /gD9//8A/v//AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAR4aGiRtCHXOGhoaGhoaGR0eGf1dAhYQkhoaGgH6HiEREgXqJMIZxX4aGhX5vOSMySDM2Yldm
+        S2qJiH5ua4GJCzRViD5oZV5kGCJ4cIZ7JzVHWCB1Y1sqFQkNdoY8VolERH6JWEOJAgADiTlhiH5+R0eG
+        hn6HGgZZZAVRfoaGhkdHhoaGiBYseYgHiX5+hoZHR4Z+iFGJAQQPUSlxhoaDR0SISTqGKCYMDlJ5bEly
+        h0cvK313Lk8iITsZcGCHXDFBEIl8OCVpQF0RF4dsTIKJE009NzMthm1TiYmGflpQbwpHhn45HH1FP36G
+        hoZ+dGdOH0dHShQSCFRHR0dHREdGHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="colAlerts_Address.Text" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="colAlerts_City.Text" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="colAlerts_Phone.Text" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="colAlerts_BranchName.Text" xml:space="preserve">
+    <value>Филиал</value>
+  </data>
+  <data name="colAlerts_ContractCode.Text" xml:space="preserve">
+    <value>Код контракта</value>
+  </data>
+  <data name="colAlerts_Status.Text" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="colAlerts_Client.Text" xml:space="preserve">
+    <value>Клиент</value>
+  </data>
+  <data name="colAlerts_LoanOfficer.Text" xml:space="preserve">
+    <value>Кредитный специалист</value>
+  </data>
+  <data name="colAlerts_Date.Text" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="colAlerts_Amount.Text" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="olvAlerts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 501</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 40</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="chkPostponedLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 20</value>
+  </data>
+  <data name="chkPostponedLoans.Text" xml:space="preserve">
+    <value>Отложенные займы</value>
+  </data>
+  <data name="tbFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 5</value>
+  </data>
+  <data name="tbFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 22</value>
+  </data>
+  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 32</value>
+  </data>
+  <data name="lblFilter.Text" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="chkLateLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="chkLateLoans.Text" xml:space="preserve">
+    <value>Просроченные займы</value>
+  </data>
+  <data name="chkPendingLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 20</value>
+  </data>
+  <data name="chkPendingLoans.Text" xml:space="preserve">
+    <value>Невыданные займы</value>
+  </data>
+  <data name="chkPendingSavings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 20</value>
+  </data>
+  <data name="chkPendingSavings.Text" xml:space="preserve">
+    <value>Задержанные займы</value>
+  </data>
+  <data name="chkOverdraftSavings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
+  </data>
+  <data name="chkOverdraftSavings.Text" xml:space="preserve">
+    <value>Депозиты с овердрафтом</value>
+  </data>
+  <data name="chkValidatedLoan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="chkValidatedLoan.Text" xml:space="preserve">
+    <value>Утвержденные займы</value>
+  </data>
+  <data name="tabFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 152</value>
+  </data>
+  <data name="panelLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 693</value>
+  </data>
+  <data name="splitter6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 24</value>
+  </data>
+  <data name="mnuNewPerson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="mnuNewPerson.Text" xml:space="preserve">
+    <value>Новый Индивидульный клиент</value>
+  </data>
+  <data name="mnuNewGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 22</value>
+  </data>
+  <data name="mnuNewGroup.Text" xml:space="preserve">
+    <value>Новая группа с солидарной ответственностью</value>
+  </data>
+  <data name="mnuNewVillage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 22</value>
+  </data>
+  <data name="mnuNewVillage.Text" xml:space="preserve">
+    <value>Новая группа без солидарной ответственности</value>
+  </data>
+  <data name="newCorporateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 22</value>
+  </data>
+  <data name="newCorporateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Новая организация</value>
+  </data>
+  <data name="mnuNewClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="mnuNewClient.Text" xml:space="preserve">
+    <value>Новый Групповой клиент</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 6</value>
+  </data>
+  <data name="mnuSearchClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="mnuSearchClient.Text" xml:space="preserve">
+    <value>Поиск Клиента</value>
+  </data>
+  <data name="mnuSearchContract.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="mnuSearchContract.Text" xml:space="preserve">
+    <value>Поиск Контракта</value>
+  </data>
+  <data name="reasignToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="reasignToolStripMenuItem.Text" xml:space="preserve">
+    <value>Переназначения контрактов</value>
+  </data>
+  <data name="mnuClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="mnuClients.Text" xml:space="preserve">
+    <value>Клиенты и Контракты</value>
+  </data>
+  <data name="mnuChartOfAccounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="mnuChartOfAccounts.Text" xml:space="preserve">
+    <value>План счетов</value>
+  </data>
+  <data name="accountingRulesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="accountingRulesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Правила учета</value>
+  </data>
+  <data name="trialBalanceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="trialBalanceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сальдовая ведомость</value>
+  </data>
+  <data name="toolStripMenuItemAccountView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="toolStripMenuItemAccountView.Text" xml:space="preserve">
+    <value>Просмотр счета</value>
+  </data>
+  <data name="manualEntriesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="manualEntriesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ручные проводки</value>
+  </data>
+  <data name="standardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="standardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Стандартные проводки</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 6</value>
+  </data>
+  <data name="menuItemExportTransaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="menuItemExportTransaction.Text" xml:space="preserve">
+    <value>Экспортировать проводки</value>
+  </data>
+  <data name="mnuNewclosure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="mnuNewclosure.Text" xml:space="preserve">
+    <value>Бухгалтерское закрытие</value>
+  </data>
+  <data name="fiscalYearToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="fiscalYearToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отчетный год</value>
+  </data>
+  <data name="mnuAccounting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="mnuAccounting.Text" xml:space="preserve">
+    <value>Бухгалтерия</value>
+  </data>
+  <data name="branchesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="branchesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Конфигурация Филиалов</value>
+  </data>
+  <data name="tellersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="tellersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Конфигурация кассы</value>
+  </data>
+  <data name="toolStripSeparatorConfig1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="mnuDomainOfApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="mnuDomainOfApplication.Text" xml:space="preserve">
+    <value>Вид  деятельности</value>
+  </data>
+  <data name="menuItemLocations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="menuItemLocations.Text" xml:space="preserve">
+    <value>Области и районы</value>
+  </data>
+  <data name="toolStripMenuItemFundingLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="toolStripMenuItemFundingLines.Text" xml:space="preserve">
+    <value>Фондовые линии</value>
+  </data>
+  <data name="toolStripMenuItemInstallmentTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="toolStripMenuItemInstallmentTypes.Text" xml:space="preserve">
+    <value>Периодичность платежей</value>
+  </data>
+  <data name="toolStripSeparatorConfig2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="menuItemExchangeRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="menuItemExchangeRate.Text" xml:space="preserve">
+    <value>Курс Обмена валюты</value>
+  </data>
+  <data name="currenciesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="currenciesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="toolStripSeparatorConfig3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="miContractCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="miContractCode.Text" xml:space="preserve">
+    <value>Код контракта</value>
+  </data>
+  <data name="mnuConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="mnuConfiguration.Text" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="mnuWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="mnuWindow.Text" xml:space="preserve">
+    <value>Окно</value>
+  </data>
+  <data name="contactMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="contactMenuItem.Text" xml:space="preserve">
+    <value>Связаться с нами...</value>
+  </data>
+  <data name="aboutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="aboutMenuItem.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="menuItemSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="menuItemSetting.Text" xml:space="preserve">
+    <value>Общие настройки</value>
+  </data>
+  <data name="menuItemDatabaseControlPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="menuItemDatabaseControlPanel.Text" xml:space="preserve">
+    <value>Панель управления БД</value>
+  </data>
+  <data name="menuItemApplicationDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="menuItemApplicationDate.Text" xml:space="preserve">
+    <value>Изменение системной даты</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>Французский</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="russianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="russianToolStripMenuItem.Text" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="spanishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="spanishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Испанский</value>
+  </data>
+  <data name="portugueseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="portugueseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Португальский</value>
+  </data>
+  <data name="languagesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="languagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Язык интерфейса</value>
+  </data>
+  <data name="mnuSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="mnuSettings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="rolesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="rolesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="menuItemAddUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="menuItemAddUser.Text" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="miAuditTrail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="miAuditTrail.Text" xml:space="preserve">
+    <value>Контрольный журнал...</value>
+  </data>
+  <data name="changePasswordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="changePasswordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="mnuSecurity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="mnuSecurity.Text" xml:space="preserve">
+    <value>Безопасность</value>
+  </data>
+  <data name="mnuPackages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="mnuPackages.Text" xml:space="preserve">
+    <value>Кредитные продукты</value>
+  </data>
+  <data name="savingProductsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="savingProductsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Депозитные продукты</value>
+  </data>
+  <data name="menuItemCollateralProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="menuItemCollateralProducts.Text" xml:space="preserve">
+    <value>Залоговые продукты</value>
+  </data>
+  <data name="mnuProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="mnuProducts.Text" xml:space="preserve">
+    <value>Продукты</value>
+  </data>
+  <data name="_aboutModulesMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="_aboutModulesMenuItem.Text" xml:space="preserve">
+    <value>О модулях...</value>
+  </data>
+  <data name="_modulesMenuItem.Text" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="reportsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="reportsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="mainStatusBarLblUpdateVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1026, 20</value>
+  </data>
+  <data name="mainStatusBarLblUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="mainStatusBarLblUserName.Text" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAAAAAAAEAIADaBwAAZgAAABAQAAABACAAaAQAAEAIAAAgIAAAAQAgAKgQAACoDAAAMDAAAAEA
+        IACoJQAAUB0AAEBAAAABACAAKEIAAPhCAAAAAAAAAQAgABUGAAAghQAAiVBORw0KGgoAAAANSUhEUgAA
+        AIAAAACACAMAAAD04JH5AAAB/lBMVEUel84el84el84el84el84el84el84el84el84el84el84el84e
+        l84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84y
+        oNKKyeW84PDZ7ffL5/Ss2e1muN4gmM4pnNCSzef3+/3////V6/ZBp9YsntFDqNZ0v+Hp9frw+PxFqdYi
+        mc98wuLt9/vc7/dWsdrU6/Ykms9etNza7veDxuQ+ptW43u+IyOW/4vHz+fwxoNKa0On6/f70+v02otMw
+        n9Kh1Ov7/f6n1uyw2u4jmc/x+Pz9/v9MrNj+//9UsNpluN7f8PjO6PQfl84hmM9Jq9fH5fNyvuB7wuI0
+        odOp1+zq9foqndHu9/svn9Imm9CLyeai1Ottu9/l8/n8/v5Iq9dPrtnB4vLJ5vM4o9Sw2+5luN1tvN/i
+        8vklmtDn9PpuvN+MyuZRr9mVzuj4/P1wveCZ0Ok/ptX5/P6f0+qDxeREqdb2+/1CqNbs9vtHqter2O1q
+        ut/N6PS/4fFTr9ozodOYz+mSzOfF5PIrndHD4/LR6vVxveC03O92wOE3otOe0urG5PPo9Ppput4nm9CR
+        zOex2+47pNS43vBctNs1otN4weLY7fdXstp9w+N/xONAptVhtt3r9vsom9B5weLX7fbO6fQr0xbdAAAA
+        H3RSTlMAHYzW9ZAeXPZmZGcc+CWT19v6+dSIjvdb/mFg+4ogJlSy2AAAAAFiS0dEKyS55AgAAAAJcEhZ
+        cwAAAEgAAABIAEbJaz4AAATDSURBVHja7Zv3VxNBEMdPQOy918UKEghGsCIqCKgRBNQEBTEWilEsERQ7
+        9t67Yu/+l4Yk7s3ebZkNT+753n5/ZWfmE2b25ntKLMuyhmRkZpFBV1bm0GwroWHDB796UsNH9Ncf6VX5
+        fo2yrNGeff5+jRlrZXhZn5Bx1nhvASZYE70FmGR5W58QA2AADIABMAAGwAAYAANgAAzAfwKQM2/+goWL
+        Fud6BJC3JN+XUEGhbnp/0cABcpcGfH+1rFirfMnyFStLBgqwarUPaMEajfqla+MRZQMDWLfex2oDunxR
+        eSKgYuMAAPyVVY76vupNuPKbtwRTEVvTBoh30OdWDaZ8bdk2GlBXnyZAooNuNWxX19+xE0aEwukApDrI
+        UUGjovyu3Y6IJn0Au4McNUvL72mpcwbsjWgCwA5ytG+/ON2Bg9WciEo9ALaDHLWKkoXb2rkBwUINAFcH
+        3eo4xM8VDYkiDqMBOB3k6AhvrjuPNogjjuEA+B3k6LgrD11YfJ2IIQBEHeToZJ6j+V0BRUS3GuBUCFU7
+        qdPI5lNVRBQArq0jV08OsvlUZ+QATVWIHLZCUWzzqc7KAc6d1yjf3kZvAXQrcl1QtOA0unz1wQM0mnUr
+        Ul1UAOSdxOWpa9lDY7Xm5pLqFhxHpdm9i0Zy3IosUHkNw0fUWXbuoHF8tyJU72UlADnUoUiyrayWHha4
+        FZGuiF0MeBK2SnMEt2ymJ8Vuhau6FokxBQD790mSlBfRc1K3whGYGzkAaRbmWFtKDynciktgbpQAjQX8
+        HIFm+/VG6VZYwblRA5Ao76Gev8RefQi3AgXnhpDI1UsxBQC55srRcLST/hTnVmyBuSHh6zfiny5485Yc
+        4HaFIwfYOjGsW0kJzA1Y2A13wjIAcpHJAbaObvNXLAevxczCvisFaLxnn4RbR7P5VZV+O6djYXdEZQDk
+        /oPUObh1dJu/fp2d0L2wH+bKAEj40cP4ofzHtvVGW9WUVq8C6XgL+4kUIC5/8VMbUsOqJhRYCj4gf2Ff
+        8SsAoBB+k21+BHwQ0cJ+hgbA+U1+8yULO1iMA8D6TW7zpQv7OQqg9IVWeab5qoX9EgHQpTIojODGQCzs
+        9ldKgMs9GuXhxsAt7NdKgDca9UPw4YZ7Zve8VQDE8L8AuDFIFPvM7lMAXMWWhxtD69q+kwNEcVngxtC8
+        tql/RRYBvEclgX4T/5qYVKBYPoQI48/6zcVa5em1FQJ8UKVw+s2wxtYA11YIUPJRmoL1mwnVo00DvLbi
+        J+EnWQroN6m24soz11a2Cx4LUzB+09ZGzCsLc23lAJ29guZ/Fv03zBdleebaqgBIN7L52LnhvibKAGIn
+        kM3HzY1vJe81UeqIjiGbb0s8N+ybAhKAHMakgBLNDfumgAcoDCJSMOrm14dmUQeAVCJSMOLNDWsW9QAi
+        e9UpWLnmhjWLugCkSZ3CIXZuWLOYBkB8xahSOPQVziFjFtMCIPU1qhROddlLKRRVnv4Xf8Dw7XuyPLt1
+        BhGA/PjZ9+t3TVMMc/Y/+RMOA2AADIABMAAGwAAYAANgAAzAvwQY4239SdZkbwHGW1O8BZhqZXvwtXNb
+        04ZY1vQZHgLM7P/y+Uzvvvw+K/n1++yMzNmDXz1r8py58eJ/AMA32oYZNf8ZAAAAJXRFWHRkYXRlOmNy
+        ZWF0ZQAyMDE0LTA1LTA2VDEyOjE2OjU0KzA4OjAwAxvRswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0w
+        NS0wNlQxMjoxNjo1NCswODowMHJGaQ8AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8
+        AAAAAElFTkSuQmCCKAAAABAAAAAgAAAAAQAgAAAAAAAABAAAEQsAABELAAAAAAAAAAAAAM6XHkrOlx7n
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce6c6XHk/Olx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7n
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmiT/z5ok/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Uozj/7dms/9SjOP/Olx7/zpce/86XHv/PmiT/9+3Z//r16f/hv3T/
+        zpgg/86XHv/Olx7/zpce/86XHv/Olx7/79y0///////9+/f/582S/9CcKf/Olx7/5ciI////////////
+        //////br1P/asVb/zpce/86XHv/Olx7/zpce//z58//////////////////69en/4b90/9y0Xf/37tr/
+        /////////////////vz5/9OhNP/Olx7/zpgg/964Zv/asFX/8eK////////////////////////269T/
+        27Na/+LCfP/79+3//////+jOlf/Olx7/zpce/+PEf////////Pjx/+TGg//dt2P/9+7a////////////
+        ///////////v3rj/2KxM/966af/PmiT/zpce/9GdKv/8+fL/////////////////+PDf/965Z//iwnz/
+        +/ft//////////////////z58//PmSP/zpce/86XHv/Olx7/2a5P//Tozv/////////////////p0Jr/
+        zpce/9GeLP/p0Jr//v36///////y5MX/zpce/86XHv/Olx7/zpce/86XHv/Olx//37tt//nz5f/58+X/
+        0Z0q/86XHv/Olx7/zpce/9WmPv/v3bb/1qlF/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmSL/
+        0Jol/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce5s6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce586XHknOlx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce5s6XHk8AAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        KAAAACAAAABAAAAAAQAgAAAAAAAAEAAAEQsAABELAAAAAAAAAAAAAM6XHgbOlx6Rzpce8c6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce8c6XHpHOlx4Gzpcekc6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHpDOlx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce5c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/9SjOP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/z5ok/+fMkv/SnzD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+LBev////7///79/+zXqf/ToTT/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/lyIj///////z48f/kxoP/z5kj/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Tojb//fr0//////////////////369P/myYv/0Jsm/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/06I2//369P/////////////////48N//3rhl/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/+7asP/////////////////////////////////58+X/37tt/86XH//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/u2q//////////////////////////////////
+        8+XH/9erSf/Olx7/zpce/86XHv/asFT////+////////////////////////////////////////////
+        9OjO/9muT//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5ok//7+/P//////////////////////
+        //////////////////79/+zXqf/ToTT/zpce/9qvU//37tr/////////////////////////////////
+        ///////////////////+/9+7bP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/9uvU////////////
+        //////////////////////////////////////369P/myYv/0Jsm/8+ZIv/iwnz/+/ft////////////
+        ///////////////////////////69Of/0Jwp/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Rni7/
+        69Sh//79+//////////////////////////////////////////////////58+X/37tt/86XH//Rniz/
+        6dCa//79+v///////////////////////////9+8bf/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/r1aP/
+        8eG//9+7bf/Olx//1qhD//Hiv///////////////////////////////////////////////////////
+        9OjO/9muT//Olx7/1aY+/+/euP/////////////////z5sn/zpcf/86XHv/Olx7/zpce/86XHv/Olx7/
+        69Si//////////////////Tozv/Zrk//zpce/9y0Xv/37tr/////////////////////////////////
+        ///////////////////+/+7bsP/Uozj/zpce/9qxVv/x4L3/8N64/9SjOP/Olx7/zpce/86XHv/Olx7/
+        zpce/9erSP/+/vz//////////////////////////v/u27D/1KM4/8+ZIv/iwnz/+/ft////////////
+        //////////////////////////////////////379//nzZL/0Jso/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx//8+bJ///////////////////////////////////////9+/f/582S/9CcKf/Rniz/
+        6tOg//79+//////////////////////////////////////////////////06M7/zpgg/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9erSP/+/fr/////////////////////////////////////////////////
+        +vXp/9+7bP/Olx7/1qhD//Hiv//////////////////////////////////////////////////Tojb/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9WmPv/v3rj/////////////////////////////////
+        ////////////////4sJ7/86XHv/Olx7/zpce/9y0Xv/37tr/////////////////////////////////
+        9OjN/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/asVb/9uvU////////////
+        //////////////////////br1f/PmCH/zpce/86XHv/Olx7/zpce/8+ZIv/iwnz/+/ft////////////
+        ///////+/f/YrEz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/OmCD/
+        4b90//r16f////////////////////7/2rBU/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Rniz/
+        6dCa//79+v//////7Nan/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/0Jwp/+fNkv/9+/f//////+rToP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/1aY+/+7ar//SoDH/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9KfMP/Vp0D/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7wzpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce7c6XHpDOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx6QzpceBs6XHpHOlx7v
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7vzpcekc6XHgYAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABELAAARCwAAAAAAAAAAAADOlx4azpceuc6XHvvOlx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx77zpceuc6XHhrOlx63
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHrbOlx72zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHvXOlx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        z5ki/9qxVv/asFT/z5gh/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/fvG3/
+        0Jwp/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/SnzD/9+3Z////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9qyV///////+vXp/+G/dP/OmCD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/u2rD////////////////////////////x4r//1qhD/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/z5ki//ft2P/////////////////269T/2rFW/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9qwVP////7/////////////////////////////////
+        /v37/+vUof/SnzD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/48R//////////////////////////////////+/euP/Vpj7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5gh//br1f//////////////////////
+        ///////////////////////////8+PH/5MaD/8+ZI//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/SoDH//Pjx////////////////////////////
+        ///////////+/fr/6dCa/9GeLP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/4sJ7////////////
+        //////////////////////////////////////////////////////jw3//euGX/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/r1aX/////////////////
+        //////////////////////////////////////v37f/iwnz/z5ki/86XHv/Olx7/zpce/86XHv/Sny//
+        +/fu////////////////////////////////////////////////////////////////////////////
+        8+XH/9erSf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+aJP/+/fr/
+        ////////////////////////////////////////////////////////////////9+7a/9y0Xv/Olx7/
+        zpce/86XHv/XqUb/9+7a////////////////////////////////////////////////////////////
+        ///////////////////////+/f/ozpT/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9CbJv/+/fv/////////////////////////////////////////////////////////////////
+        ///////////x4r//1qhD/86XHv/Olx7/z5ki/+LCfP/79+3/////////////////////////////////
+        ///////////////////////////////////////////fvG3/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/r1aT/////////////////////////////////////////////////
+        /////////////////////////////////v37/+vUof/SnzD/zpce/86XHv/Rniz/6dCa//79+v//////
+        //////////////////////////////////////////////////////Pmyf/Olx//zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmCH/5MWD//z48f//////////////////////
+        ///////////////////////////////////////////////////////////8+PH/5MaD/8+ZI//Olx7/
+        zpce/9WmPv/v3rj//////////////////////////////////////////////////v78/9erSP/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx//1adA/9KgMf/Olx7/zpce/9KgMf/s16n/
+        //79////////////////////////////////////////////////////////////////////////////
+        //////jw3//euGX/zpce/86XHv/Olx7/2rFW//br1P//////////////////////////////////////
+        69Si/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9OiN//27df///////7+/P/u2rD/
+        1KM4/86XHv/Olx7/16tJ//Plx///////////////////////////////////////////////////////
+        ////////////////////////////////8+XH/9erSf/Olx7/zpce/86YIP/hv3T/+vTo////////////
+        ///////////79+7/0p8v/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce//Liwf//////
+        /////////////////fv3/+fNkv/QnCn/zpce/86XHv/euGX/+PDf////////////////////////////
+        ///////////////////////////////////////////////////////+/f/s16n/0p8w/86XHv/Olx7/
+        0Jsm/+bJi//9+vT///////v37v/bsln/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        3bhl///////////////////////////////////////69en/4b90/86YIP/Olx7/z5kj/+TGg//8+PH/
+        ////////////////////////////////////////////////////////////////////////////////
+        /Pjx/+TGg//PmSP/zpce/86XHv/Qmyj/1qlE/9CbJv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/QmiX/+fLi//////////////////////////////////////////////////br1P/asVb/
+        zpce/86XHv/SnzD/69Sh//79+///////////////////////////////////////////////////////
+        ///////////////////////////48N//3rhl/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/myoz/////////////////////////////////////////////////
+        ////////////////7964/9WmPv/Olx7/zpce/9aoQ//x4r//////////////////////////////////
+        /////////////////////////////////////////////////////+nRnP/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9SjOP/9+/b/////////////////////////////////
+        //////////////////////////////////////79+v/p0Jr/0Z4s/86XHv/Olx7/3LRe//fu2v//////
+        /////////////////////////////////////////////////////////////////////////v/TojX/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/924Zf/9+vT/////////////////
+        ////////////////////////////////////////////////////////////////+/ft/966af/Olx7/
+        zpce/8+ZIv/iwnz/+/ft////////////////////////////////////////////////////////////
+        ///////////Wp0H/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/ToTT/
+        7Nep///+/f//////////////////////////////////////////////////////////////////////
+        /////9qyV//Olx7/zpce/86XHv/Olx7/0Z4s/+nQmv/+/fr/////////////////////////////////
+        //////////////////////bs1v/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9erSf/z5cf/////////////////////////////////////////////////
+        ////////////////79y0/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Vpj7/7964////////////
+        /////////////////////////////////////9qyV//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/3rhl//jw3///////////////////////
+        ///////////////////////////9+/b/1KM4/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9qxVv/269T/////////////////////////////////79y0/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+ZI//kxoP/
+        /Pjx///////////////////////////////////////myoz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/OmCD/4b90//r16f/////////////////9+/b/1KM4/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/0p8w/+vUof/+/fv///////////////////////ny4v/QmiX/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/nzZL//fv3///////myoz/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/WqEP/8eK//////////////Pjx/9mvUf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/+rTn//QmiX/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9apRf/ctV//
+        0Z0r/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx72zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHvXOlx6z
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHrfOlx4Zzpcets6XHvvOlx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx77zpceuM6XHhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAQAAAAIAAAAABACAA
+        AAAAAABAAAARCwAAEQsAAAAAAAAAAAAAzpceAM6XHlzOlx7Xzpce/c6XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/c6XHtfOlx5azpceAM6XHlzOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHlrOlx7W
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7Vzpce/M6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce+86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/06I1/+C9b//fvG3/0qAx/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/YrEz/z5kj/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/4sF5//79+/////////////379//nzZL/0Jwp/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/ToTP/
+        /Pnz//jw3//euGX/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/2q9T//7+/P//////////////////////
+        //////r16f/hv3T/zpgg/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/7dir//////////////////Plx//Xq0n/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5gh//br1f//////
+        //////////////////////////////////////br1P/asVb/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/2a5P/////v////////////////////////79/+zXqf/ToTT/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+LCe////////////////////////////////////////////////////////////+/euP/Vpj7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpgg//Xq0f//////////////////////
+        /////////////////fr0/+bJi//Qmyb/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9KfL//79+7/////////////////////////////////////////////////
+        /////////////////v36/+nQmv/Rniz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/+HAdv//////
+        ////////////////////////////////////////////////+fPl/9+7bf/Olx//zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/r1KL/////////////////////////////////
+        ////////////////////////////////////////////////+/ft/+LCfP/PmSP/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9GeLP/79uz/////////////////////////////////////////////////////////////////
+        9OjO/9muT//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Xq0j//v78////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        +PDf/964Zf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/p0Zr/////////////////////////////////////////////////
+        //////////////////////////////7/7tuw/9SjOP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx//
+        8+bJ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////8+XH/9erSf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmSL//fr0////////////////////////////
+        ///////////////////////////////////////////////////////////9+/f/582S/9CcKf/Olx7/
+        zpce/86XHv/Olx7/0qAx//br1P//////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////v3/7Nep/9CbJ//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/0qAy////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////69en/4b90/86YIP/Olx7/zpce/86XHv/OmCD/4b90//r16f//////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////Pmyf/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86YIP/69en/////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////269T/2rFW/86XHv/Olx7/zpce/86XHv/QnCn/
+        582S//379///////////////////////////////////////////////////////////////////////
+        //////////////////////7+/P/Xq0j/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/4L1x/////v//////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////v3rj/
+        1aY+/86XHv/Olx7/zpce/86XHv/Uozj/7tuw/////v//////////////////////////////////////
+        ///////////////////////////////////////////r1KL/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/dt2P/+fPl////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////79+v/p0Jr/0Z4s/86XHv/Olx7/zpce/86XHv/Zrk//9OjO////////////
+        ///////////////////////////////////////////////////////////79+7/0p8v/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9CbJv/myYv//fr0////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////v37f/iwnz/z5ki/86XHv/Olx7/
+        zpce/86XH//fu23/+fPl////////////////////////////////////////////////////////////
+        4sJ7/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/SoDH/
+        5MWC/+rSnf/hwHb/0Jwp/86XHv/Olx7/zpce/9OhNP/s16n///79////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////fu2v/bsln/zpce/86XHv/Olx7/zpce/9CbJv/myYv//fr0////////////////////////////
+        ////////////////9uvV/8+YIf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Yq0r/+/ft//////////////////r16f/hv3T/zpgg/86XHv/Olx7/zpce/9erSf/z5cf/
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////+/euP/Vpj7/zpce/86XHv/Olx7/zpce/9OhNP/s16n/
+        //79///////////////////////////////+/9qwVP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/PmiT/+PDe//////////////////////////////////br1P/asVb/
+        zpce/86XHv/Olx7/zpce/964Zf/48N//////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////v36/+nQmv/Rniz/
+        zpce/86XHv/Olx7/zpce/9erSf/z5cf////////////////////+/+XJiv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/5ciI////////////////////////////
+        /////////////////////+/euP/Vpj7/zpce/86XHv/Olx7/z5kj/+TGg//8+PH/////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////+/ft/+LCfP/PmSL/zpce/86XHv/Olx7/zpce/9uzWv/p0Jr/6M6V/9itTf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/06I2//369P//////
+        /////////////////////////////////////////////////v36/+nQmv/Rniz/zpce/86XHv/Olx7/
+        0p8w/+vUof/+/fv/////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+7asP//////////////////////////////////////////////////////////////////////
+        +/ft/+LCfP/PmSL/zpce/86XHv/Olx7/1qhD//Hiv///////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        8eK//9aoQv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9qwVP////7/////////////////////////////////////////////////
+        ////////////////////////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/3LRe//fu2v//////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////+/Pn/3rhm/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+YIf/269X/////////////////////////////////
+        ////////////////////////////////////////////////////////////////8eK//9aoQ//Olx7/
+        zpce/86XHv/PmSL/4sJ8//v37f//////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////z47//Qmyb/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/iwnv/////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////+/fv/69Sh/9KfMP/Olx7/zpce/86XHv/Rniz/6dCa//79+v//////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        2rBU/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        4L5y//v37f//////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////8+PH/3bdk/86XHv/Olx7/zpce/86XHv/Vpj7/
+        7964////////////////////////////////////////////////////////////////////////////
+        /////////////////////9isTP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Rniz/6dCa//79+v//////////////////////////////////////
+        /////////////////////////////////////////////////////////////////vz5/9WmP//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/asVb/9uvU////////////////////////////////////////////
+        //////////////////////////////////////jv3f/OmCD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Vpj7/7964////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////+jOlf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86YIP/hv3X/+/ft////////////
+        ///////////////////////////////////////////////////////////ctmD/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/asVb/9uvU////////////////////////////////////////////////////////////
+        //////////////////////r05//QnCn/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9GeLP/p0Jr//v36///////////////////////////////////////////////////////x4L3/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86YIP/hv3T/+vXp////////////////////////////
+        ///////////////////////////////////////////fvG3/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9WmPv/v3rj/////////////////////////////////
+        ///////////+/Pn/1aY//86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/nzZL/
+        /fv3///////////////////////////////////////////////////////z5sn/zpcf/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9qxVv/269T/
+        ////////////////////////////////6M6V/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9SjOP/u27D////+///////////////////////////////////////+/fv/
+        16pH/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpgg/+G/dP/69en/////////////////+vTn/9CcKf/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9muT//06M7/////////////////
+        ////////////////6dGc/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/0Jwp/+fNkv/9+/f//////9+8bf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpcf/9+7bf/58+X/////////////////8eC9/9CaJf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/+bLjv/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5ki/9y0Xv/hwHb/2a5P/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce+86XHtnOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHtbOlx5d
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx5bzpceAM6XHlrOlx7Xzpce/c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/c6XHtbOlx5ZzpceAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAB
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAABrVBMVEUel84el84el84el84el84el84e
+        l84el84el84el84el84el84el84el84el84el84el84el84el84el85HqtePy+ep1+yWzuhWsdofl85D
+        qNa/4vH////L5/Q0odNluN0wn9Kh1Ov7/f7X7fYmm9CLyeb0+v34/P07pNQjmc+DxuTx+PyRzOdtu9/l
+        8/m13e9luN7f8PhPrtnO6PRXstpJq9fH5fO43vA4o9Sw2+7+///Y7fcimc/9/v9ctNuOy+b3+/1/xOPc
+        7/ckms8xoNKIyOWn1uw2otNMrNiw2u4pnNCSzedUsNogmM50v+Hp9fpyvuDV6/YhmM/U6/b6/f5Qrtk+
+        ptW43u8untEsntGa0Ol2wOF8wuLt9/tput7e8PhetNza7vdgttyg0+q94PE/ptX5/P5zvuCVzujn9PrC
+        4/JtvN9NrdhuvN9AptXJ5vNIq9eBxeS84PDs9vslmtBas9t1v+Fkt90rndGq2O3D4/Inm9CZ0Ol7wuLu
+        9/svn9Ka0emy3O6KyeXi8vlnud7G5PNFqdae0urR6vWQzOer2O1oud7w+PwtntEom9B2CTjvAAAAE3RS
+        TlMAO7Ptsjds/GU4ru7p/uyvsDk2wtU5PQAAAAFiS0dEHJwEQQcAAAAJcEhZcwAAAEgAAABIAEbJaz4A
+        AANbSURBVGje7ZrpUxNBEMVHEBFFREeRwBg5wx055IoBo4AKmICCIPflibfgiXgr3n+zCbs7u5t09yxl
+        zRfd9ymp9Ovf5s1OemorjLFdWdlci7J357Ck9uTqaZ9S7t7k9WvsnyTksSyd/Tnfx/brBeQzvf35Ad0A
+        7gN8gA/wAT7ABygBR44WHSsOaAOUlIqUjgc9tAme2DGgrLxCGKqsUrWvqg7V1O4MUFffIKQa6faBpnCy
+        6OSOAM0twiH06rbV2mZUnfIOaO8QbnXi7bu6I2bR6ahHQLCoR6SrFwv/TMwuOusJkFwvkalzfXj4Ug39
+        akCaxdYAEb7UeSUgwyIVuoCHL9VzkQYAFluDbtvQcAwoagsQANgiFbnkMMUTI3DVKApALVKXr0hP8RhW
+        FI4iANwiNX7VdExMElXFMOBaSNl/csKon5oep8pmkG8woGg/Zl5ZdHaOLpxHAH0LlGskETeKF5dUOfYj
+        AL6Mm2LDQ0aNOR8oreC36XXEEunuMgrs+UAsVB0OuHETtLS1Gh+75gOW5C1ousqNdhuwhJtMi3s+0Emi
+        O/lOuiVUbc7KklVle5kkDuB33ZaeoqD38K0keeBe4v4DBBB46LR0tHsPXybJFytT71e7QAB/ZF9pSzP3
+        HL5M0r6Pw/0ggD82P2+oN2+3jOGcKZmkK8onMIAn1lJXtFJmvIOGc7qsJNOjXIYBfP3ps+cvjJfwcHZL
+        JpkR5UIfDLBXHBvODskkoSgHaAA+nKUqys0k4SjlEIcAQy8jyv6vSjgd5SAO2FCPNxk+HqU1xAHAa+/h
+        U1GaQzwTEFVsXTt88pwjxCYCqKX7l1rhK845Qrx5CwMmKNPSolmlPucI8Q4GxNdQx9ysPPe8V7Yfn55C
+        FvkD7TDUq+pvnXMAwPpH0mGqk2w/Jk9g0Eb7RDqse6EGby/POQiAf6Yclhqx9u7pDAK+VBAOSxvwHk6f
+        zvCP3RbhkJqH+svpTAOm1nAHkaRjOisAfAZ3oEk6prMaEP+6Hf43+imCM0nHdPYC4K0R4jAFJGlPZ48A
+        /p0IX+qH9XNqT2fPgA1Pz4kS2+PsZ30dWvG3T7x+bZZvjf4mCv7xZ3Y+wAf4AB/gA/4fQIHe/vnsoF5A
+        ITuk968nh/X/eYaxvEJN61BQmMPYH4F4O84J9IxVAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE0LTA1LTA2
+        VDEyOjE2OjU0KzA4OjAwAxvRswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0wNS0wNlQxMjoxNjo1NCsw
+        ODowMHJGaQ8AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC
+</value>
+  </data>
+</root>

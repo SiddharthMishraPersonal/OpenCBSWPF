@@ -1,0 +1,15 @@
+bin
+obj
+_ReSharper.OCTOPUS_2
+*.user
+*.suo
+*.cache
+*.wixobj
+*.wixpdb
+*.msi
+*.psd
+icon16.png
+icon32.png
+Src/SolutionInfo.cs
+packages/
+NuGet.exe

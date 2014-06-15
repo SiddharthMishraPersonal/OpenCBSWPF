@@ -1,0 +1,22 @@
+﻿{
+	"Database": "Base de datos",
+	"Error": "Error",
+	"Invalid username or password.": "Nombre de usuario o contraseña no válidos.",
+	"Login": "Iniciar la sesión",
+	"Password": "Contraseña",
+	"Upgrade": "Upgrade",
+	"Upgrading database...": "Upgrading database...",
+	"Username": "Usuario",
+	"Date": "Date",
+	"Amount": "Amount",
+	"Principal": "Principal",
+	"Interest": "Interest",
+	"Penalty": "Penalty",
+	"Commission": "Commission",
+	"Comment": "Comment",
+	"Type of repayment": "Type of repayment",
+	"Payment method": "Payment method",
+	"OK": "OK",
+	"Cancel": "Cancel",
+	"Available balance: ": "Available balance: "
+}

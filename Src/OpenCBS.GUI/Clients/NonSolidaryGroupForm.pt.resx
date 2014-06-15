@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelNSGDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 146</value>
+  </data>
+  <data name="linkLabelChangePhoto2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="linkLabelChangePhoto2.Text" xml:space="preserve">
+    <value>Mude foto...</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linkLabelChangePhoto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linkLabelChangePhoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="linkLabelChangePhoto.Text" xml:space="preserve">
+    <value>Mude foto...</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbDetails.Text" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="cbBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 119</value>
+  </data>
+  <data name="lblBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 30</value>
+  </data>
+  <data name="lblBranch.Text" xml:space="preserve">
+    <value>Sucursal</value>
+  </data>
+  <data name="lblWeekDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 30</value>
+  </data>
+  <data name="lblWeekDay.Text" xml:space="preserve">
+    <value>Dia do encontro</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 3</value>
+  </data>
+  <data name="lblDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 28</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>Data do estabelecimento</value>
+  </data>
+  <data name="dtDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 31</value>
+  </data>
+  <data name="lblLoanOfficer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 30</value>
+  </data>
+  <data name="lblLoanOfficer.Text" xml:space="preserve">
+    <value>Oficial do Grupo</value>
+  </data>
+  <data name="cbLoanOfficers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 59</value>
+  </data>
+  <data name="cmbWeekDay.Items" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="cmbWeekDay.Items1" xml:space="preserve">
+    <value>Segunda-feira</value>
+  </data>
+  <data name="cmbWeekDay.Items2" xml:space="preserve">
+    <value>Terça-feira</value>
+  </data>
+  <data name="cmbWeekDay.Items3" xml:space="preserve">
+    <value>Quarta-feira</value>
+  </data>
+  <data name="cmbWeekDay.Items4" xml:space="preserve">
+    <value>Quinta-feira</value>
+  </data>
+  <data name="cmbWeekDay.Items5" xml:space="preserve">
+    <value>Sexta-feira</value>
+  </data>
+  <data name="cmbWeekDay.Items6" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="cmbWeekDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 89</value>
+  </data>
+  <data name="cbMeetingDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbMeetingDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 89</value>
+  </data>
+  <data name="cbMeetingDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 24</value>
+  </data>
+  <data name="cbMeetingDay.Text" xml:space="preserve">
+    <value>Estabelece o dia do encontro</value>
+  </data>
+  <data name="btnPrint.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAgEAAAAAAAD/7gAOQWRvYmUAZAAAAAAB/9sAQwAGBAQEBQQGBQUGCQYFBgkLCAYG
+        CAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8f/9sAQwEHBwcNDA0YEBAY
+        GhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8IAEQgA
+        xAASAwERAAIRAQMRAf/EABoAAQACAwEAAAAAAAAAAAAAAAABBAIDBQf/xAAbEAEBAQEAAwEAAAAAAAAA
+        AAAAERITIGAhUP/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAFBEBAAAAAAAAAAAAAAAAAAAAYP/E
+        ABQSAQAAAAAAAAAAAAAAAAAAAGD/xAAfEwEBAAIBBAMAAAAAAAAAAAAAESBxUVABIWEwQGD/2gAMAwEA
+        AhADEAAAAfVAAAAAAAAAAAAACACEAgAxAMADBANcgGpAK6AV0AqsgUmQOewBzbyA5OvOBTAP/9oACAEB
+        AAEFAvzaqqqqqqqtNNNtttttujo6Ojo6Pr6+v//aAAgBAgABBQL0v//aAAgBAwABBQL0Kqvn/9oACAEC
+        AgY/Ahf/2gAIAQMCBj8CF//aAAgBAQEGPwIX/9oACAEBAwE/IeiVVVVVV+yB/wAf0pWA/9oACAECAwE/
+        Ifxf/9oACAEDAwE/IeuVVVVwFVcP/9oADAMBAAIRAxEAABCSSSSSSSSSSAAASS2kmSSS2/8Abf8A0kSQ
+        BtiT/wAk/wD/2gAIAQEDAT8Q+3ey9l7YVVbNm2f+zZth4Qhu3bo5Ryjlu3bo5Ryjls2bPe9734f/2gAI
+        AQIDAT8Q/BREREw//9oACAEDAwE/EOm1Vwqqqqqr8QAta3h4eH//2Q==
+</value>
+  </data>
+  <data name="btnPrint.Text" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="btnCancel2.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="tpAddress.Text" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="gbAddress.Text" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="tpMembers.Text" xml:space="preserve">
+    <value>Membros</value>
+  </data>
+  <data name="lvMembers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>783, 292</value>
+  </data>
+  <data name="colName.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="colLoanCycle.Text" xml:space="preserve">
+    <value>Ciclo de empréstimo</value>
+  </data>
+  <data name="colPassport.Text" xml:space="preserve">
+    <value>Identificação</value>
+  </data>
+  <data name="colStatus.Text" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="colJoinDate.Text" xml:space="preserve">
+    <value>Data de entrada</value>
+  </data>
+  <data name="colLeftDate.Text" xml:space="preserve">
+    <value>Data de saída</value>
+  </data>
+  <data name="panelMembersControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 3</value>
+  </data>
+  <data name="panelMembersControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 292</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Busce existentes</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Adicionar novo</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>Remover membro</value>
+  </data>
+  <data name="btnSetAsLeader.Text" xml:space="preserve">
+    <value>Definir como líder</value>
+  </data>
+  <data name="cbxShowRemovedMembers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="cbxShowRemovedMembers.Text" xml:space="preserve">
+    <value>Mostre os ex-membros</value>
+  </data>
+  <data name="tabPageLoan.Text" xml:space="preserve">
+    <value>Empréstimos</value>
+  </data>
+  <data name="listViewLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>744, 292</value>
+  </data>
+  <data name="clientName.Text" xml:space="preserve">
+    <value>Nome do cliente</value>
+  </data>
+  <data name="loanProduct.Text" xml:space="preserve">
+    <value>Produto do empréstimo</value>
+  </data>
+  <data name="contractCode.Text" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="status.Text" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="amount.Text" xml:space="preserve">
+    <value>Quantia</value>
+  </data>
+  <data name="olb.Text" xml:space="preserve">
+    <value>SEP</value>
+  </data>
+  <data name="currency.Text" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="interestRate.Text" xml:space="preserve">
+    <value>Taxa de juros</value>
+  </data>
+  <data name="installmentType.Text" xml:space="preserve">
+    <value>Tipo das prestações</value>
+  </data>
+  <data name="numbOfInstallments.Text" xml:space="preserve">
+    <value>Número de prestações</value>
+  </data>
+  <data name="disbursedDate.Text" xml:space="preserve">
+    <value>Desembolsado em</value>
+  </data>
+  <data name="lastEventDate.Text" xml:space="preserve">
+    <value>Dia do último movimento</value>
+  </data>
+  <data name="nextEventDate.Text" xml:space="preserve">
+    <value>Data do próximo movimento</value>
+  </data>
+  <data name="nextAmountToRepay.Text" xml:space="preserve">
+    <value>Próxima quantia para pagar</value>
+  </data>
+  <data name="closeDate.Text" xml:space="preserve">
+    <value>Data do encerramento</value>
+  </data>
+  <data name="flowLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 3</value>
+  </data>
+  <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 292</value>
+  </data>
+  <data name="btnAddLoan.Text" xml:space="preserve">
+    <value>Adicionar Empréstimos</value>
+  </data>
+  <data name="btnValidateLoans.Text" xml:space="preserve">
+    <value>Validar empréstimos</value>
+  </data>
+  <data name="btnDisburse.Text" xml:space="preserve">
+    <value>Desembolsar os empréstimos</value>
+  </data>
+  <data name="btnRepay.Text" xml:space="preserve">
+    <value>Reembolso dos empréstimos</value>
+  </data>
+  <data name="cbxDisplayAllLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="cbxDisplayAllLoans.Text" xml:space="preserve">
+    <value>Mostre todos os empréstimos</value>
+  </data>
+  <data name="tabPageSavings.Text" xml:space="preserve">
+    <value>Poupanças</value>
+  </data>
+  <data name="columnHeaderClientName.Text" xml:space="preserve">
+    <value>O nome do cliente</value>
+  </data>
+  <data name="columnHeaderCode.Text" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="columnHeaderType.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="columnHeaderProduct.Text" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="columnHeaderBalance.Text" xml:space="preserve">
+    <value>Saldo </value>
+  </data>
+  <data name="columnHeaderCurrency.Text" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="columnHeaderCreationDate.Text" xml:space="preserve">
+    <value>Data da criação</value>
+  </data>
+  <data name="columnHeaderLastEventDate.Text" xml:space="preserve">
+    <value>A data do último movimento</value>
+  </data>
+  <data name="columnHeaderStatus.Text" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="columnHeaderCloseDate.Text" xml:space="preserve">
+    <value>A data do encerramento</value>
+  </data>
+  <data name="btnAddSavings.Text" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="buttonViewSaving.Text" xml:space="preserve">
+    <value>Veja</value>
+  </data>
+  <data name="buttonFastDeposit.Text" xml:space="preserve">
+    <value>Depósito rápido</value>
+  </data>
+  <data name="tabPageMeetings.Text" xml:space="preserve">
+    <value>Encontros</value>
+  </data>
+  <data name="olvAttendeeTiersIdColumn.Text" xml:space="preserve">
+    <value>Estratos Id</value>
+  </data>
+  <data name="olvAttendeeNameColumn.Text" xml:space="preserve">
+    <value>Nome do participante</value>
+  </data>
+  <data name="olvAttendeeAttendedColumn.Text" xml:space="preserve">
+    <value>Frequentou</value>
+  </data>
+  <data name="olvAttendeeCommentColumn.Text" xml:space="preserve">
+    <value>Comentário</value>
+  </data>
+  <data name="olvAttendeeLoanIdColumn.Text" xml:space="preserve">
+    <value>Empréstimo Id</value>
+  </data>
+  <data name="labelMeetingDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 16</value>
+  </data>
+  <data name="labelMeetingDate.Text" xml:space="preserve">
+    <value>Data do encontro:</value>
+  </data>
+  <data name="buttonUpdateAttendence.Text" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Grupo independente</value>
+  </data>
+</root>

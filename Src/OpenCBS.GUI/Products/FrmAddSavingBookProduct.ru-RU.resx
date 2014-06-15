@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbCalculAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 27</value>
+  </data>
+  <data name="lbCalculAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 16</value>
+  </data>
+  <data name="lbCalculAmount.Text" xml:space="preserve">
+    <value>Расчет суммы на основе:</value>
+  </data>
+  <data name="cbCalculAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 24</value>
+  </data>
+  <data name="lbPosting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 60</value>
+  </data>
+  <data name="lbPosting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="lbPosting.Text" xml:space="preserve">
+    <value>Постинг:</value>
+  </data>
+  <data name="lbAccrual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 27</value>
+  </data>
+  <data name="lbAccrual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="lbAccrual.Text" xml:space="preserve">
+    <value>Начисление:</value>
+  </data>
+  <data name="cbPosting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 57</value>
+  </data>
+  <data name="cbAccrual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 24</value>
+  </data>
+  <data name="gbFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 91</value>
+  </data>
+  <data name="gbFrequency.Text" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="groupBoxCurrency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 75</value>
+  </data>
+  <data name="groupBoxCurrency.Text" xml:space="preserve">
+    <value>Валюта продукта</value>
+  </data>
+  <data name="lbCodeSavingProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 19</value>
+  </data>
+  <data name="lbCodeSavingProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 15</value>
+  </data>
+  <data name="lbCodeSavingProduct.Text" xml:space="preserve">
+    <value>Код:</value>
+  </data>
+  <data name="lbNameSavingProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="lbNameSavingProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="lbNameSavingProduct.Text" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="clientTypeCorpCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 33</value>
+  </data>
+  <data name="clientTypeCorpCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="clientTypeCorpCheckBox.Text" xml:space="preserve">
+    <value>Орг.</value>
+  </data>
+  <data name="clientTypeIndivCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 33</value>
+  </data>
+  <data name="clientTypeIndivCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="clientTypeIndivCheckBox.Text" xml:space="preserve">
+    <value>Инд.</value>
+  </data>
+  <data name="clientTypeVillageCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 33</value>
+  </data>
+  <data name="clientTypeVillageCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="clientTypeVillageCheckBox.Text" xml:space="preserve">
+    <value>ГБСО</value>
+  </data>
+  <data name="clientTypeGroupCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="clientTypeGroupCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="clientTypeGroupCheckBox.Text" xml:space="preserve">
+    <value>ГСО</value>
+  </data>
+  <data name="clientTypeAllCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 33</value>
+  </data>
+  <data name="clientTypeAllCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="clientTypeAllCheckBox.Text" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="gbClientType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 75</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbClientType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gbClientType.Text" xml:space="preserve">
+    <value>Применить продукт к указанным клиентам</value>
+  </data>
+  <data name="tbName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tbInitialAmountMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 50</value>
+  </data>
+  <data name="tbInitialAmountMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 22</value>
+  </data>
+  <data name="lbInitialAmonutMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="lbInitialAmonutMax.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="lbInitialAmountMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 16</value>
+  </data>
+  <data name="lbInitialAmountMin.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="gbInitialAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 86</value>
+  </data>
+  <data name="gbInitialAmount.Text" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="lbBalanceMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="lbBalanceMax.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="lbBalanceMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 16</value>
+  </data>
+  <data name="lbBalanceMin.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="gbBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 123</value>
+  </data>
+  <data name="gbBalance.Text" xml:space="preserve">
+    <value>Баланс</value>
+  </data>
+  <data name="lbYearlyInterestRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 39</value>
+  </data>
+  <data name="lbYearlyInterestRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="lbYearlyInterestRate.Text" xml:space="preserve">
+    <value>...% годовых</value>
+  </data>
+  <data name="lbYearlyInterestRateMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="lbYearlyInterestRateMax.Text" xml:space="preserve">
+    <value>...% годовых</value>
+  </data>
+  <data name="lbYearlyInterestRateMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="lbYearlyInterestRateMin.Text" xml:space="preserve">
+    <value>...% годовых</value>
+  </data>
+  <data name="tbInterestRateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 36</value>
+  </data>
+  <data name="lbInterestRateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 39</value>
+  </data>
+  <data name="lbInterestRateValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="lbInterestRateValue.Text" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="lbInterestRateMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="lbInterestRateMax.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="lbInterestRateMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 16</value>
+  </data>
+  <data name="lbInterestRateMin.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="gbInterestRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 100</value>
+  </data>
+  <data name="gbInterestRate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gbInterestRate.Text" xml:space="preserve">
+    <value>Процентная ставка</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>668, 491</value>
+  </data>
+  <data name="tabPageMainParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 497</value>
+  </data>
+  <data name="tabPageMainParameters.Text" xml:space="preserve">
+    <value>Основные параметры</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Транзакция в:</value>
+  </data>
+  <data name="cbTransactionIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 21</value>
+  </data>
+  <data name="gbDeposit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gbDeposit.Text" xml:space="preserve">
+    <value>Депозит (наличные)</value>
+  </data>
+  <data name="rbRateDepositFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="rbRateDepositFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateDepositFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatDepositFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatDepositFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbDepositFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbDepositFees.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="gtDepositFees.Text" xml:space="preserve">
+    <value>Комиссия за взнос (наличные)</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Параметры депозита</value>
+  </data>
+  <data name="rbRateTransferFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 21</value>
+  </data>
+  <data name="rbRateTransferFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateTransferFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatTransferFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatTransferFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbTransferFeesValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbTransferFeesValue.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="lbTransferFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbTransferFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="gbTransferFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 115</value>
+  </data>
+  <data name="gbTransferFees.Text" xml:space="preserve">
+    <value>Комисия за перевод</value>
+  </data>
+  <data name="rbRateWithdrawFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="rbRateWithdrawFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateWithdrawFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatWithdrawFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatWithdrawFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbWithdrawFeesValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbWithdrawFeesValue.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="lbWithdrawFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbWithdrawFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="gbWithdrawFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 113</value>
+  </data>
+  <data name="gbWithdrawFees.Text" xml:space="preserve">
+    <value>Комисия за снятие</value>
+  </data>
+  <data name="gbTransfer.Text" xml:space="preserve">
+    <value>Перевод</value>
+  </data>
+  <data name="tbDrawingMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 80</value>
+  </data>
+  <data name="tbWithDrawingMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 51</value>
+  </data>
+  <data name="lbWithDrawingMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 83</value>
+  </data>
+  <data name="lbWithDrawingMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="lbWithDrawingMax.Text" xml:space="preserve">
+    <value>Max:</value>
+  </data>
+  <data name="lbWithDrawingMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 54</value>
+  </data>
+  <data name="gbWithDrawing.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gbWithDrawing.Text" xml:space="preserve">
+    <value>Снятие со счета</value>
+  </data>
+  <data name="tabPageFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 497</value>
+  </data>
+  <data name="tabPageFees.Text" xml:space="preserve">
+    <value>Транзакции</value>
+  </data>
+  <data name="rbRateReopenFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="rbRateReopenFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateReopenFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatReopenFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatReopenFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbReopenFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbReopenFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="lbReopenFeesValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbReopenFeesValue.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="gbReopenFees.Text" xml:space="preserve">
+    <value>Взнос за переоткрытие счета</value>
+  </data>
+  <data name="rbRateManagementFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="rbRateManagementFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateManagementFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatManagementFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatManagementFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbManagementFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbManagementFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="lbManagementFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbManagementFees.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="gtManagementFees.Text" xml:space="preserve">
+    <value>Взнос за обслуживание</value>
+  </data>
+  <data name="rbRateCloseFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="rbRateCloseFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateCloseFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatCloseFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatCloseFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbCloseFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbCloseFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="lbCloseFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbCloseFees.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="gtCloseFees.Text" xml:space="preserve">
+    <value>Взнос при закрытии</value>
+  </data>
+  <data name="rbRateEntryFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="rbRateEntryFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateEntryFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatEntryFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatEntryFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbEntryFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbEntryFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="lbEntryFeesValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbEntryFeesValue.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="gbEntryFees.Text" xml:space="preserve">
+    <value>Административный взнос</value>
+  </data>
+  <data name="tabPageManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 497</value>
+  </data>
+  <data name="tabPageManagement.Text" xml:space="preserve">
+    <value>Пеня</value>
+  </data>
+  <data name="rbRateAgioFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="rbRateAgioFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateAgioFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatAgioFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatAgioFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbAgioFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbAgioFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="lbAgioFeesValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbAgioFeesValue.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="gtAgioFees.Text" xml:space="preserve">
+    <value>Ажио</value>
+  </data>
+  <data name="rbRateOverdraftFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="rbRateOverdraftFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="rbRateOverdraftFees.Text" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="rbFlatOverdraftFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="rbFlatOverdraftFees.Text" xml:space="preserve">
+    <value>Фиксированный</value>
+  </data>
+  <data name="lbOverdraftFeesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lbOverdraftFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="lbOverdraftFeesValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lbOverdraftFeesValue.Text" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="gtOverdraftFees.Text" xml:space="preserve">
+    <value>Взнос на овердрафт</value>
+  </data>
+  <data name="tabPageOverdraft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 497</value>
+  </data>
+  <data name="tabPageOverdraft.Text" xml:space="preserve">
+    <value>Овердрафт</value>
+  </data>
+  <data name="gpPostingFrequency.Text" xml:space="preserve">
+    <value>Период оприходывания</value>
+  </data>
+  <data name="gbNumberOfPeriods.Text" xml:space="preserve">
+    <value>Число периодов</value>
+  </data>
+  <data name="checkBoxUseTermDeposit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="checkBoxUseTermDeposit.Text" xml:space="preserve">
+    <value>Использовать срочный депозит</value>
+  </data>
+  <data name="tabPageTermDeposit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 497</value>
+  </data>
+  <data name="tabPageTermDeposit.Text" xml:space="preserve">
+    <value>Срочный депозит</value>
+  </data>
+  <data name="tabControlSaving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>682, 537</value>
+  </data>
+  <data name="btSavingProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 26</value>
+  </data>
+  <data name="btSavingProduct.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="bClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>542, 26</value>
+  </data>
+  <data name="bClose.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>682, 63</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>682, 604</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>537</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>682, 604</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Депозитные продукты</value>
+  </data>
+  <data name="lbDepositFeesType.Text" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+</root>

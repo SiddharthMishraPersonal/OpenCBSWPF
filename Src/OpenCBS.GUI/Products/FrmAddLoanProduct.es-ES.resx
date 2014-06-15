@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabPageMainParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="tabPageMainParameters.Text" xml:space="preserve">
+    <value>Parámetros Principales</value>
+  </data>
+  <data name="tabPageFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="tabPageFees.Text" xml:space="preserve">
+    <value>Cargos</value>
+  </data>
+  <data name="tabPageOptionalParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="tabPageOptionalParameters.Text" xml:space="preserve">
+    <value>Parámetros Opcionales</value>
+  </data>
+  <data name="tabLOC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="tabLOC.Text" xml:space="preserve">
+    <value>Linea de Crédito</value>
+  </data>
+  <data name="tabGuarantorsCollaterals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="tabGuarantorsCollaterals.Text" xml:space="preserve">
+    <value>Garantías</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Seguro de Crédito</value>
+  </data>
+  <data name="tabCreditInsurance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>960, 651</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="gbAdvancedParameters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="gbAdvancedParameters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 279</value>
+  </data>
+  <data name="gbAdvancedParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>919, 329</value>
+  </data>
+  <data name="gbAdvancedParameters.Text" xml:space="preserve">
+    <value>Parametros Avanzados</value>
+  </data>
+  <data name="cbUseLoanCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="cbUseLoanCycle.Text" xml:space="preserve">
+    <value>Usar Ciclos de Crédito</value>
+  </data>
+  <data name="groupBoxInterestRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxInterestRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 108</value>
+  </data>
+  <data name="groupBoxInterestRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 79</value>
+  </data>
+  <data name="groupBoxInterestRate.Text" xml:space="preserve">
+    <value>Tasa de interés (en % por periodo)</value>
+  </data>
+  <data name="labelRateMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelRateMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 48</value>
+  </data>
+  <data name="labelRateMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="labelRateMax.Text" xml:space="preserve">
+    <value>Max : </value>
+  </data>
+  <data name="labelRateMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelRateMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 20</value>
+  </data>
+  <data name="labelRateOr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelRateOr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 36</value>
+  </data>
+  <data name="labelRateOr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="labelRateOr.Text" xml:space="preserve">
+    <value>o valor : </value>
+  </data>
+  <data name="textBoxRateMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxRateMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 48</value>
+  </data>
+  <data name="textBoxRateMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="textBoxRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 34</value>
+  </data>
+  <data name="textBoxRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="textBoxRateMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxRateMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="textBoxRateMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBoxNumberOfInstallments.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxNumberOfInstallments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 108</value>
+  </data>
+  <data name="groupBoxNumberOfInstallments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 79</value>
+  </data>
+  <data name="groupBoxNumberOfInstallments.Text" xml:space="preserve">
+    <value>Número de cuotas</value>
+  </data>
+  <data name="labelNbIMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelNbIMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 49</value>
+  </data>
+  <data name="labelNbIMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="labelNbIMax.Text" xml:space="preserve">
+    <value>Máximo:</value>
+  </data>
+  <data name="labelNbIMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelNbIMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 21</value>
+  </data>
+  <data name="labelNbIOr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelNbIOr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 36</value>
+  </data>
+  <data name="labelNbIOr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="labelNbIOr.Text" xml:space="preserve">
+    <value>o valor : </value>
+  </data>
+  <data name="textBoxNbOfInstallmentMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxNbOfInstallmentMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 47</value>
+  </data>
+  <data name="textBoxNbOfInstallmentMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="textBoxNbOfInstallment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxNbOfInstallment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 31</value>
+  </data>
+  <data name="textBoxNbOfInstallment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="textBoxNbOfInstallmentMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxNbOfInstallmentMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="textBoxNbOfInstallmentMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBoxAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="groupBoxAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 80</value>
+  </data>
+  <data name="groupBoxAmount.Text" xml:space="preserve">
+    <value>Monto</value>
+  </data>
+  <data name="labelLoanCycle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelLoanCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 37</value>
+  </data>
+  <data name="labelLoanCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="labelLoanCycleMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelLoanCycleMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="labelLoanCycleMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelLoanCycleMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 20</value>
+  </data>
+  <data name="labelLoanCycleMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="labelAmountMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelAmountMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 48</value>
+  </data>
+  <data name="labelAmountMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="labelAmountMax.Text" xml:space="preserve">
+    <value>Máximo : </value>
+  </data>
+  <data name="labelAmountMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelAmountMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="labelAmountMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 16</value>
+  </data>
+  <data name="labelAmountOr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelAmountOr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 37</value>
+  </data>
+  <data name="labelAmountOr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="labelAmountOr.Text" xml:space="preserve">
+    <value>o valor : </value>
+  </data>
+  <data name="textBoxAmountMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAmountMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 46</value>
+  </data>
+  <data name="textBoxAmountMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="textBoxAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 35</value>
+  </data>
+  <data name="textBoxAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="textBoxAmountMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAmountMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 18</value>
+  </data>
+  <data name="textBoxAmountMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="groupBoxAmountCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 17</value>
+  </data>
+  <data name="groupBoxAmountCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 58</value>
+  </data>
+  <data name="groupBoxAmountCycles.Text" xml:space="preserve">
+    <value>Ciclos de crédito</value>
+  </data>
+  <data name="comboBoxLoanCyclesName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 17</value>
+  </data>
+  <data name="comboBoxLoanCyclesName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 24</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 18</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 26</value>
+  </data>
+  <data name="buttonNewAmountCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 16</value>
+  </data>
+  <data name="buttonNewAmountCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 24</value>
+  </data>
+  <data name="buttonNewAmountCycles.Text" xml:space="preserve">
+    <value>Nuevo ciclo de crédito</value>
+  </data>
+  <data name="panelAmountCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 81</value>
+  </data>
+  <data name="panelAmountCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>890, 257</value>
+  </data>
+  <data name="listViewLoanCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 27</value>
+  </data>
+  <data name="listViewLoanCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 184</value>
+  </data>
+  <data name="buttonRemoveAmountCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 27</value>
+  </data>
+  <data name="buttonRemoveAmountCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 29</value>
+  </data>
+  <data name="buttonRemoveAmountCycles.Text" xml:space="preserve">
+    <value>Eliminar </value>
+  </data>
+  <data name="buttonAmountCyclesSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 216</value>
+  </data>
+  <data name="buttonAmountCyclesSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 29</value>
+  </data>
+  <data name="buttonAmountCyclesSave.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="buttonCancelAmountCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 216</value>
+  </data>
+  <data name="buttonCancelAmountCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="buttonCancelAmountCycles.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="buttonAddAmountCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 27</value>
+  </data>
+  <data name="buttonAddAmountCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 28</value>
+  </data>
+  <data name="buttonAddAmountCycle.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="groupBoxAmountCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 67</value>
+  </data>
+  <data name="groupBoxAmountCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 84</value>
+  </data>
+  <data name="groupBoxAmountCycle.Text" xml:space="preserve">
+    <value>Propiedades del ciclo de crédito</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 54</value>
+  </data>
+  <data name="textBoxCycleMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxCycleMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 51</value>
+  </data>
+  <data name="textBoxCycleMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 22</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="textBoxCycleMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxCycleMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="textBoxCycleMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 22</value>
+  </data>
+  <data name="lblCycleObjects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="groupBoxRoundingType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxRoundingType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 23</value>
+  </data>
+  <data name="groupBoxRoundingType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 83</value>
+  </data>
+  <data name="groupBoxRoundingType.Text" xml:space="preserve">
+    <value>Tipo de Redondeo*</value>
+  </data>
+  <data name="comboBoxRoundingType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 33</value>
+  </data>
+  <data name="comboBoxRoundingType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 24</value>
+  </data>
+  <data name="textBoxCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 52</value>
+  </data>
+  <data name="textBoxCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="label32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 54</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Codigo*:</value>
+  </data>
+  <data name="groupBox10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 112</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 50</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Relacionar el producto a una línea de financiamiento y donante</value>
+  </data>
+  <data name="comboBoxCurrencies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 21</value>
+  </data>
+  <data name="comboBoxCurrencies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 24</value>
+  </data>
+  <data name="comboBoxFundingLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="comboBoxFundingLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 20</value>
+  </data>
+  <data name="comboBoxFundingLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="groupBoxChargeInterestWithinGracePeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxChargeInterestWithinGracePeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 23</value>
+  </data>
+  <data name="groupBoxChargeInterestWithinGracePeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 83</value>
+  </data>
+  <data name="groupBoxChargeInterestWithinGracePeriod.Text" xml:space="preserve">
+    <value>Cobrar intereses durante el periodo de gracia</value>
+  </data>
+  <data name="radioButtonChargeInterestNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="radioButtonChargeInterestNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 48</value>
+  </data>
+  <data name="radioButtonChargeInterestNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 30</value>
+  </data>
+  <data name="radioButtonChargeInterestYes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="radioButtonChargeInterestYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 48</value>
+  </data>
+  <data name="radioButtonChargeInterestYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 30</value>
+  </data>
+  <data name="radioButtonChargeInterestYes.Text" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="groupBoxType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="groupBoxType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 50</value>
+  </data>
+  <data name="groupBoxType.Text" xml:space="preserve">
+    <value>Asociar producto a un tipo específico de cliente</value>
+  </data>
+  <data name="clientTypeVillageCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="clientTypeVillageCheckBox.Text" xml:space="preserve">
+    <value>Grupo No Solidario </value>
+  </data>
+  <data name="clientTypeCorpCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="clientTypeCorpCheckBox.Text" xml:space="preserve">
+    <value>Coorp.</value>
+  </data>
+  <data name="clientTypeGroupCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="clientTypeGroupCheckBox.Text" xml:space="preserve">
+    <value>Grupo Sol.</value>
+  </data>
+  <data name="clientTypeAllCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="clientTypeAllCheckBox.Text" xml:space="preserve">
+    <value>Tod.</value>
+  </data>
+  <data name="groupBoxInterestRateType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxInterestRateType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 168</value>
+  </data>
+  <data name="groupBoxInterestRateType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 109</value>
+  </data>
+  <data name="groupBoxInterestRateType.Text" xml:space="preserve">
+    <value>Tipo de tasa de interés</value>
+  </data>
+  <data name="rbDecliningFixedPrincipalRelaInterest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="rbDecliningFixedPrincipalRelaInterest.Text" xml:space="preserve">
+    <value>Decreciente - Capital Fijo con Tasa de Interés Efectiva</value>
+  </data>
+  <data name="rbDecliningFixedPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 20</value>
+  </data>
+  <data name="rbDecliningFixedPrincipal.Text" xml:space="preserve">
+    <value>Drecrediente - Capital Fijo</value>
+  </data>
+  <data name="rbDecliningFixedInstallments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 20</value>
+  </data>
+  <data name="rbDecliningFixedInstallments.Text" xml:space="preserve">
+    <value>Decreciente - Cuotas Mensualmente Iguales</value>
+  </data>
+  <data name="rbFlat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 20</value>
+  </data>
+  <data name="rbFlat.Text" xml:space="preserve">
+    <value>Plana (Capital Fijo, Interés Fijo )</value>
+  </data>
+  <data name="groupBoxGracePeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxGracePeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 172</value>
+  </data>
+  <data name="groupBoxGracePeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 105</value>
+  </data>
+  <data name="groupBoxGracePeriod.Text" xml:space="preserve">
+    <value>Periodo de gracia</value>
+  </data>
+  <data name="labelGPMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelGPMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 51</value>
+  </data>
+  <data name="labelGPMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="labelGPMax.Text" xml:space="preserve">
+    <value>Máximo:</value>
+  </data>
+  <data name="labelGPMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelGPMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 23</value>
+  </data>
+  <data name="labelGPOr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelGPOr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 38</value>
+  </data>
+  <data name="labelGPOr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="labelGPOr.Text" xml:space="preserve">
+    <value>o valor : </value>
+  </data>
+  <data name="textBoxGracePeriodMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxGracePeriodMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 49</value>
+  </data>
+  <data name="textBoxGracePeriodMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="textBoxGracePeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxGracePeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 35</value>
+  </data>
+  <data name="textBoxGracePeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="textBoxGracePeriodMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxGracePeriodMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="textBoxGracePeriodMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="comboBoxInstallmentType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="comboBoxInstallmentType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 81</value>
+  </data>
+  <data name="comboBoxInstallmentType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="labelInstallmentType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelInstallmentType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 84</value>
+  </data>
+  <data name="labelInstallmentType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="labelInstallmentType.Text" xml:space="preserve">
+    <value>Tipo de cuota*: </value>
+  </data>
+  <data name="textBoxName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 23</value>
+  </data>
+  <data name="textBoxName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="labelName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="labelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 26</value>
+  </data>
+  <data name="labelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="labelName.Text" xml:space="preserve">
+    <value>Nombre*:</value>
+  </data>
+  <data name="gbAnticipatedRepayment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="gbAnticipatedRepayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 374</value>
+  </data>
+  <data name="gbAnticipatedRepayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 241</value>
+  </data>
+  <data name="gbAnticipatedRepayment.Text" xml:space="preserve">
+    <value>Cargos por Pago Total Anticipado (PTA) y Pago Parcial Anticipado(PPA) </value>
+  </data>
+  <data name="groupBoxAPR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxAPR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 125</value>
+  </data>
+  <data name="groupBoxAPR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 104</value>
+  </data>
+  <data name="groupBoxAPR.Text" xml:space="preserve">
+    <value>Cargos por PPA*</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 50</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 31</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 50</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaimentMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaimentMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 63</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaimentMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 63</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaiment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaiment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 47</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaiment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaimentMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaimentMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 27</value>
+  </data>
+  <data name="textBoxAnticipatedPartialRepaimentMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBoxPartialAnticipatedRepaymentBase.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxPartialAnticipatedRepaymentBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 125</value>
+  </data>
+  <data name="groupBoxPartialAnticipatedRepaymentBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 104</value>
+  </data>
+  <data name="groupBoxPartialAnticipatedRepaymentBase.Text" xml:space="preserve">
+    <value>Cargos por PPA en Base a:*</value>
+  </data>
+  <data name="rbPrepaidPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="rbPrepaidPrincipal.Text" xml:space="preserve">
+    <value>% Capital Pre-Pagado</value>
+  </data>
+  <data name="rbPartialRemainingOLB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="rbPartialRemainingOLB.Text" xml:space="preserve">
+    <value>% Sobre Saldo</value>
+  </data>
+  <data name="rbPartialRemainingInterest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="rbPartialRemainingInterest.Text" xml:space="preserve">
+    <value>% Sobre Interés</value>
+  </data>
+  <data name="groupBoxTotalAnticipatedRepaymentBase.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxTotalAnticipatedRepaymentBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 21</value>
+  </data>
+  <data name="groupBoxTotalAnticipatedRepaymentBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 98</value>
+  </data>
+  <data name="groupBoxTotalAnticipatedRepaymentBase.Text" xml:space="preserve">
+    <value>Cargos por PTA en Base a*</value>
+  </data>
+  <data name="rbRemainingOLB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="rbRemainingOLB.Text" xml:space="preserve">
+    <value>% Sobre Saldo</value>
+  </data>
+  <data name="rbRemainingInterest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="rbRemainingInterest.Text" xml:space="preserve">
+    <value>% Sobre Interés</value>
+  </data>
+  <data name="groupBoxAnticipatedRepayment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxAnticipatedRepayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="groupBoxAnticipatedRepayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 98</value>
+  </data>
+  <data name="groupBoxAnticipatedRepayment.Text" xml:space="preserve">
+    <value>Cargos por PTA*</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 46</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>valor : </value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 65</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 26</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 46</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenaltiesMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenaltiesMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenaltiesMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenalties.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenalties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 46</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenalties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenaltiesMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenaltiesMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 26</value>
+  </data>
+  <data name="textBoxAnticipatedRepaymentPenaltiesMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBoxLateFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxLateFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 110</value>
+  </data>
+  <data name="groupBoxLateFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 258</value>
+  </data>
+  <data name="groupBoxLateFees.Text" xml:space="preserve">
+    <value>Interereses por Mora (% por día)</value>
+  </data>
+  <data name="labelLateFeeGracePeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 229</value>
+  </data>
+  <data name="labelLateFeeGracePeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 16</value>
+  </data>
+  <data name="labelLateFeeGracePeriod.Text" xml:space="preserve">
+    <value>Perid. Gracia Cuota Atrasada:</value>
+  </data>
+  <data name="textBoxGracePeriodLateFee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="textBoxGracePeriodLateFee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 226</value>
+  </data>
+  <data name="textBoxGracePeriodLateFee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 85</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Sobre el Monto Total del Préstamos</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 48</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>valor:</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 58</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 48</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="tBInitialAmountMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBInitialAmountMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 56</value>
+  </data>
+  <data name="tBInitialAmountMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBInitialAmountValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBInitialAmountValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 48</value>
+  </data>
+  <data name="tBInitialAmountValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBInitialAmountMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBInitialAmountMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 28</value>
+  </data>
+  <data name="tBInitialAmountMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 113</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 99</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Sobre el capital adeudado</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 48</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>valor : </value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 68</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Máximo</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 16</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Mínimo</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 48</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="tBOverduePrincipalMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOverduePrincipalMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 68</value>
+  </data>
+  <data name="tBOverduePrincipalMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBOverduePrincipalValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOverduePrincipalValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 48</value>
+  </data>
+  <data name="tBOverduePrincipalValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBOverduePrincipalMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOverduePrincipalMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 28</value>
+  </data>
+  <data name="tBOverduePrincipalMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 22</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 85</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Sobre Saldo*</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 46</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>valor : </value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 56</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 26</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 46</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="tBOLBMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOLBMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 56</value>
+  </data>
+  <data name="tBOLBMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBOLBValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOLBValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 46</value>
+  </data>
+  <data name="tBOLBValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBOLBMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOLBMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 26</value>
+  </data>
+  <data name="tBOLBMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 113</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 99</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Sobre los intereses adeudados</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 48</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>valor : </value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 68</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Máximo</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 16</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Mínimo</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 48</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="tBOverdueInterestMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOverdueInterestMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 68</value>
+  </data>
+  <data name="tBOverdueInterestMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBOverdueInterestValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOverdueInterestValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 48</value>
+  </data>
+  <data name="tBOverdueInterestValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="tBOverdueInterestMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="tBOverdueInterestMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 28</value>
+  </data>
+  <data name="tBOverdueInterestMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="groupBoxEntryFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxEntryFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="groupBoxEntryFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 98</value>
+  </data>
+  <data name="groupBoxEntryFees.Text" xml:space="preserve">
+    <value>Comisiones (% del monto total del préstamo o monto fijo)</value>
+  </data>
+  <data name="tbEntryFeesValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="lvEntryFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, -35</value>
+  </data>
+  <data name="lvEntryFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>921, 128</value>
+  </data>
+  <data name="nudEntryFeescycleFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="cbEnableEntryFeesCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="lblEntryFeesCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="groupBoxDetailsOptionalParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="groupBoxExoticProducts.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="groupBoxExoticProducts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxExoticProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 26</value>
+  </data>
+  <data name="groupBoxExoticProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>754, 298</value>
+  </data>
+  <data name="groupBoxExoticProducts.Text" xml:space="preserve">
+    <value>Cronograma exótico</value>
+  </data>
+  <data name="panelExoticProduct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="panelExoticProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 90</value>
+  </data>
+  <data name="panelExoticProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>735, 199</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 134</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 4</value>
+  </data>
+  <data name="labelTotalInterest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 142</value>
+  </data>
+  <data name="labelTotalPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 142</value>
+  </data>
+  <data name="labelTotalExoticInstallments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 136</value>
+  </data>
+  <data name="buttonCancelExoticProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 148</value>
+  </data>
+  <data name="buttonCancelExoticProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 28</value>
+  </data>
+  <data name="buttonCancelExoticProduct.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="buttonSaveExoticProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 148</value>
+  </data>
+  <data name="buttonSaveExoticProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 28</value>
+  </data>
+  <data name="buttonSaveExoticProduct.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="groupBoxExoticInstallmentProperties.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="groupBoxExoticInstallmentProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 4</value>
+  </data>
+  <data name="groupBoxExoticInstallmentProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 125</value>
+  </data>
+  <data name="groupBoxExoticInstallmentProperties.Text" xml:space="preserve">
+    <value>Propiedades del cronograma exótico</value>
+  </data>
+  <data name="panelExoticInstallment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="panelExoticInstallment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 92</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 55</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 16</value>
+  </data>
+  <data name="textBoxExoticInstallmentInterest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 48</value>
+  </data>
+  <data name="textBoxExoticInstallmentInterest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="textBoxExoticInstallmentPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 10</value>
+  </data>
+  <data name="textBoxExoticInstallmentPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 55</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Interés</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Capital</value>
+  </data>
+  <data name="panelExoticProductNavigationButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 4</value>
+  </data>
+  <data name="panelExoticProductNavigationButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 98</value>
+  </data>
+  <data name="buttonDecreaseExoticInstallment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 57</value>
+  </data>
+  <data name="buttonDecreaseExoticInstallment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 37</value>
+  </data>
+  <data name="buttonIncreaseExoticInstallment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 11</value>
+  </data>
+  <data name="buttonIncreaseExoticInstallment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="buttonRemoveExoticInstallment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 168</value>
+  </data>
+  <data name="buttonRemoveExoticInstallment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 28</value>
+  </data>
+  <data name="buttonRemoveExoticInstallment.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="buttonAddExoticInstallment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 168</value>
+  </data>
+  <data name="buttonAddExoticInstallment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 28</value>
+  </data>
+  <data name="buttonAddExoticInstallment.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="listViewExoticInstallments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 4</value>
+  </data>
+  <data name="listViewExoticInstallments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 129</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>Capital (%)</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>Interés (%)</value>
+  </data>
+  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 55</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 22</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Usar </value>
+  </data>
+  <data name="buttonNewExoticProduct.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="buttonNewExoticProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 17</value>
+  </data>
+  <data name="buttonNewExoticProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 31</value>
+  </data>
+  <data name="buttonNewExoticProduct.Text" xml:space="preserve">
+    <value>Nuevo cronograma exótico</value>
+  </data>
+  <data name="comboBoxExoticProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 18</value>
+  </data>
+  <data name="comboBoxExoticProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 24</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 98</value>
+  </data>
+  <data name="checkBoxUseExceptionalInstallmen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="checkBoxUseExceptionalInstallmen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 27</value>
+  </data>
+  <data name="checkBoxUseExceptionalInstallmen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 54</value>
+  </data>
+  <data name="checkBoxUseExceptionalInstallmen.Text" xml:space="preserve">
+    <value>Usar Cronograma Exótico</value>
+  </data>
+  <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 130</value>
+  </data>
+  <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 88</value>
+  </data>
+  <data name="checkBoxFlexPackage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="checkBoxFlexPackage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 50</value>
+  </data>
+  <data name="checkBoxFlexPackage.Text" xml:space="preserve">
+    <value>Permitir Cronograma Fexible</value>
+  </data>
+  <data name="drawNumGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="drawNumGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 49</value>
+  </data>
+  <data name="drawNumGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 72</value>
+  </data>
+  <data name="drawNumGroupBox.Text" xml:space="preserve">
+    <value>Maximo Número de Tramos </value>
+  </data>
+  <data name="textBoxNumOfDrawings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 28</value>
+  </data>
+  <data name="textBoxNumOfDrawings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 23</value>
+  </data>
+  <data name="drawingNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 31</value>
+  </data>
+  <data name="drawingNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 16</value>
+  </data>
+  <data name="drawingNumberLabel.Text" xml:space="preserve">
+    <value>Maximo Número de Tramos Bajo LDC</value>
+  </data>
+  <data name="useLOCCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 12</value>
+  </data>
+  <data name="useLOCCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="useLOCCheckBox.Text" xml:space="preserve">
+    <value>Usar Linea de Crédito</value>
+  </data>
+  <data name="maxLOCMaturityGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="maxLOCMaturityGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 252</value>
+  </data>
+  <data name="maxLOCMaturityGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 116</value>
+  </data>
+  <data name="maxLOCMaturityGroupBox.Text" xml:space="preserve">
+    <value>Madurez del Tramo (Número de Cuotas)</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 54</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 74</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 31</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 54</value>
+  </data>
+  <data name="label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="textBoxLOCMaturityMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 70</value>
+  </data>
+  <data name="textBoxLOCMaturityMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="textBoxLOCMaturity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 50</value>
+  </data>
+  <data name="textBoxLOCMaturity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 23</value>
+  </data>
+  <data name="textBoxLOCMaturityMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 27</value>
+  </data>
+  <data name="textBoxLOCMaturityMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="maxLOCAmountGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="maxLOCAmountGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 128</value>
+  </data>
+  <data name="maxLOCAmountGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 116</value>
+  </data>
+  <data name="maxLOCAmountGroupBox.Text" xml:space="preserve">
+    <value>Monto Total por Linea de Crédito (Incluye Monto Desembolsado)</value>
+  </data>
+  <data name="labelLOCAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 54</value>
+  </data>
+  <data name="labelLOCMaxAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 74</value>
+  </data>
+  <data name="labelLOCMinAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 31</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 54</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 74</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 31</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 54</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="textBoxAmountUnderLOCMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 70</value>
+  </data>
+  <data name="textBoxAmountUnderLOCMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="textBoxAmountUnderLOC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 50</value>
+  </data>
+  <data name="textBoxAmountUnderLOC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 23</value>
+  </data>
+  <data name="textBoxAmountUnderLOCMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 27</value>
+  </data>
+  <data name="textBoxAmountUnderLOCMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="cbUseCompulsorySavings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="cbUseCompulsorySavings.Text" xml:space="preserve">
+    <value>Utilice ahorro obligatorio</value>
+  </data>
+  <data name="gbCSAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 305</value>
+  </data>
+  <data name="gbCSAmount.Text" xml:space="preserve">
+    <value>Monto de Ahorro Obligario</value>
+  </data>
+  <data name="rbCompulsoryAmountRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="rbCompulsoryAmountRate.Text" xml:space="preserve">
+    <value>Tasa</value>
+  </data>
+  <data name="rbCompulsoryAmountFlat.Text" xml:space="preserve">
+    <value>Fijo</value>
+  </data>
+  <data name="lbCompulsoryAmountType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="lbCompulsoryAmountType.Text" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="lbCompulsoryAmountValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="lbCompulsoryAmountValue.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="lbCompulsoryAmountOr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="lbCompulsoryAmountOr.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="checkBoxSetSepCollGuar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 138</value>
+  </data>
+  <data name="checkBoxSetSepCollGuar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 20</value>
+  </data>
+  <data name="checkBoxSetSepCollGuar.Text" xml:space="preserve">
+    <value>Establecer Valores Separados para Garantes y Garantías</value>
+  </data>
+  <data name="groupBoxTotGuarColl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 53</value>
+  </data>
+  <data name="groupBoxTotGuarColl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 73</value>
+  </data>
+  <data name="textBoxCollGuar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 28</value>
+  </data>
+  <data name="textBoxCollGuar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 33</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 16</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>% de un Monto de Crédito</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 33</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 16</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Porcentaje Mínimo de Garantes + Garantías</value>
+  </data>
+  <data name="groupBoxSepGuarColl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 172</value>
+  </data>
+  <data name="groupBoxSepGuarColl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 101</value>
+  </data>
+  <data name="groupBoxSepGuarColl.Text" xml:space="preserve">
+    <value>Separado</value>
+  </data>
+  <data name="textBoxColl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 51</value>
+  </data>
+  <data name="textBoxColl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="textBoxGuar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 22</value>
+  </data>
+  <data name="textBoxGuar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 114</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 16</value>
+  </data>
+  <data name="label49.Text" xml:space="preserve">
+    <value>Nota: Ingrese valor '0' si no desea usar Garantes y Garantías</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 56</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 16</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>% de un Monto de Crédito</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 25</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 16</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>% de un Monto de Crédito</value>
+  </data>
+  <data name="labelMinPercColl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 56</value>
+  </data>
+  <data name="labelMinPercColl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 16</value>
+  </data>
+  <data name="labelMinPercColl.Text" xml:space="preserve">
+    <value>Procentaje Mínimo para Garantiás:</value>
+  </data>
+  <data name="labelMinPercGuar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 27</value>
+  </data>
+  <data name="labelMinPercGuar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 16</value>
+  </data>
+  <data name="labelMinPercGuar.Text" xml:space="preserve">
+    <value>Porcentaje Mínimo para Garantes:</value>
+  </data>
+  <data name="checkBoxGuarCollRequired.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 12</value>
+  </data>
+  <data name="checkBoxGuarCollRequired.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 20</value>
+  </data>
+  <data name="checkBoxGuarCollRequired.Text" xml:space="preserve">
+    <value>Usar Garantes y Garantías</value>
+  </data>
+  <data name="groupBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Seguro de Crédito</value>
+  </data>
+  <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 650</value>
+  </data>
+  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>960, 1</value>
+  </data>
+  <data name="radioButtonAmountCycle.Text" xml:space="preserve">
+    <value>usar el monto del ciclo de crédito</value>
+  </data>
+  <data name="radioButtonSpecifiedAmount.Text" xml:space="preserve">
+    <value>Monto especificado</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Mínimo</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Máximo</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Mínimo</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Usar</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 651</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>960, 59</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>782, 21</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 31</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 21</value>
+  </data>
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 31</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>960, 710</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>976, 748</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Crear Producto de Crédito</value>
+  </data>
+</root>

@@ -1,0 +1,22 @@
+{
+	"Database": "Database",
+	"Error": "Error",
+	"Invalid username or password.": "Invalid username or password.",
+	"Login": "Login",
+	"Password": "Password",
+	"Upgrade": "Upgrade",
+	"Upgrading database...": "Upgrading database...",
+	"Username": "Username",
+	"Date": "Date",
+	"Amount": "Amount",
+	"Principal": "Principal",
+	"Interest": "Interest",
+	"Penalty": "Penalty",
+	"Commission": "Commission",
+	"Comment": "Comment",
+	"Type of repayment": "Type of repayment",
+	"Payment method": "Payment method",
+	"OK": "OK",
+	"Cancel": "Cancel",
+	"Available balance: ": "Available balance: "
+}

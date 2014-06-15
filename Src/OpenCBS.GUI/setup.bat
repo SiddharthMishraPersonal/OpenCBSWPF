@@ -1,0 +1,1 @@
+OpenCBS.GUI.exe -setup

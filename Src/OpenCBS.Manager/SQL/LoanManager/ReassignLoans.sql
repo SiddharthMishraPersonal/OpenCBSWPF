@@ -1,0 +1,1 @@
+UPDATE dbo.Credit SET loanofficer_id = @To WHERE id IN @Ids

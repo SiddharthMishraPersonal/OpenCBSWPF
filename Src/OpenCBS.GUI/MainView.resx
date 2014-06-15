@@ -1,0 +1,2344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 24</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="portugueseToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="mnuClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="&gt;&gt;splitter6.Name" xml:space="preserve">
+    <value>splitter6</value>
+  </data>
+  <data name="languagesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="newCorporateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="lblFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkPendingSavings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colAlerts_BranchName.Text" xml:space="preserve">
+    <value>Branch name</value>
+  </data>
+  <data name="mnuNewPerson.Text" xml:space="preserve">
+    <value>Create Individual Client</value>
+  </data>
+  <data name="menuItemAddUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="chkPendingLoans.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="chkPendingLoans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 52</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAAAAAAAEAIADaBwAAZgAAABAQAAABACAAaAQAAEAIAAAgIAAAAQAgAKgQAACoDAAAMDAAAAEA
+        IACoJQAAUB0AAEBAAAABACAAKEIAAPhCAAAAAAAAAQAgABUGAAAghQAAiVBORw0KGgoAAAANSUhEUgAA
+        AIAAAACACAMAAAD04JH5AAAB/lBMVEUel84el84el84el84el84el84el84el84el84el84el84el84e
+        l84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84el84y
+        oNKKyeW84PDZ7ffL5/Ss2e1muN4gmM4pnNCSzef3+/3////V6/ZBp9YsntFDqNZ0v+Hp9frw+PxFqdYi
+        mc98wuLt9/vc7/dWsdrU6/Ykms9etNza7veDxuQ+ptW43u+IyOW/4vHz+fwxoNKa0On6/f70+v02otMw
+        n9Kh1Ov7/f6n1uyw2u4jmc/x+Pz9/v9MrNj+//9UsNpluN7f8PjO6PQfl84hmM9Jq9fH5fNyvuB7wuI0
+        odOp1+zq9foqndHu9/svn9Imm9CLyeai1Ottu9/l8/n8/v5Iq9dPrtnB4vLJ5vM4o9Sw2+5luN1tvN/i
+        8vklmtDn9PpuvN+MyuZRr9mVzuj4/P1wveCZ0Ok/ptX5/P6f0+qDxeREqdb2+/1CqNbs9vtHqter2O1q
+        ut/N6PS/4fFTr9ozodOYz+mSzOfF5PIrndHD4/LR6vVxveC03O92wOE3otOe0urG5PPo9Ppput4nm9CR
+        zOex2+47pNS43vBctNs1otN4weLY7fdXstp9w+N/xONAptVhtt3r9vsom9B5weLX7fbO6fQr0xbdAAAA
+        H3RSTlMAHYzW9ZAeXPZmZGcc+CWT19v6+dSIjvdb/mFg+4ogJlSy2AAAAAFiS0dEKyS55AgAAAAJcEhZ
+        cwAAAEgAAABIAEbJaz4AAATDSURBVHja7Zv3VxNBEMdPQOy918UKEghGsCIqCKgRBNQEBTEWilEsERQ7
+        9t67Yu/+l4Yk7s3ebZkNT+753n5/ZWfmE2b25ntKLMuyhmRkZpFBV1bm0GwroWHDB796UsNH9Ncf6VX5
+        fo2yrNGeff5+jRlrZXhZn5Bx1nhvASZYE70FmGR5W58QA2AADIABMAAGwAAYAANgAAzAfwKQM2/+goWL
+        Fud6BJC3JN+XUEGhbnp/0cABcpcGfH+1rFirfMnyFStLBgqwarUPaMEajfqla+MRZQMDWLfex2oDunxR
+        eSKgYuMAAPyVVY76vupNuPKbtwRTEVvTBoh30OdWDaZ8bdk2GlBXnyZAooNuNWxX19+xE0aEwukApDrI
+        UUGjovyu3Y6IJn0Au4McNUvL72mpcwbsjWgCwA5ytG+/ON2Bg9WciEo9ALaDHLWKkoXb2rkBwUINAFcH
+        3eo4xM8VDYkiDqMBOB3k6AhvrjuPNogjjuEA+B3k6LgrD11YfJ2IIQBEHeToZJ6j+V0BRUS3GuBUCFU7
+        qdPI5lNVRBQArq0jV08OsvlUZ+QATVWIHLZCUWzzqc7KAc6d1yjf3kZvAXQrcl1QtOA0unz1wQM0mnUr
+        Ul1UAOSdxOWpa9lDY7Xm5pLqFhxHpdm9i0Zy3IosUHkNw0fUWXbuoHF8tyJU72UlADnUoUiyrayWHha4
+        FZGuiF0MeBK2SnMEt2ymJ8Vuhau6FokxBQD790mSlBfRc1K3whGYGzkAaRbmWFtKDynciktgbpQAjQX8
+        HIFm+/VG6VZYwblRA5Ao76Gev8RefQi3AgXnhpDI1UsxBQC55srRcLST/hTnVmyBuSHh6zfiny5485Yc
+        4HaFIwfYOjGsW0kJzA1Y2A13wjIAcpHJAbaObvNXLAevxczCvisFaLxnn4RbR7P5VZV+O6djYXdEZQDk
+        /oPUObh1dJu/fp2d0L2wH+bKAEj40cP4ofzHtvVGW9WUVq8C6XgL+4kUIC5/8VMbUsOqJhRYCj4gf2Ff
+        8SsAoBB+k21+BHwQ0cJ+hgbA+U1+8yULO1iMA8D6TW7zpQv7OQqg9IVWeab5qoX9EgHQpTIojODGQCzs
+        9ldKgMs9GuXhxsAt7NdKgDca9UPw4YZ7Zve8VQDE8L8AuDFIFPvM7lMAXMWWhxtD69q+kwNEcVngxtC8
+        tql/RRYBvEclgX4T/5qYVKBYPoQI48/6zcVa5em1FQJ8UKVw+s2wxtYA11YIUPJRmoL1mwnVo00DvLbi
+        J+EnWQroN6m24soz11a2Cx4LUzB+09ZGzCsLc23lAJ29guZ/Fv03zBdleebaqgBIN7L52LnhvibKAGIn
+        kM3HzY1vJe81UeqIjiGbb0s8N+ybAhKAHMakgBLNDfumgAcoDCJSMOrm14dmUQeAVCJSMOLNDWsW9QAi
+        e9UpWLnmhjWLugCkSZ3CIXZuWLOYBkB8xahSOPQVziFjFtMCIPU1qhROddlLKRRVnv4Xf8Dw7XuyPLt1
+        BhGA/PjZ9+t3TVMMc/Y/+RMOA2AADIABMAAGwAAYAANgAAzAvwQY4239SdZkbwHGW1O8BZhqZXvwtXNb
+        04ZY1vQZHgLM7P/y+Uzvvvw+K/n1++yMzNmDXz1r8py58eJ/AMA32oYZNf8ZAAAAJXRFWHRkYXRlOmNy
+        ZWF0ZQAyMDE0LTA1LTA2VDEyOjE2OjU0KzA4OjAwAxvRswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0w
+        NS0wNlQxMjoxNjo1NCswODowMHJGaQ8AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8
+        AAAAAElFTkSuQmCCKAAAABAAAAAgAAAAAQAgAAAAAAAABAAAEQsAABELAAAAAAAAAAAAAM6XHkrOlx7n
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce6c6XHk/Olx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7n
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmiT/z5ok/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Uozj/7dms/9SjOP/Olx7/zpce/86XHv/PmiT/9+3Z//r16f/hv3T/
+        zpgg/86XHv/Olx7/zpce/86XHv/Olx7/79y0///////9+/f/582S/9CcKf/Olx7/5ciI////////////
+        //////br1P/asVb/zpce/86XHv/Olx7/zpce//z58//////////////////69en/4b90/9y0Xf/37tr/
+        /////////////////vz5/9OhNP/Olx7/zpgg/964Zv/asFX/8eK////////////////////////269T/
+        27Na/+LCfP/79+3//////+jOlf/Olx7/zpce/+PEf////////Pjx/+TGg//dt2P/9+7a////////////
+        ///////////v3rj/2KxM/966af/PmiT/zpce/9GdKv/8+fL/////////////////+PDf/965Z//iwnz/
+        +/ft//////////////////z58//PmSP/zpce/86XHv/Olx7/2a5P//Tozv/////////////////p0Jr/
+        zpce/9GeLP/p0Jr//v36///////y5MX/zpce/86XHv/Olx7/zpce/86XHv/Olx//37tt//nz5f/58+X/
+        0Z0q/86XHv/Olx7/zpce/9WmPv/v3bb/1qlF/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmSL/
+        0Jol/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce5s6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce586XHknOlx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce5s6XHk8AAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        KAAAACAAAABAAAAAAQAgAAAAAAAAEAAAEQsAABELAAAAAAAAAAAAAM6XHgbOlx6Rzpce8c6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce8c6XHpHOlx4Gzpcekc6XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHpDOlx7m
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce5c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/9SjOP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/z5ok/+fMkv/SnzD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+LBev////7///79/+zXqf/ToTT/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/lyIj///////z48f/kxoP/z5kj/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Tojb//fr0//////////////////369P/myYv/0Jsm/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/06I2//369P/////////////////48N//3rhl/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/+7asP/////////////////////////////////58+X/37tt/86XH//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/u2q//////////////////////////////////
+        8+XH/9erSf/Olx7/zpce/86XHv/asFT////+////////////////////////////////////////////
+        9OjO/9muT//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5ok//7+/P//////////////////////
+        //////////////////79/+zXqf/ToTT/zpce/9qvU//37tr/////////////////////////////////
+        ///////////////////+/9+7bP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/9uvU////////////
+        //////////////////////////////////////369P/myYv/0Jsm/8+ZIv/iwnz/+/ft////////////
+        ///////////////////////////69Of/0Jwp/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Rni7/
+        69Sh//79+//////////////////////////////////////////////////58+X/37tt/86XH//Rniz/
+        6dCa//79+v///////////////////////////9+8bf/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/r1aP/
+        8eG//9+7bf/Olx//1qhD//Hiv///////////////////////////////////////////////////////
+        9OjO/9muT//Olx7/1aY+/+/euP/////////////////z5sn/zpcf/86XHv/Olx7/zpce/86XHv/Olx7/
+        69Si//////////////////Tozv/Zrk//zpce/9y0Xv/37tr/////////////////////////////////
+        ///////////////////+/+7bsP/Uozj/zpce/9qxVv/x4L3/8N64/9SjOP/Olx7/zpce/86XHv/Olx7/
+        zpce/9erSP/+/vz//////////////////////////v/u27D/1KM4/8+ZIv/iwnz/+/ft////////////
+        //////////////////////////////////////379//nzZL/0Jso/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx//8+bJ///////////////////////////////////////9+/f/582S/9CcKf/Rniz/
+        6tOg//79+//////////////////////////////////////////////////06M7/zpgg/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9erSP/+/fr/////////////////////////////////////////////////
+        +vXp/9+7bP/Olx7/1qhD//Hiv//////////////////////////////////////////////////Tojb/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9WmPv/v3rj/////////////////////////////////
+        ////////////////4sJ7/86XHv/Olx7/zpce/9y0Xv/37tr/////////////////////////////////
+        9OjN/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/asVb/9uvU////////////
+        //////////////////////br1f/PmCH/zpce/86XHv/Olx7/zpce/8+ZIv/iwnz/+/ft////////////
+        ///////+/f/YrEz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/OmCD/
+        4b90//r16f////////////////////7/2rBU/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Rniz/
+        6dCa//79+v//////7Nan/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/0Jwp/+fNkv/9+/f//////+rToP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/1aY+/+7ar//SoDH/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9KfMP/Vp0D/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7wzpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce7c6XHpDOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx6QzpceBs6XHpHOlx7v
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7vzpcekc6XHgYAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABELAAARCwAAAAAAAAAAAADOlx4azpceuc6XHvvOlx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx77zpceuc6XHhrOlx63
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHrbOlx72zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHvXOlx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        z5ki/9qxVv/asFT/z5gh/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/fvG3/
+        0Jwp/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/SnzD/9+3Z////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9qyV///////+vXp/+G/dP/OmCD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/u2rD////////////////////////////x4r//1qhD/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/z5ki//ft2P/////////////////269T/2rFW/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9qwVP////7/////////////////////////////////
+        /v37/+vUof/SnzD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/48R//////////////////////////////////+/euP/Vpj7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5gh//br1f//////////////////////
+        ///////////////////////////8+PH/5MaD/8+ZI//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/SoDH//Pjx////////////////////////////
+        ///////////+/fr/6dCa/9GeLP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/4sJ7////////////
+        //////////////////////////////////////////////////////jw3//euGX/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/r1aX/////////////////
+        //////////////////////////////////////v37f/iwnz/z5ki/86XHv/Olx7/zpce/86XHv/Sny//
+        +/fu////////////////////////////////////////////////////////////////////////////
+        8+XH/9erSf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+aJP/+/fr/
+        ////////////////////////////////////////////////////////////////9+7a/9y0Xv/Olx7/
+        zpce/86XHv/XqUb/9+7a////////////////////////////////////////////////////////////
+        ///////////////////////+/f/ozpT/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9CbJv/+/fv/////////////////////////////////////////////////////////////////
+        ///////////x4r//1qhD/86XHv/Olx7/z5ki/+LCfP/79+3/////////////////////////////////
+        ///////////////////////////////////////////fvG3/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/r1aT/////////////////////////////////////////////////
+        /////////////////////////////////v37/+vUof/SnzD/zpce/86XHv/Rniz/6dCa//79+v//////
+        //////////////////////////////////////////////////////Pmyf/Olx//zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmCH/5MWD//z48f//////////////////////
+        ///////////////////////////////////////////////////////////8+PH/5MaD/8+ZI//Olx7/
+        zpce/9WmPv/v3rj//////////////////////////////////////////////////v78/9erSP/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx//1adA/9KgMf/Olx7/zpce/9KgMf/s16n/
+        //79////////////////////////////////////////////////////////////////////////////
+        //////jw3//euGX/zpce/86XHv/Olx7/2rFW//br1P//////////////////////////////////////
+        69Si/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9OiN//27df///////7+/P/u2rD/
+        1KM4/86XHv/Olx7/16tJ//Plx///////////////////////////////////////////////////////
+        ////////////////////////////////8+XH/9erSf/Olx7/zpce/86YIP/hv3T/+vTo////////////
+        ///////////79+7/0p8v/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce//Liwf//////
+        /////////////////fv3/+fNkv/QnCn/zpce/86XHv/euGX/+PDf////////////////////////////
+        ///////////////////////////////////////////////////////+/f/s16n/0p8w/86XHv/Olx7/
+        0Jsm/+bJi//9+vT///////v37v/bsln/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        3bhl///////////////////////////////////////69en/4b90/86YIP/Olx7/z5kj/+TGg//8+PH/
+        ////////////////////////////////////////////////////////////////////////////////
+        /Pjx/+TGg//PmSP/zpce/86XHv/Qmyj/1qlE/9CbJv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/QmiX/+fLi//////////////////////////////////////////////////br1P/asVb/
+        zpce/86XHv/SnzD/69Sh//79+///////////////////////////////////////////////////////
+        ///////////////////////////48N//3rhl/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/myoz/////////////////////////////////////////////////
+        ////////////////7964/9WmPv/Olx7/zpce/9aoQ//x4r//////////////////////////////////
+        /////////////////////////////////////////////////////+nRnP/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9SjOP/9+/b/////////////////////////////////
+        //////////////////////////////////////79+v/p0Jr/0Z4s/86XHv/Olx7/3LRe//fu2v//////
+        /////////////////////////////////////////////////////////////////////////v/TojX/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/924Zf/9+vT/////////////////
+        ////////////////////////////////////////////////////////////////+/ft/966af/Olx7/
+        zpce/8+ZIv/iwnz/+/ft////////////////////////////////////////////////////////////
+        ///////////Wp0H/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/ToTT/
+        7Nep///+/f//////////////////////////////////////////////////////////////////////
+        /////9qyV//Olx7/zpce/86XHv/Olx7/0Z4s/+nQmv/+/fr/////////////////////////////////
+        //////////////////////bs1v/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9erSf/z5cf/////////////////////////////////////////////////
+        ////////////////79y0/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Vpj7/7964////////////
+        /////////////////////////////////////9qyV//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/3rhl//jw3///////////////////////
+        ///////////////////////////9+/b/1KM4/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9qxVv/269T/////////////////////////////////79y0/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+ZI//kxoP/
+        /Pjx///////////////////////////////////////myoz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/OmCD/4b90//r16f/////////////////9+/b/1KM4/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/0p8w/+vUof/+/fv///////////////////////ny4v/QmiX/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/nzZL//fv3///////myoz/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/WqEP/8eK//////////////Pjx/9mvUf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/+rTn//QmiX/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9apRf/ctV//
+        0Z0r/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx72zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHvXOlx6z
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHrfOlx4Zzpcets6XHvvOlx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx77zpceuM6XHhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAQAAAAIAAAAABACAA
+        AAAAAABAAAARCwAAEQsAAAAAAAAAAAAAzpceAM6XHlzOlx7Xzpce/c6XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/c6XHtfOlx5azpceAM6XHlzOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHlrOlx7W
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7Vzpce/M6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce+86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/06I1/+C9b//fvG3/0qAx/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/YrEz/z5kj/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/4sF5//79+/////////////379//nzZL/0Jwp/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/ToTP/
+        /Pnz//jw3//euGX/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/2q9T//7+/P//////////////////////
+        //////r16f/hv3T/zpgg/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/7dir//////////////////Plx//Xq0n/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5gh//br1f//////
+        //////////////////////////////////////br1P/asVb/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/2a5P/////v////////////////////////79/+zXqf/ToTT/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+LCe////////////////////////////////////////////////////////////+/euP/Vpj7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpgg//Xq0f//////////////////////
+        /////////////////fr0/+bJi//Qmyb/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9KfL//79+7/////////////////////////////////////////////////
+        /////////////////v36/+nQmv/Rniz/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/+HAdv//////
+        ////////////////////////////////////////////////+fPl/9+7bf/Olx//zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/r1KL/////////////////////////////////
+        ////////////////////////////////////////////////+/ft/+LCfP/PmSP/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9GeLP/79uz/////////////////////////////////////////////////////////////////
+        9OjO/9muT//Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Xq0j//v78////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        +PDf/964Zf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/p0Zr/////////////////////////////////////////////////
+        //////////////////////////////7/7tuw/9SjOP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx//
+        8+bJ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////8+XH/9erSf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/PmSL//fr0////////////////////////////
+        ///////////////////////////////////////////////////////////9+/f/582S/9CcKf/Olx7/
+        zpce/86XHv/Olx7/0qAx//br1P//////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////v3/7Nep/9CbJ//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/0qAy////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////69en/4b90/86YIP/Olx7/zpce/86XHv/OmCD/4b90//r16f//////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////Pmyf/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86YIP/69en/////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////269T/2rFW/86XHv/Olx7/zpce/86XHv/QnCn/
+        582S//379///////////////////////////////////////////////////////////////////////
+        //////////////////////7+/P/Xq0j/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/4L1x/////v//////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////v3rj/
+        1aY+/86XHv/Olx7/zpce/86XHv/Uozj/7tuw/////v//////////////////////////////////////
+        ///////////////////////////////////////////r1KL/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/dt2P/+fPl////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////79+v/p0Jr/0Z4s/86XHv/Olx7/zpce/86XHv/Zrk//9OjO////////////
+        ///////////////////////////////////////////////////////////79+7/0p8v/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9CbJv/myYv//fr0////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////v37f/iwnz/z5ki/86XHv/Olx7/
+        zpce/86XH//fu23/+fPl////////////////////////////////////////////////////////////
+        4sJ7/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/SoDH/
+        5MWC/+rSnf/hwHb/0Jwp/86XHv/Olx7/zpce/9OhNP/s16n///79////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////fu2v/bsln/zpce/86XHv/Olx7/zpce/9CbJv/myYv//fr0////////////////////////////
+        ////////////////9uvV/8+YIf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Yq0r/+/ft//////////////////r16f/hv3T/zpgg/86XHv/Olx7/zpce/9erSf/z5cf/
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////+/euP/Vpj7/zpce/86XHv/Olx7/zpce/9OhNP/s16n/
+        //79///////////////////////////////+/9qwVP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/PmiT/+PDe//////////////////////////////////br1P/asVb/
+        zpce/86XHv/Olx7/zpce/964Zf/48N//////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////v36/+nQmv/Rniz/
+        zpce/86XHv/Olx7/zpce/9erSf/z5cf////////////////////+/+XJiv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/5ciI////////////////////////////
+        /////////////////////+/euP/Vpj7/zpce/86XHv/Olx7/z5kj/+TGg//8+PH/////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////+/ft/+LCfP/PmSL/zpce/86XHv/Olx7/zpce/9uzWv/p0Jr/6M6V/9itTf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/06I2//369P//////
+        /////////////////////////////////////////////////v36/+nQmv/Rniz/zpce/86XHv/Olx7/
+        0p8w/+vUof/+/fv/////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/+7asP//////////////////////////////////////////////////////////////////////
+        +/ft/+LCfP/PmSL/zpce/86XHv/Olx7/1qhD//Hiv///////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        8eK//9aoQv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9qwVP////7/////////////////////////////////////////////////
+        ////////////////////////////////9+7a/9y0Xv/Olx7/zpce/86XHv/Olx7/3LRe//fu2v//////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////+/Pn/3rhm/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/8+YIf/269X/////////////////////////////////
+        ////////////////////////////////////////////////////////////////8eK//9aoQ//Olx7/
+        zpce/86XHv/PmSL/4sJ8//v37f//////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////z47//Qmyb/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/iwnv/////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////+/fv/69Sh/9KfMP/Olx7/zpce/86XHv/Rniz/6dCa//79+v//////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        2rBU/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        4L5y//v37f//////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////8+PH/3bdk/86XHv/Olx7/zpce/86XHv/Vpj7/
+        7964////////////////////////////////////////////////////////////////////////////
+        /////////////////////9isTP/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Rniz/6dCa//79+v//////////////////////////////////////
+        /////////////////////////////////////////////////////////////////vz5/9WmP//Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/asVb/9uvU////////////////////////////////////////////
+        //////////////////////////////////////jv3f/OmCD/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Vpj7/7964////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////+jOlf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86YIP/hv3X/+/ft////////////
+        ///////////////////////////////////////////////////////////ctmD/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/asVb/9uvU////////////////////////////////////////////////////////////
+        //////////////////////r05//QnCn/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/9GeLP/p0Jr//v36///////////////////////////////////////////////////////x4L3/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86YIP/hv3T/+vXp////////////////////////////
+        ///////////////////////////////////////////fvG3/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9WmPv/v3rj/////////////////////////////////
+        ///////////+/Pn/1aY//86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9CcKf/nzZL/
+        /fv3///////////////////////////////////////////////////////z5sn/zpcf/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9qxVv/269T/
+        ////////////////////////////////6M6V/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/9SjOP/u27D////+///////////////////////////////////////+/fv/
+        16pH/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpgg/+G/dP/69en/////////////////+vTn/9CcKf/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/9muT//06M7/////////////////
+        ////////////////6dGc/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/0Jwp/+fNkv/9+/f//////9+8bf/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpcf/9+7bf/58+X/////////////////8eC9/9CaJf/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        1KM4/+bLjv/Olx//zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/z5ki/9y0Xv/hwHb/2a5P/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce+86XHtnOlx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHtbOlx5d
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx5bzpceAM6XHlrOlx7Xzpce/c6XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/zpce/86XHv/Olx7/
+        zpce/86XHv/Olx7/zpce/c6XHtbOlx5ZzpceAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAB
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAABrVBMVEUel84el84el84el84el84el84e
+        l84el84el84el84el84el84el84el84el84el84el84el84el84el85HqtePy+ep1+yWzuhWsdofl85D
+        qNa/4vH////L5/Q0odNluN0wn9Kh1Ov7/f7X7fYmm9CLyeb0+v34/P07pNQjmc+DxuTx+PyRzOdtu9/l
+        8/m13e9luN7f8PhPrtnO6PRXstpJq9fH5fO43vA4o9Sw2+7+///Y7fcimc/9/v9ctNuOy+b3+/1/xOPc
+        7/ckms8xoNKIyOWn1uw2otNMrNiw2u4pnNCSzedUsNogmM50v+Hp9fpyvuDV6/YhmM/U6/b6/f5Qrtk+
+        ptW43u8untEsntGa0Ol2wOF8wuLt9/tput7e8PhetNza7vdgttyg0+q94PE/ptX5/P5zvuCVzujn9PrC
+        4/JtvN9NrdhuvN9AptXJ5vNIq9eBxeS84PDs9vslmtBas9t1v+Fkt90rndGq2O3D4/Inm9CZ0Ol7wuLu
+        9/svn9Ka0emy3O6KyeXi8vlnud7G5PNFqdae0urR6vWQzOer2O1oud7w+PwtntEom9B2CTjvAAAAE3RS
+        TlMAO7Ptsjds/GU4ru7p/uyvsDk2wtU5PQAAAAFiS0dEHJwEQQcAAAAJcEhZcwAAAEgAAABIAEbJaz4A
+        AANbSURBVGje7ZrpUxNBEMVHEBFFREeRwBg5wx055IoBo4AKmICCIPflibfgiXgr3n+zCbs7u5t09yxl
+        zRfd9ymp9Ovf5s1OemorjLFdWdlci7J357Ck9uTqaZ9S7t7k9WvsnyTksSyd/Tnfx/brBeQzvf35Ad0A
+        7gN8gA/wAT7ABygBR44WHSsOaAOUlIqUjgc9tAme2DGgrLxCGKqsUrWvqg7V1O4MUFffIKQa6faBpnCy
+        6OSOAM0twiH06rbV2mZUnfIOaO8QbnXi7bu6I2bR6ahHQLCoR6SrFwv/TMwuOusJkFwvkalzfXj4Ug39
+        akCaxdYAEb7UeSUgwyIVuoCHL9VzkQYAFluDbtvQcAwoagsQANgiFbnkMMUTI3DVKApALVKXr0hP8RhW
+        FI4iANwiNX7VdExMElXFMOBaSNl/csKon5oep8pmkG8woGg/Zl5ZdHaOLpxHAH0LlGskETeKF5dUOfYj
+        AL6Mm2LDQ0aNOR8oreC36XXEEunuMgrs+UAsVB0OuHETtLS1Gh+75gOW5C1ousqNdhuwhJtMi3s+0Emi
+        O/lOuiVUbc7KklVle5kkDuB33ZaeoqD38K0keeBe4v4DBBB46LR0tHsPXybJFytT71e7QAB/ZF9pSzP3
+        HL5M0r6Pw/0ggD82P2+oN2+3jOGcKZmkK8onMIAn1lJXtFJmvIOGc7qsJNOjXIYBfP3ps+cvjJfwcHZL
+        JpkR5UIfDLBXHBvODskkoSgHaAA+nKUqys0k4SjlEIcAQy8jyv6vSjgd5SAO2FCPNxk+HqU1xAHAa+/h
+        U1GaQzwTEFVsXTt88pwjxCYCqKX7l1rhK845Qrx5CwMmKNPSolmlPucI8Q4GxNdQx9ysPPe8V7Yfn55C
+        FvkD7TDUq+pvnXMAwPpH0mGqk2w/Jk9g0Eb7RDqse6EGby/POQiAf6Yclhqx9u7pDAK+VBAOSxvwHk6f
+        zvCP3RbhkJqH+svpTAOm1nAHkaRjOisAfAZ3oEk6prMaEP+6Hf43+imCM0nHdPYC4K0R4jAFJGlPZ48A
+        /p0IX+qH9XNqT2fPgA1Pz4kS2+PsZ30dWvG3T7x+bZZvjf4mCv7xZ3Y+wAf4AB/gA/4fQIHe/vnsoF5A
+        ITuk968nh/X/eYaxvEJN61BQmMPYH4F4O84J9IxVAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE0LTA1LTA2
+        VDEyOjE2OjU0KzA4OjAwAxvRswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0wNS0wNlQxMjoxNjo1NCsw
+        ODowMHJGaQ8AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;nIUpdateAvailable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemLocations.Name" xml:space="preserve">
+    <value>menuItemLocations</value>
+  </data>
+  <data name="frenchToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 32</value>
+  </data>
+  <data name="&gt;&gt;panelLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBarLblUpdateVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemExchangeRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="&gt;&gt;menuItemCollateralProducts.Name" xml:space="preserve">
+    <value>menuItemCollateralProducts</value>
+  </data>
+  <data name="toolBarLblVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 36</value>
+  </data>
+  <data name="chkPendingSavings.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemInstallmentTypes.Name" xml:space="preserve">
+    <value>toolStripMenuItemInstallmentTypes</value>
+  </data>
+  <data name="toolStripMenuItemFundingLines.Text" xml:space="preserve">
+    <value>Funding Lines</value>
+  </data>
+  <data name="mnuNewGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="&gt;&gt;chkValidatedLoan.Name" xml:space="preserve">
+    <value>chkValidatedLoan</value>
+  </data>
+  <data name="colAlerts_Client.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="mnuSearchContract.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="accountingRulesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Accounting Rules</value>
+  </data>
+  <data name="newCorporateToolStripMenuItem.Text" xml:space="preserve">
+    <value>New corporate client</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemInstallmentTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currenciesToolStripMenuItem.Name" xml:space="preserve">
+    <value>currenciesToolStripMenuItem</value>
+  </data>
+  <data name="tbFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colAlerts_BranchName.DisplayIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="&gt;&gt;contactMenuItem.Name" xml:space="preserve">
+    <value>contactMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menuItemLocations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkValidatedLoan.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemFundingLines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;savingProductsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miAuditTrail.Text" xml:space="preserve">
+    <value>Audit trail...</value>
+  </data>
+  <data name="mnuSearchClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="miAuditTrail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="savingProductsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;chkPostponedLoans.Name" xml:space="preserve">
+    <value>chkPostponedLoans</value>
+  </data>
+  <data name="tabFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="&gt;&gt;_aboutModulesMenuItem.Name" xml:space="preserve">
+    <value>_aboutModulesMenuItem</value>
+  </data>
+  <data name="colAlerts_Address.DisplayIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="russianToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="colAlerts_Address.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="chkPostponedLoans.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;olvAlerts.Parent" xml:space="preserve">
+    <value>panelLeft</value>
+  </data>
+  <data name="&gt;&gt;toolBarLblVersion.Name" xml:space="preserve">
+    <value>toolBarLblVersion</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="tabFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 541</value>
+  </data>
+  <data name="&gt;&gt;chkPendingSavings.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="&gt;&gt;mnuDomainOfApplication.Name" xml:space="preserve">
+    <value>mnuDomainOfApplication</value>
+  </data>
+  <data name="&gt;&gt;chkPendingLoans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparatorConfig2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 6</value>
+  </data>
+  <data name="&gt;&gt;mnuNewClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOverdraftSavings.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkOverdraftSavings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter6.Type" xml:space="preserve">
+    <value>OpenCBS.GUI.UserControl.CollapsibleSplitter, OpenCBS.GUI, Version=14.8.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;reasignToolStripMenuItem.Name" xml:space="preserve">
+    <value>reasignToolStripMenuItem</value>
+  </data>
+  <data name="menuItemApplicationDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="chkPostponedLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="&gt;&gt;mnuSearchContract.Name" xml:space="preserve">
+    <value>mnuSearchContract</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Address.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="mnuDomainOfApplication.Text" xml:space="preserve">
+    <value>Economic Activity</value>
+  </data>
+  <data name="&gt;&gt;menuItemAddUser.Name" xml:space="preserve">
+    <value>menuItemAddUser</value>
+  </data>
+  <data name="&gt;&gt;mnuClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="&gt;&gt;russianToolStripMenuItem.Name" xml:space="preserve">
+    <value>russianToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tabFilter.Parent" xml:space="preserve">
+    <value>panelLeft</value>
+  </data>
+  <data name="&gt;&gt;mnuSecurity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colAlerts_Phone.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="&gt;&gt;chkPendingSavings.Name" xml:space="preserve">
+    <value>chkPendingSavings</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_City.Name" xml:space="preserve">
+    <value>colAlerts_City</value>
+  </data>
+  <data name="panelLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Address.Name" xml:space="preserve">
+    <value>colAlerts_Address</value>
+  </data>
+  <data name="nIUpdateAvailable.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAB+fn8AkYyKAJKOjgCVk5MAlpaWAKWmpQCwr68AsrOyALS2tQC2trYAuru7ALu8vAC/vbwAvb29AMG/
+        vgDBwcAAwcLCAMXDwwDHxsUAxcbHAMbIxwDMyMcAyMnIAMrKygDKyssAy8vLAMzMywDNzcwAz87OANLQ
+        0ADP0tEA0NPSANLT0gDU1NIA1NXUANjV1QDW1tUA19fVANjX1QDX2NcA2tnYANnZ2QDb2dkA29zcANzc
+        3ADd3t0A397eAN3f3gDf394A4d/fAN3g3wDf4N8A3uDgAN/h4ADh4eAA3+HhAOHh4QDg4uEA4uLhAOPi
+        4QDi4uIA4+LiAOTj4wDi5OMA5OTkAOLl5ADm5eQA5ubmAOTn5gDl5+YA5OjnAOXo5wDm6OcA6OjnAObp
+        6ADp6egA6unpAObq6QDn6uoA6urpAOvq6QDp6uoA6urqAOvr6ADn6+oA6uvpAOnr6gDq7OsA6uzsAOzs
+        7ADq7esA7O3sAO3t7ADs7uwA7u7uAOzv7QDu7+0A7e/uAO3v7wDu7+8A7+/vAO/w7gDx8fAA7/HxAO/y
+        8QDx8vEA8PPyAPHz8gDy9PQA9PT0APP19QD09fUA9Pb2APX29gD19/YA9ff3APb4+AD4+PgA9vn4APf5
+        +AD4+/oA+fv6APr8/AD6/fwA+/38APz9/AD7/v0A/P79APv+/gD8/v4A+//9APz//QD9//0A+//+APz/
+        /gD9//8A/v//AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAR4aGiRtCHXOGhoaGhoaGR0eGf1dAhYQkhoaGgH6HiEREgXqJMIZxX4aGhX5vOSMySDM2Yldm
+        S2qJiH5ua4GJCzRViD5oZV5kGCJ4cIZ7JzVHWCB1Y1sqFQkNdoY8VolERH6JWEOJAgADiTlhiH5+R0eG
+        hn6HGgZZZAVRfoaGhkdHhoaGiBYseYgHiX5+hoZHR4Z+iFGJAQQPUSlxhoaDR0SISTqGKCYMDlJ5bEly
+        h0cvK313Lk8iITsZcGCHXDFBEIl8OCVpQF0RF4dsTIKJE009NzMthm1TiYmGflpQbwpHhn45HH1FP36G
+        hoZ+dGdOH0dHShQSCFRHR0dHREdGHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="&gt;&gt;mnuClients.Name" xml:space="preserve">
+    <value>mnuClients</value>
+  </data>
+  <data name="changePasswordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_City.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;chkPendingLoans.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="chkPendingSavings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 112</value>
+  </data>
+  <data name="_modulesMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="&gt;&gt;panelLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelLeft.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mainStatusBar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 16, 0</value>
+  </data>
+  <data name="menuItemSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mnuSearchClient.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tabFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="manualEntriesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="tabFilter.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="toolStripMenuItemFundingLines.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F</value>
+  </data>
+  <data name="mainStatusBarLblUpdateVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1049, 20</value>
+  </data>
+  <data name="toolStripStatusLblDB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="chkPendingLoans.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mnuChartOfAccounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="olvAlerts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 501</value>
+  </data>
+  <data name="chkPendingSavings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;mnuNewGroup.Name" xml:space="preserve">
+    <value>mnuNewGroup</value>
+  </data>
+  <data name="&gt;&gt;mnuHelp.Name" xml:space="preserve">
+    <value>mnuHelp</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Phone.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="mnuSearchContract.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+T</value>
+  </data>
+  <data name="tbFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="toolStripMenuItemAccountView.Text" xml:space="preserve">
+    <value>General Ledger</value>
+  </data>
+  <data name="_modulesMenuItem.Text" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="mnuAccounting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="&gt;&gt;imageListAlert.Name" xml:space="preserve">
+    <value>imageListAlert</value>
+  </data>
+  <data name="&gt;&gt;olvAlerts.Name" xml:space="preserve">
+    <value>olvAlerts</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Name" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="mnuNewClient.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;olvAlerts.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.ObjectListView, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="chkOverdraftSavings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="lblFilter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Date.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;alertBindingSource.Name" xml:space="preserve">
+    <value>alertBindingSource</value>
+  </data>
+  <data name="menuItemApplicationDate.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tellersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripMenuItemInstallmentTypes.Text" xml:space="preserve">
+    <value>Installment periodicity</value>
+  </data>
+  <data name="mainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;manualEntriesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colAlerts_Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolBarLblVersion.Text" xml:space="preserve">
+    <value>OpenCBS</value>
+  </data>
+  <data name="&gt;&gt;bwUserInformation.Name" xml:space="preserve">
+    <value>bwUserInformation</value>
+  </data>
+  <data name="mnuProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="mainStatusBarLblUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>OpenCBS.GUI.UserControl.SweetBaseForm, OpenCBS.GUI, Version=14.8.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="mnuPackages.Text" xml:space="preserve">
+    <value>Loan products</value>
+  </data>
+  <data name="chkValidatedLoan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorConfig2.Name" xml:space="preserve">
+    <value>toolStripSeparatorConfig2</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 6, 5, 6</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="accountingRulesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="menuItemApplicationDate.Text" xml:space="preserve">
+    <value>Change application date</value>
+  </data>
+  <data name="&gt;&gt;reasignToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colAlerts_Phone.DisplayIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;bwAlerts.Name" xml:space="preserve">
+    <value>bwAlerts</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Date.Name" xml:space="preserve">
+    <value>colAlerts_Date</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="mnuNewClient.Text" xml:space="preserve">
+    <value>Create Group or Corporate Client</value>
+  </data>
+  <data name="menuItemLocations.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mainMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 2, 0, 2</value>
+  </data>
+  <data name="lblFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;contactMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemCollateralProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="colAlerts_ContractCode.Text" xml:space="preserve">
+    <value>Contract code</value>
+  </data>
+  <data name="tabFilter.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Client.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="mainStatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="splitter6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="&gt;&gt;manualEntriesToolStripMenuItem.Name" xml:space="preserve">
+    <value>manualEntriesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_LoanOfficer.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="chkLateLoans.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;menuItemDatabaseControlPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="russianToolStripMenuItem.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="splitter6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 24</value>
+  </data>
+  <data name="&gt;&gt;openCustomizableFileDialog.Name" xml:space="preserve">
+    <value>openCustomizableFileDialog</value>
+  </data>
+  <data name="&gt;&gt;mnuNewPerson.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;branchesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 6</value>
+  </data>
+  <data name="chkPendingSavings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="chkOverdraftSavings.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mnuConfiguration.Text" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="mnuAccounting.Text" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuDomainOfApplication.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="mnuNewclosure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Amount.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripMenuItemFundingLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="miContractCode.Text" xml:space="preserve">
+    <value>Contract code</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_BranchName.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;mnuChartOfAccounts.Name" xml:space="preserve">
+    <value>mnuChartOfAccounts</value>
+  </data>
+  <data name="&gt;&gt;chkPendingLoans.Name" xml:space="preserve">
+    <value>chkPendingLoans</value>
+  </data>
+  <data name="mnuNewGroup.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+G</value>
+  </data>
+  <data name="contactMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="&gt;&gt;russianToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_ContractCode.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="panelLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="&gt;&gt;chkPostponedLoans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLblDB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Name" xml:space="preserve">
+    <value>tbFilter</value>
+  </data>
+  <data name="&gt;&gt;spanishToolStripMenuItem.Name" xml:space="preserve">
+    <value>spanishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rolesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 25</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorConfig3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuChartOfAccounts.Text" xml:space="preserve">
+    <value>Chart of accounts</value>
+  </data>
+  <data name="&gt;&gt;toolBarLblVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trialBalanceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLateLoans.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="chkLateLoans.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="menuItemLocations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="chkLateLoans.Text" xml:space="preserve">
+    <value>Late loans</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuItemSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolBarLblVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mnuNewVillage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuPackages.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;rolesToolStripMenuItem.Name" xml:space="preserve">
+    <value>rolesToolStripMenuItem</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 40</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorConfig3.Name" xml:space="preserve">
+    <value>toolStripSeparatorConfig3</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Client.Name" xml:space="preserve">
+    <value>colAlerts_Client</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLblBranchCode.Name" xml:space="preserve">
+    <value>toolStripStatusLblBranchCode</value>
+  </data>
+  <data name="panelLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 693</value>
+  </data>
+  <data name="reportsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;mnuConfiguration.Name" xml:space="preserve">
+    <value>mnuConfiguration</value>
+  </data>
+  <data name="tbFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="rolesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;mnuChartOfAccounts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 6</value>
+  </data>
+  <data name="&gt;&gt;chkOverdraftSavings.Name" xml:space="preserve">
+    <value>chkOverdraftSavings</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorConfig1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="savingProductsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Savings products</value>
+  </data>
+  <data name="&gt;&gt;tabFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reportsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="colAlerts_Date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="&gt;&gt;mnuWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemApplicationDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fiscalYearToolStripMenuItem.Name" xml:space="preserve">
+    <value>fiscalYearToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;chkPendingSavings.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="menuItemSetting.Text" xml:space="preserve">
+    <value>General settings</value>
+  </data>
+  <data name="&gt;&gt;mnuNewclosure.Name" xml:space="preserve">
+    <value>mnuNewclosure</value>
+  </data>
+  <data name="chkPostponedLoans.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBarLblDate.Name" xml:space="preserve">
+    <value>mainStatusBarLblDate</value>
+  </data>
+  <data name="menuItemDatabaseControlPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="mnuSearchClient.Text" xml:space="preserve">
+    <value>Search Client</value>
+  </data>
+  <data name="&gt;&gt;mnuSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="russianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="newCorporateToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+M</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
+    <value>lblFilter</value>
+  </data>
+  <data name="languagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="spanishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="toolStripMenuItemAccountView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="&gt;&gt;mnuNewVillage.Name" xml:space="preserve">
+    <value>mnuNewVillage</value>
+  </data>
+  <data name="olvAlerts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="reasignToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reassign contracts</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Name" xml:space="preserve">
+    <value>frenchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;chkValidatedLoan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorConfig2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="standardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="chkPendingLoans.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkOverdraftSavings.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkPendingLoans.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="mnuWindow.Text" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="&gt;&gt;chkLateLoans.Name" xml:space="preserve">
+    <value>chkLateLoans</value>
+  </data>
+  <data name="chkValidatedLoan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="mainStatusBarLblDate.Text" xml:space="preserve">
+    <value>00/00/00 00:00:00</value>
+  </data>
+  <data name="mnuClients.Text" xml:space="preserve">
+    <value>Client and Contract</value>
+  </data>
+  <data name="lblTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLblBranchCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colAlerts_City.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="&gt;&gt;chkPostponedLoans.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="&gt;&gt;menuItemSetting.Name" xml:space="preserve">
+    <value>menuItemSetting</value>
+  </data>
+  <data name="&gt;&gt;portugueseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOverdraftSavings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="chkLateLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemAccountView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuChartOfAccounts.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="chkOverdraftSavings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkPostponedLoans.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chkLateLoans.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="contactMenuItem.Text" xml:space="preserve">
+    <value>Contact us...</value>
+  </data>
+  <data name="chkPendingLoans.Text" xml:space="preserve">
+    <value>Pending loans</value>
+  </data>
+  <data name="toolStripMenuItemAccountView.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="chkValidatedLoan.Text" xml:space="preserve">
+    <value>Validated loans</value>
+  </data>
+  <data name="&gt;&gt;timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_BranchName.Name" xml:space="preserve">
+    <value>colAlerts_BranchName</value>
+  </data>
+  <data name="colAlerts_Amount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mnuNewGroup.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="panelLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Phone.Name" xml:space="preserve">
+    <value>colAlerts_Phone</value>
+  </data>
+  <data name="&gt;&gt;branchesToolStripMenuItem.Name" xml:space="preserve">
+    <value>branchesToolStripMenuItem</value>
+  </data>
+  <data name="menuItemCollateralProducts.Text" xml:space="preserve">
+    <value>Collateral products</value>
+  </data>
+  <data name="tellersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="currenciesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Currencies</value>
+  </data>
+  <data name="chkPendingSavings.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabFilter.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="chkPostponedLoans" Row="3" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="tbFilter" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblFilter" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="chkLateLoans" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="chkPendingLoans" Row="2" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="chkPendingSavings" Row="5" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="chkOverdraftSavings" Row="6" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="chkValidatedLoan" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="chkPostponedLoans.Text" xml:space="preserve">
+    <value>Postponed loans</value>
+  </data>
+  <data name="&gt;&gt;aboutMenuItem.Name" xml:space="preserve">
+    <value>aboutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bwUserInformation.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLblDB.Name" xml:space="preserve">
+    <value>toolStripStatusLblDB</value>
+  </data>
+  <data name="tellersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configure Tellers</value>
+  </data>
+  <data name="&gt;&gt;reportsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuNewPerson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="mnuSecurity.Text" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="tabFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mnuAccounting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemExchangeRate.Text" xml:space="preserve">
+    <value>Exchange rate</value>
+  </data>
+  <data name="olvAlerts.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="&gt;&gt;_modulesMenuItem.Name" xml:space="preserve">
+    <value>_modulesMenuItem</value>
+  </data>
+  <data name="mnuDomainOfApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="&gt;&gt;accountingRulesToolStripMenuItem.Name" xml:space="preserve">
+    <value>accountingRulesToolStripMenuItem</value>
+  </data>
+  <data name="olvAlerts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="&gt;&gt;spanishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="portugueseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="aboutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainView</value>
+  </data>
+  <data name="&gt;&gt;openCustomizableFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="aboutMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;timer.Name" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="&gt;&gt;chkLateLoans.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="&gt;&gt;standardToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="&gt;&gt;mnuSearchContract.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOverdraftSavings.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="&gt;&gt;mnuDomainOfApplication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemAccountView.Name" xml:space="preserve">
+    <value>toolStripMenuItemAccountView</value>
+  </data>
+  <data name="&gt;&gt;menuItemApplicationDate.Name" xml:space="preserve">
+    <value>menuItemApplicationDate</value>
+  </data>
+  <data name="menuItemExportTransaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="mnuNewPerson.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+P</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.25pt</value>
+  </data>
+  <data name="_aboutModulesMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="&gt;&gt;mnuProducts.Name" xml:space="preserve">
+    <value>mnuProducts</value>
+  </data>
+  <data name="mnuNewVillage.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+V</value>
+  </data>
+  <data name="&gt;&gt;mnuNewClient.Name" xml:space="preserve">
+    <value>mnuNewClient</value>
+  </data>
+  <data name="chkPostponedLoans.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkPendingLoans.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;panelLeft.Name" xml:space="preserve">
+    <value>panelLeft</value>
+  </data>
+  <data name="toolStripSeparatorConfig1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 6</value>
+  </data>
+  <data name="&gt;&gt;trialBalanceToolStripMenuItem.Name" xml:space="preserve">
+    <value>trialBalanceToolStripMenuItem</value>
+  </data>
+  <data name="splitter6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mainStatusBar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBarLblUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuNewclosure.Text" xml:space="preserve">
+    <value>Accounting Closure</value>
+  </data>
+  <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;accountingRulesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkPostponedLoans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 72</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_ContractCode.Name" xml:space="preserve">
+    <value>colAlerts_ContractCode</value>
+  </data>
+  <data name="colAlerts_LoanOfficer.Text" xml:space="preserve">
+    <value>Loan officer</value>
+  </data>
+  <data name="&gt;&gt;chkValidatedLoan.Parent" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="&gt;&gt;languagesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="chkLateLoans.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mnuWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="toolStripMenuItemInstallmentTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="&gt;&gt;mnuNewGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSearchClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="branchesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configure Branches</value>
+  </data>
+  <data name="&gt;&gt;languagesToolStripMenuItem.Name" xml:space="preserve">
+    <value>languagesToolStripMenuItem</value>
+  </data>
+  <data name="mnuSearchContract.Text" xml:space="preserve">
+    <value>Search Contract</value>
+  </data>
+  <data name="&gt;&gt;newCorporateToolStripMenuItem.Name" xml:space="preserve">
+    <value>newCorporateToolStripMenuItem</value>
+  </data>
+  <data name="tabFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 152</value>
+  </data>
+  <data name="&gt;&gt;menuItemExportTransaction.Name" xml:space="preserve">
+    <value>menuItemExportTransaction</value>
+  </data>
+  <data name="&gt;&gt;newCorporateToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="imageListAlert.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB2
+        CwAAAk1TRnQBSQFMAgEBBQEAAQQBEQEcAREBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wcAAfAClwEIPAAEmDoA
+        AfEGmAHzNgAB/wiYAZcB9DUAAf8EmAHwAfMEmDYAAf8BCAHwAwAB9AKYAZc6AAH0AQgEmDcAAf8HmAHz
+        NwAHmAHzNwAB/wOYAQgB8wH/OQAB9AGYAQgBmAH/AQAB/wG8AQgB/zcACZg3AAEbApgBCASYAQg4AAH0
+        AZgCCAGYAQgB9joAAZgCCAGYPAAB8wKYAfA4AAH0AZgB8zwAAf8BmANyAfQB/wwAAfQBBwFzAm4BcwEH
+        AfQlAAH/AXgBCAFyAZcBcgGYAbwKAAHwAXMBdAOZAXkBUQFuAbwkAAEIAZgBlwGYAQgBlwFyAZcBcgHz
+        AfQGAAHwAXMBmQG8AbUCtAG1AQcBeQFLAfAiAAH/AXgBlwGYAQgBmAEIAZcBcgEIApgBCAH/AwAB9AFz
+        AZkBuwG1AfEC/wHxArUBmQFuAfQGAAaGFQABCAF4AZgBCAGXApgBCAKXAggBlwFyAbwB9AEAAQcBdAG8
+        AbUG/wG0AQcBdAHvBgABhgQNAYYMAAGnCAABeAGYAQgDmAF4AZgBCAGXAXIDCAFQAf8BAAEcARoBtQEZ
+        AvQBBwHzAf8BGQEJAbQBmQFzBgABpwENAUgBDQFlAaEMAAENAacHAAHxAXgBmAEIAZgBeAGYAfIBmAEI
+        AZcBcgEIAZcBCAIAAXQBGwG1A/QC7AG8Af8BGQG0ARoBcwcAAYYCDQGGDAABpwENAWYIAAH/ApgBCAGY
+        AfYBmAHyAZgBCAGXAnIB/wIAAXQB8wG1AfQC/wHsAe8B7AEHARkBtAEaAXMHAAGnAg0BpwwAAWUCDQGn
+        CQACmAEIARsB9gGYAXgBmAEIAXgBcgMAARwBGwEJARkB/wH0AZIB9AH/Ae8BGQG1AZkBcwgAAWUBhgwA
+        AacBDQFIAQ0BZQoAApgBCAWYAQgBeAFyAgABBwEaAfIBCQH/AfQB8gP/AbsB8AF0AQcIAAKnDAAFDQGn
+        CgACmAEIApgBlwEIAZgBcgH/AgAB9AF5ARsBvAEJAfMC9AHzAgkBGgFzAfQVAAGnBWYBhgsAApgBCAGY
+        AQgBmAGXAf8EAAEaAZkB8wHyAQkCtQEJAfEBGgF0AfEpAAKYAQgBmAGXAf8GAAHwAXkBGgEbAvQBGwGZ
+        AXQB8SsAA5gB/wgAAfQBGgKZAXkBmQEHAfQtAAGYAf81AAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEB
+        AQABAQYAAQEWAAP/AQAB/AE/BgAB/AE/BgAB8AEPBgABwAEHBgABwAEHBgAB4wGHBgAB/gEHBgAB8AEH
+        BgAB8AEPBgAB4AE/BgAB4AGHBgAB8AEHBgAB8AEHBgAB+AEPBgAB/AE/BgAB/AE/BgABxwf/AYAB/wHw
+        AQ8E/wGAAX8B4AEHBP8BgAEPAcABAwT/AQABAwGAAQEB+AEfAv8CAAGAAQEB+AEfAf4B/wIAAYABAQH4
+        AR8B/gF/AQABAQGAAQEB/AE/AfwBfwGAAQEBgAEBAfwBPwH8AT8B4AEDAYABAQH+AX8B+AE/AfABAQGA
+        AQEB/gF/AfgBHwH4AQEBgAEBAv8B8AEfAfwBAwHAAQME/wH+AQcB4AEHBf8BDwHwAQ8F/wGfBv8WAAs=
+</value>
+  </data>
+  <data name="chkPendingLoans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="mnuSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="spanishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="menuItemLocations.Text" xml:space="preserve">
+    <value>Region, District, Cities</value>
+  </data>
+  <data name="trialBalanceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Trial Balance</value>
+  </data>
+  <data name="chkValidatedLoan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Amount.Name" xml:space="preserve">
+    <value>colAlerts_Amount</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Status.Name" xml:space="preserve">
+    <value>colAlerts_Status</value>
+  </data>
+  <data name="&gt;&gt;bwAlerts.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fiscalYearToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="englishToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;mnuSettings.Name" xml:space="preserve">
+    <value>mnuSettings</value>
+  </data>
+  <data name="&gt;&gt;miContractCode.Name" xml:space="preserve">
+    <value>miContractCode</value>
+  </data>
+  <data name="&gt;&gt;aboutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOverdraftSavings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 132</value>
+  </data>
+  <data name="mnuNewPerson.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="mnuSearchContract.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;mnuNewPerson.Name" xml:space="preserve">
+    <value>mnuNewPerson</value>
+  </data>
+  <data name="mnuNewGroup.Text" xml:space="preserve">
+    <value>New solidarity group</value>
+  </data>
+  <data name="&gt;&gt;panelLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;changePasswordToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSecurity.Name" xml:space="preserve">
+    <value>mnuSecurity</value>
+  </data>
+  <data name="&gt;&gt;chkLateLoans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_LoanOfficer.Name" xml:space="preserve">
+    <value>colAlerts_LoanOfficer</value>
+  </data>
+  <data name="portugueseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="&gt;&gt;tabFilter.Name" xml:space="preserve">
+    <value>tabFilter</value>
+  </data>
+  <data name="chkValidatedLoan.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;mnuPackages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparatorConfig3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 6</value>
+  </data>
+  <data name="&gt;&gt;imageListAlert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemExportTransaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuAccounting.Name" xml:space="preserve">
+    <value>mnuAccounting</value>
+  </data>
+  <data name="tbFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 5</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>panelLeft</value>
+  </data>
+  <data name="&gt;&gt;tellersToolStripMenuItem.Name" xml:space="preserve">
+    <value>tellersToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menuItemCollateralProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portugueseToolStripMenuItem.Name" xml:space="preserve">
+    <value>portugueseToolStripMenuItem</value>
+  </data>
+  <data name="mainStatusBarLblUserName.Text" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBarLblUserName.Name" xml:space="preserve">
+    <value>mainStatusBarLblUserName</value>
+  </data>
+  <data name="&gt;&gt;splitter6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="branchesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="toolStripStatusLblBranchCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>4, 20</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBarLblUpdateVersion.Name" xml:space="preserve">
+    <value>mainStatusBarLblUpdateVersion</value>
+  </data>
+  <data name="menuItemCollateralProducts.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="menuItemDatabaseControlPanel.Text" xml:space="preserve">
+    <value>Database control panel</value>
+  </data>
+  <data name="menuItemExchangeRate.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+X</value>
+  </data>
+  <data name="colAlerts_City.DisplayIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBarLblDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemExportTransaction.Text" xml:space="preserve">
+    <value>Export Transactions</value>
+  </data>
+  <data name="&gt;&gt;miAuditTrail.Name" xml:space="preserve">
+    <value>miAuditTrail</value>
+  </data>
+  <data name="&gt;&gt;changePasswordToolStripMenuItem.Name" xml:space="preserve">
+    <value>changePasswordToolStripMenuItem</value>
+  </data>
+  <data name="chkLateLoans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 32</value>
+  </data>
+  <data name="&gt;&gt;miContractCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorConfig1.Name" xml:space="preserve">
+    <value>toolStripSeparatorConfig1</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkValidatedLoan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 92</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="olvAlerts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="splitter6.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;_aboutModulesMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDatabaseControlPanel.Name" xml:space="preserve">
+    <value>menuItemDatabaseControlPanel</value>
+  </data>
+  <data name="&gt;&gt;_modulesMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemAddUser.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemFundingLines.Name" xml:space="preserve">
+    <value>toolStripMenuItemFundingLines</value>
+  </data>
+  <data name="&gt;&gt;mnuSearchClient.Name" xml:space="preserve">
+    <value>mnuSearchClient</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 742</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menuItemAddUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="currenciesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="lblTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mnuSearchClient.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+C</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OpenCBS</value>
+  </data>
+  <data name="&gt;&gt;colAlerts_Status.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.0.26223, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;mainStatusBar.Name" xml:space="preserve">
+    <value>mainStatusBar</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOverdraftSavings.Text" xml:space="preserve">
+    <value>Overdraft savings</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trialBalanceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="chkPendingSavings.Text" xml:space="preserve">
+    <value>Pending savings</value>
+  </data>
+  <data name="mnuSecurity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="menuItemExportTransaction.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="mainStatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 717</value>
+  </data>
+  <data name="miContractCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="mnuNewClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="lblTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menuItemExchangeRate.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;mnuPackages.Name" xml:space="preserve">
+    <value>mnuPackages</value>
+  </data>
+  <data name="&gt;&gt;standardToolStripMenuItem.Name" xml:space="preserve">
+    <value>standardToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menuItemExchangeRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openCustomizableFileDialog.Filter" xml:space="preserve">
+    <value>Customizable files|*.cef</value>
+  </data>
+  <data name="&gt;&gt;menuItemExchangeRate.Name" xml:space="preserve">
+    <value>menuItemExchangeRate</value>
+  </data>
+  <data name="&gt;&gt;reportsToolStripMenuItem.Name" xml:space="preserve">
+    <value>reportsToolStripMenuItem</value>
+  </data>
+  <data name="colAlerts_Amount.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="fiscalYearToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fiscal Year</value>
+  </data>
+  <data name="mnuPackages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="standardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Standard Bookings</value>
+  </data>
+  <data name="&gt;&gt;mnuConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuNewVillage.Text" xml:space="preserve">
+    <value>New non solidarity group</value>
+  </data>
+  <data name="mnuProducts.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="&gt;&gt;mnuWindow.Name" xml:space="preserve">
+    <value>mnuWindow</value>
+  </data>
+  <data name="chkValidatedLoan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="mainStatusBarLblUpdateVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rolesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;chkPostponedLoans.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;currenciesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainStatusBarLblDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="menuItemSetting.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="spanishToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="fiscalYearToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="&gt;&gt;nIUpdateAvailable.Name" xml:space="preserve">
+    <value>nIUpdateAvailable</value>
+  </data>
+  <data name="changePasswordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="reasignToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="lblFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;mnuNewclosure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvAlerts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolBarLblVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="_aboutModulesMenuItem.Text" xml:space="preserve">
+    <value>About modules...</value>
+  </data>
+  <data name="mnuSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="&gt;&gt;miAuditTrail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPendingSavings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;alertBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="manualEntriesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Manual Entries</value>
+  </data>
+  <data name="mnuNewVillage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="menuItemAddUser.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="&gt;&gt;savingProductsToolStripMenuItem.Name" xml:space="preserve">
+    <value>savingProductsToolStripMenuItem</value>
+  </data>
+  <data name="tabFilter.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <metadata name="alertBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>908, 17</value>
+  </metadata>
+  <metadata name="imageListAlert.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>207, 17</value>
+  </metadata>
+  <metadata name="mainStatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>39, 477</value>
+  </metadata>
+  <metadata name="openCustomizableFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>435, 17</value>
+  </metadata>
+  <metadata name="bwUserInformation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1063, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="nIUpdateAvailable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>757, 17</value>
+  </metadata>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+  <metadata name="bwAlerts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>336, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+</root>
